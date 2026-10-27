@@ -1,0 +1,18 @@
+# Render's free web services sleep after ~15 minutes without traffic, and a cold start takes
+# about a minute. Pinging every 10 minutes keeps the site awake (one always-on free service fits
+# Render's 750 free hours/month). Set the repository variable SITE_URL, e.g.
+# https://toplist-khanh-hoa.onrender.com  (Settings → Secrets and variables → Actions → Variables).
+name: Keep Render awake
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    if: ${{ vars.SITE_URL != '' }}
+    steps:
+      - name: Ping site
+        run: curl -fsS -o /dev/null -w "%{http_code} in %{time_total}s\n" --max-time 90 "${{ vars.SITE_URL }}/wp-includes/images/blank.gif"

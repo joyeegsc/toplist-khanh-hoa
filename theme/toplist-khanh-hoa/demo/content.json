@@ -1,0 +1,1243 @@
+{
+ "generated": "2026-10-27T14:51:25.596Z",
+ "categories": [
+  {
+   "key": "am-thuc",
+   "vi": {
+    "slug": "am-thuc",
+    "name": "Ẩm Thực",
+    "description": "Quán ngon, đặc sản và nhà hàng hải sản được đánh giá cao ở Nha Trang và khắp Khánh Hòa."
+   },
+   "en": {
+    "slug": "food",
+    "name": "Food",
+    "description": "Well-loved local eateries, regional specialties and seafood restaurants in Nha Trang and across Khanh Hoa."
+   }
+  },
+  {
+   "key": "du-lich",
+   "vi": {
+    "slug": "du-lich",
+    "name": "Du Lịch",
+    "description": "Đảo, vịnh, bãi biển và di tích đáng ghé ở Khánh Hòa kèm kinh nghiệm đi lại, chi phí và thời điểm đẹp."
+   },
+   "en": {
+    "slug": "travel",
+    "name": "Travel",
+    "description": "Islands, bays, beaches and heritage sites in Khanh Hoa, with practical tips on getting there, costs and the best time to go."
+   }
+  },
+  {
+   "key": "luu-tru",
+   "vi": {
+    "slug": "luu-tru",
+    "name": "Lưu Trú",
+    "description": "Resort, khách sạn và biệt thự nghỉ dưỡng từ Bắc Nha Trang đến Bãi Dài Cam Ranh."
+   },
+   "en": {
+    "slug": "stays",
+    "name": "Stays",
+    "description": "Resorts, hotels and pool villas from North Nha Trang to Cam Ranh’s Long Beach."
+   }
+  },
+  {
+   "key": "giai-tri",
+   "vi": {
+    "slug": "giai-tri",
+    "name": "Giải Trí",
+    "description": "Công viên chủ đề, tắm bùn khoáng nóng, beach club và những cuộc vui về đêm ở phố biển."
+   },
+   "en": {
+    "slug": "entertainment",
+    "name": "Entertainment",
+    "description": "Theme parks, hot-spring mud baths, beach clubs and nightlife in the coastal city."
+   }
+  },
+  {
+   "key": "cafe",
+   "vi": {
+    "slug": "cafe",
+    "name": "Cafe",
+    "description": "Quán cà phê view biển, không gian chill và góc check-in đẹp ở Nha Trang."
+   },
+   "en": {
+    "slug": "cafes",
+    "name": "Cafés",
+    "description": "Sea-view coffee shops, relaxed hangouts and photogenic cafés in Nha Trang."
+   }
+  }
+ ],
+ "regions": [
+  {
+   "key": "nha-trang",
+   "vi": {
+    "slug": "nha-trang",
+    "name": "Nha Trang",
+    "description": "Trung tâm phố biển với bãi Trần Phú, các đảo trong vịnh và khu ẩm thực sầm uất."
+   },
+   "en": {
+    "slug": "nha-trang-city",
+    "name": "Nha Trang",
+    "description": "The coastal city centre: Tran Phu beach, the bay islands and a lively food scene."
+   }
+  },
+  {
+   "key": "bac-nha-trang",
+   "vi": {
+    "slug": "bac-nha-trang",
+    "name": "Bắc Nha Trang",
+    "description": "Bờ bắc sông Cái: di tích Tháp Bà, Hòn Chồng và dải resort dọc đường Phạm Văn Đồng."
+   },
+   "en": {
+    "slug": "north-nha-trang",
+    "name": "North Nha Trang",
+    "description": "North of the Cai River: Po Nagar towers, Hon Chong and the resort strip along Pham Van Dong road."
+   }
+  },
+  {
+   "key": "cam-ranh",
+   "vi": {
+    "slug": "cam-ranh",
+    "name": "Cam Ranh",
+    "description": "Vịnh Cam Ranh, cảng Ba Ngòi và các đảo tôm hùm Bình Ba, Bình Hưng."
+   },
+   "en": {
+    "slug": "cam-ranh-area",
+    "name": "Cam Ranh",
+    "description": "Cam Ranh Bay, Ba Ngoi port and the lobster islands of Binh Ba and Binh Hung."
+   }
+  },
+  {
+   "key": "cam-lam",
+   "vi": {
+    "slug": "cam-lam",
+    "name": "Cam Lâm",
+    "description": "Bãi Dài trải dài gần sân bay Cam Ranh với các khu nghỉ dưỡng biệt lập."
+   },
+   "en": {
+    "slug": "cam-lam-area",
+    "name": "Cam Lam",
+    "description": "Long Beach (Bai Dai) near Cam Ranh airport, lined with secluded resorts."
+   }
+  },
+  {
+   "key": "ninh-hoa",
+   "vi": {
+    "slug": "ninh-hoa",
+    "name": "Ninh Hòa",
+    "description": "Biển Dốc Lết cát trắng, đầm Nha Phu và những cánh đồng muối ven biển."
+   },
+   "en": {
+    "slug": "ninh-hoa-area",
+    "name": "Ninh Hoa",
+    "description": "White-sand Doc Let beach, Nha Phu lagoon and coastal salt fields."
+   }
+  },
+  {
+   "key": "van-ninh",
+   "vi": {
+    "slug": "van-ninh",
+    "name": "Vạn Ninh",
+    "description": "Vịnh Vân Phong hoang sơ, đảo Điệp Sơn và cực Đông Mũi Đôi."
+   },
+   "en": {
+    "slug": "van-ninh-area",
+    "name": "Van Ninh",
+    "description": "Unspoilt Van Phong Bay, Diep Son island and Mui Doi, Vietnam’s easternmost point."
+   }
+  },
+  {
+   "key": "phan-rang-vinh-hy",
+   "vi": {
+    "slug": "phan-rang-vinh-hy",
+    "name": "Phan Rang & Vĩnh Hy",
+    "description": "Vùng đất nắng gió phía nam tỉnh: vịnh Vĩnh Hy, vườn nho và tháp Chăm."
+   },
+   "en": {
+    "slug": "phan-rang-vinh-hy-area",
+    "name": "Phan Rang & Vinh Hy",
+    "description": "The sunny, windswept south of the province: Vinh Hy Bay, vineyards and Cham towers."
+   }
+  }
+ ],
+ "tags": [
+  {
+   "key": "noi-bat",
+   "vi": {
+    "slug": "noi-bat",
+    "name": "Nổi bật",
+    "description": ""
+   },
+   "en": {
+    "slug": "featured",
+    "name": "Featured"
+   }
+  },
+  {
+   "key": "ven-bien",
+   "vi": {
+    "slug": "ven-bien",
+    "name": "Ven biển",
+    "description": ""
+   },
+   "en": {
+    "slug": "beachfront",
+    "name": "Beachfront"
+   }
+  },
+  {
+   "key": "hoang-hon",
+   "vi": {
+    "slug": "hoang-hon",
+    "name": "Ngắm hoàng hôn",
+    "description": ""
+   },
+   "en": {
+    "slug": "sunset-views",
+    "name": "Sunset views"
+   }
+  },
+  {
+   "key": "binh-minh",
+   "vi": {
+    "slug": "binh-minh",
+    "name": "Ngắm bình minh",
+    "description": ""
+   },
+   "en": {
+    "slug": "sunrise-views",
+    "name": "Sunrise views"
+   }
+  },
+  {
+   "key": "di-tich",
+   "vi": {
+    "slug": "di-tich",
+    "name": "Di tích lịch sử",
+    "description": ""
+   },
+   "en": {
+    "slug": "historic-sites",
+    "name": "Historic sites"
+   }
+  },
+  {
+   "key": "dac-san",
+   "vi": {
+    "slug": "dac-san",
+    "name": "Đặc sản địa phương",
+    "description": ""
+   },
+   "en": {
+    "slug": "local-specialties",
+    "name": "Local specialties"
+   }
+  },
+  {
+   "key": "gia-dinh",
+   "vi": {
+    "slug": "gia-dinh",
+    "name": "Hợp gia đình",
+    "description": ""
+   },
+   "en": {
+    "slug": "family-friendly",
+    "name": "Family-friendly"
+   }
+  },
+  {
+   "key": "check-in",
+   "vi": {
+    "slug": "check-in",
+    "name": "Check-in đẹp",
+    "description": ""
+   },
+   "en": {
+    "slug": "photo-spots",
+    "name": "Photo spots"
+   }
+  },
+  {
+   "key": "lan-bien",
+   "vi": {
+    "slug": "lan-bien",
+    "name": "Lặn biển",
+    "description": ""
+   },
+   "en": {
+    "slug": "snorkeling-diving",
+    "name": "Snorkeling & diving"
+   }
+  },
+  {
+   "key": "nghi-duong",
+   "vi": {
+    "slug": "nghi-duong",
+    "name": "Nghỉ dưỡng",
+    "description": ""
+   },
+   "en": {
+    "slug": "resorts-retreats",
+    "name": "Resorts & retreats"
+   }
+  }
+ ],
+ "posts": [
+  {
+   "key": "thap-ba-ponagar-nhung-dieu-nen-biet",
+   "date": "2026-10-02 08:00:00",
+   "category": "du-lich",
+   "region": "bac-nha-trang",
+   "tags": [
+    "di-tich",
+    "gia-dinh"
+   ],
+   "image": "nature",
+   "meta": {
+    "rating": 4.6,
+    "review_count": 31634,
+    "price_level": "binh-dan"
+   },
+   "vi": {
+    "slug": "thap-ba-ponagar-nhung-dieu-nen-biet",
+    "title": "Tháp Bà Ponagar: 8 Điều Nên Biết Trước Khi Ghé Ngôi Đền Chăm Pa Bên Sông Cái",
+    "excerpt": "Quần thể tháp gạch nung trên đồi Cù Lao là nơi thờ Mẹ xứ sở Po Inư Nagar. Đây là những điều giúp chuyến ghé thăm của bạn trọn vẹn và đúng phép hơn.",
+    "content": "<p>Đứng trên đồi Cù Lao nhìn xuống cửa sông Cái, những ngọn tháp đỏ sẫm của Tháp Bà Ponagar đã chứng kiến hơn một nghìn năm đổi thay của xứ Trầm Hương. Không cần là người mê khảo cổ, bạn vẫn sẽ thấy nơi này đáng dành ra một buổi sáng. Dưới đây là tám điều chúng tôi rút ra sau nhiều lần đưa bạn bè đến thăm.</p>\n\n<h2>1. Hiểu đôi chút về vị nữ thần được thờ</h2>\n<p>Người Chăm tôn kính <strong>Po Inư Nagar</strong> là Mẹ xứ sở, người dạy dân trồng lúa, dệt vải. Khi người Việt đến vùng đất này, bà được gọi là <strong>Thiên Y A Na</strong> và tiếp tục được thờ phụng. Chính sự giao thoa ấy khiến di tích vẫn đông người dâng hương quanh năm chứ không chỉ là một điểm tham quan.</p>\n\n<h2>2. Đi sớm để tránh nắng và đoàn khách</h2>\n<p>Khu tháp nằm trên đồi trống, sau 9 giờ sáng nắng gắt và các đoàn tour bắt đầu đổ về. Khung 6:30 – 8:00 là lý tưởng: ánh sáng xiên làm màu gạch ấm hơn khi chụp ảnh, sân tháp còn yên tĩnh. Nếu chỉ có buổi chiều, hãy đến sau 16 giờ.</p>\n\n<h2>3. Ăn mặc kín đáo, chuẩn bị tinh thần bỏ giày</h2>\n<p>Đây là nơi thờ tự đang hoạt động. Quần short, váy ngắn hay áo hai dây sẽ được nhắc khoác thêm áo choàng trước khi vào tháp chính. Một số khu vực yêu cầu để giày dép bên ngoài, vì vậy đôi sandal dễ tháo sẽ tiện hơn giày buộc dây.</p>\n\n<h2>4. Thứ tự tham quan hợp lý</h2>\n<ul>\n  <li><strong>Cổng và dãy cột Mandapa:</strong> những cột gạch bát giác còn sót lại của tiền đình, nơi các tín đồ chuẩn bị trước khi lên tháp.</li>\n  <li><strong>Tháp chính (tháp Bắc):</strong> cao khoảng 23 m, bên trong đặt tượng nữ thần mười tay. Đứng lâu một chút để mắt quen bóng tối và nhìn rõ chi tiết.</li>\n  <li><strong>Các tháp phụ:</strong> mỗi tháp thờ một vị thần khác nhau, kiến trúc thấp và đơn giản hơn.</li>\n  <li><strong>Nhà trưng bày:</strong> hiện vật và ảnh tư liệu giúp hiểu thêm về kỹ thuật xây gạch của người Chăm.</li>\n</ul>\n\n<h2>5. Đừng bỏ lỡ múa Chăm và gốm Bàu Trúc</h2>\n<p>Trong khuôn viên thường có nhóm nghệ nhân biểu diễn múa quạt, múa đội nước theo nhịp trống Paranưng. Gần đó là góc nặn gốm thủ công kiểu Bàu Trúc – bạn có thể xem người thợ đi vòng quanh bàn xoay thay vì xoay bàn, một kỹ thuật rất riêng.</p>\n\n<h2>6. Lễ hội tháng Ba âm lịch</h2>\n<p>Từ ngày 20 đến 23 tháng 3 âm lịch, lễ hội Tháp Bà thu hút đông đảo khách hành hương với nghi thức tắm tượng, thay y và múa dâng hương. Nếu muốn xem lễ, hãy đến từ sáng sớm và chuẩn bị tinh thần chen chúc. Ngược lại, nếu chỉ muốn ngắm kiến trúc, nên tránh những ngày này.</p>\n\n<h2>7. Chi phí tham khảo</h2>\n<table>\n  <thead><tr><th>Khoản</th><th>Mức tham khảo</th></tr></thead>\n  <tbody>\n    <tr><td>Vé tham quan người lớn</td><td>Khoảng 30.000 ₫</td></tr>\n    <tr><td>Gửi xe máy</td><td>5.000 – 10.000 ₫</td></tr>\n    <tr><td>Gửi ô tô (bãi phía chân cầu)</td><td>20.000 – 30.000 ₫</td></tr>\n    <tr><td>Thuê áo choàng</td><td>Thường được phát miễn phí</td></tr>\n  </tbody>\n</table>\n<p>Người cao tuổi và trẻ nhỏ thường được ưu đãi; hãy hỏi tại quầy vé vì chính sách có thể thay đổi.</p>\n\n<h2>8. Ghép lịch trình với các điểm gần</h2>\n<p>Tháp Bà nằm ngay đầu cầu Trần Phú nên rất dễ nối tiếp: đi thêm khoảng 2 km là tới <strong>Hòn Chồng</strong>, còn quay về hướng trung tâm vài phút là <strong>Chợ Đầm</strong> để mua hải sản khô. Buổi chiều, các khu tắm bùn khoáng ở phía tây thành phố là lựa chọn thư giãn hợp lý sau nửa ngày đi bộ.</p>\n\n<blockquote>Mẹo nhỏ: chụp ảnh toàn cảnh cụm tháp từ chân cầu Xóm Bóng vào buổi sáng, khi thuyền thúng neo dưới sông và ngọn tháp in lên nền trời xanh.</blockquote>",
+    "meta": {
+     "address": "61 Hai Tháng Tư, Bắc Nha Trang, Khánh Hòa",
+     "price": "Vé khoảng 30.000 ₫",
+     "hours": "06:00 - 17:30 hằng ngày",
+     "badge": "Di sản Chăm Pa",
+     "note": "Người cao tuổi được ưu đãi",
+     "place_name": "Tháp Bà Ponagar"
+    }
+   },
+   "en": {
+    "slug": "po-nagar-cham-towers-what-to-know",
+    "title": "Po Nagar Cham Towers: 8 Things to Know Before Visiting the Temple Above the Cai River",
+    "excerpt": "The red-brick towers on Cu Lao hill honour Po Inu Nagar, the Mother Goddess of the land. Practical tips for a respectful and rewarding visit.",
+    "content": "<p>From Cu Lao hill above the mouth of the Cai River, the dark-red towers of Po Nagar have watched over Nha Trang for more than a thousand years. You don't need to be an archaeology buff to enjoy a morning here. These are eight things we have learned from bringing friends to visit.</p>\n\n<h2>1. Get to know the goddess</h2>\n<p>The Cham people revere <strong>Po Inu Nagar</strong> as the Mother of the land, who taught them to grow rice and weave cloth. When the Vietnamese settled the region she became known as <strong>Thien Y A Na</strong> and continued to be worshipped. That shared devotion is why incense still burns here every day – this is a living place of worship, not just a monument.</p>\n\n<h2>2. Go early to beat the heat and the tour groups</h2>\n<p>The site sits on an exposed hill. After 9 a.m. the sun is fierce and coaches start to arrive. Between 6:30 and 8:00 the slanting light warms the brick for photos and the courtyards are quiet. If afternoons are your only option, come after 4 p.m.</p>\n\n<h2>3. Dress modestly and be ready to go barefoot</h2>\n<p>Shorts, short skirts and strappy tops will earn you a cover-up robe before entering the main tower. Some areas ask you to leave footwear outside, so easy-to-remove sandals beat lace-up shoes.</p>\n\n<h2>4. A sensible route around the site</h2>\n<ul>\n  <li><strong>Gate and Mandapa columns:</strong> octagonal brick pillars from the former entrance hall where pilgrims prepared themselves.</li>\n  <li><strong>Main (north) tower:</strong> about 23 m tall, housing a ten-armed statue of the goddess. Let your eyes adjust to the dark to see the details.</li>\n  <li><strong>Smaller towers:</strong> each dedicated to a different deity, with simpler architecture.</li>\n  <li><strong>Exhibition room:</strong> artefacts and photos explaining how the Cham built without visible mortar.</li>\n</ul>\n\n<h2>5. Don't miss the Cham dance and Bau Truc pottery</h2>\n<p>Artists often perform fan dances and water-jar dances to the beat of the Paranung drum. Nearby, potters demonstrate the Bau Truc technique – walking around the clay instead of spinning a wheel.</p>\n\n<h2>6. The festival in the third lunar month</h2>\n<p>From the 20th to the 23rd day of the third lunar month, the Po Nagar festival draws large crowds for statue-bathing, robe-changing rituals and dances. Arrive at dawn if you want to see it; avoid these days if you simply want to admire the architecture.</p>\n\n<h2>7. Reference costs</h2>\n<table>\n  <thead><tr><th>Item</th><th>Approximate cost</th></tr></thead>\n  <tbody>\n    <tr><td>Adult admission</td><td>About 30,000 VND</td></tr>\n    <tr><td>Motorbike parking</td><td>5,000 – 10,000 VND</td></tr>\n    <tr><td>Car parking (lot by the bridge)</td><td>20,000 – 30,000 VND</td></tr>\n    <tr><td>Cover-up robe</td><td>Usually provided free</td></tr>\n  </tbody>\n</table>\n<p>Seniors and young children usually get concessions; ask at the ticket desk as policies can change.</p>\n\n<h2>8. Combine it with nearby sights</h2>\n<p>Po Nagar sits at the end of Tran Phu bridge. About 2 km further is <strong>Hon Chong</strong>, while <strong>Dam Market</strong> is a few minutes back towards the centre for dried seafood. In the afternoon, the mud-bath parks west of the city are a relaxing follow-up.</p>\n\n<blockquote>Tip: photograph the whole complex from the foot of Xom Bong bridge in the morning, with fishing boats below and the towers against a blue sky.</blockquote>",
+    "meta": {
+     "address": "61 Hai Tháng Tư, Bắc Nha Trang, Khánh Hòa",
+     "price": "Tickets around 30,000 VND",
+     "hours": "06:00 – 17:30 daily",
+     "badge": "Cham heritage",
+     "note": "Concessions for seniors",
+     "place_name": "Po Nagar Cham Towers"
+    }
+   }
+  },
+  {
+   "key": "hon-chong-don-binh-minh-bo-bac-nha-trang",
+   "date": "2026-10-03 08:00:00",
+   "category": "du-lich",
+   "region": "bac-nha-trang",
+   "tags": [
+    "ven-bien",
+    "binh-minh",
+    "check-in"
+   ],
+   "image": "bay",
+   "meta": {
+    "rating": 4.3,
+    "review_count": 7758,
+    "price_level": "binh-dan"
+   },
+   "vi": {
+    "slug": "hon-chong-don-binh-minh-bo-bac-nha-trang",
+    "title": "Hòn Chồng Nha Trang: Lịch Trình 2 Giờ Đón Bình Minh Trên Bãi Đá Huyền Thoại",
+    "excerpt": "Hai cụm đá chồng lên nhau giữa sóng vỗ, dấu \"bàn tay khổng lồ\" và tầm nhìn ra vịnh lúc mặt trời lên — gợi ý lịch trình gọn trong hai giờ.",
+    "content": "<p>Hòn Chồng là kiểu điểm đến không cần cả ngày, nhưng chọn sai giờ thì rất dễ thất vọng: giữa trưa nắng rát mặt đá, chiều muộn thì ngược sáng. Bài này gợi ý một lịch trình hai giờ vào sáng sớm, đủ để ngắm, chụp và hiểu câu chuyện đằng sau những tảng đá.</p>\n\n<h2>Câu chuyện của những tảng đá</h2>\n<p>Khu thắng cảnh gồm hai cụm chính. <strong>Hòn Chồng</strong> là khối đá lớn chồng lên nhau sát mép nước, trên một tảng có vết lõm giống bàn tay khổng lồ. Cách đó không xa là <strong>Hòn Vợ</strong> với dáng đá thoải hơn. Người địa phương truyền tai nhau truyền thuyết về chàng khổng lồ say mê tiên nữ tắm biển, ngã xuống và để lại dấu tay – một câu chuyện dễ thương để kể cho trẻ nhỏ khi đứng trước vết lõm.</p>\n\n<h2>Lịch trình gợi ý</h2>\n<h3>5:15 – Xuất phát</h3>\n<p>Từ trung tâm, chạy dọc Trần Phú, qua cầu Trần Phú rồi rẽ vào đường Nguyễn Đình Chiểu, mất khoảng 10–15 phút. Mùa hè mặt trời mọc khá sớm, nên kiểm tra giờ trước một ngày.</p>\n<h3>5:30 – Chọn chỗ đón nắng</h3>\n<p>Các mỏm đá hướng ra vịnh là nơi đẹp nhất để nhìn mặt trời nhô lên phía sau dãy đảo. Hãy chọn chỗ đứng khô ráo, tránh những mỏm có rêu.</p>\n<h3>6:15 – Chụp ảnh và dạo quanh</h3>\n<p>Khi ánh sáng đã lên, men theo lối đi để thấy cụm Hòn Chồng từ nhiều góc. Góc nhìn từ phía trên xuống, lấy cả mép sóng trắng, thường cho bức ảnh \"đặc trưng\" nhất.</p>\n<h3>7:00 – Cà phê và bữa sáng</h3>\n<p>Ngay bên ngoài có vài quán cà phê nhìn ra biển và hàng bún, bánh căn. Đây là lúc thưởng thức trước khi nắng gắt.</p>\n\n<h2>Những lưu ý an toàn</h2>\n<ul>\n  <li>Mang giày có độ bám tốt; dép xốp rất dễ trượt trên đá ướt.</li>\n  <li>Không leo lên các tảng đá có biển cấm hoặc sát mép khi sóng lớn, nhất là mùa gió bấc (khoảng tháng 10 – 12).</li>\n  <li>Trẻ em cần có người lớn đi kèm sát bên.</li>\n</ul>\n\n<h2>Chi phí và thời gian</h2>\n<p>Vé tham quan ở mức khoảng 30.000 ₫/người, gửi xe máy vài nghìn đồng. Toàn bộ khu thắng cảnh nhỏ, đi hết trong 45–60 phút; phần còn lại là thời gian ngồi ngắm biển.</p>\n\n<h2>Nên đi tiếp đâu?</h2>\n<p>Tháp Bà Ponagar chỉ cách vài phút chạy xe, rất hợp để ghép thành buổi sáng \"biển và di sản\". Nếu thích biển yên hơn, bãi tắm phía Hòn Chồng vào sáng sớm vẫn có người dân địa phương bơi lội, khá trong lành.</p>",
+    "meta": {
+     "address": "Nguyễn Đình Chiểu, Bắc Nha Trang, Khánh Hòa",
+     "price": "Vé khoảng 30.000 ₫",
+     "hours": "06:00 - 18:00 hằng ngày",
+     "badge": "Thắng cảnh ven biển",
+     "place_name": "Hòn Chồng"
+    }
+   },
+   "en": {
+    "slug": "hon-chong-sunrise-itinerary-nha-trang",
+    "title": "Hon Chong, Nha Trang: A Two-Hour Sunrise Itinerary on the Legendary Rocks",
+    "excerpt": "Stacked boulders over the surf, a “giant’s handprint” and bay views at dawn – a compact two-hour plan for Hon Chong.",
+    "content": "<p>Hon Chong doesn't need a full day, but the wrong time of day can disappoint: the rocks are scorching at noon and backlit in the late afternoon. Here is a two-hour early-morning plan to see, photograph and understand the story behind the stones.</p>\n\n<h2>The story of the rocks</h2>\n<p>The site has two main clusters. <strong>Hon Chong</strong> (\"Husband Rock\") is a pile of huge boulders at the water's edge, one bearing a hollow shaped like a giant handprint. Nearby, the gentler <strong>Hon Vo</strong> (\"Wife Rock\"). Locals tell of a giant who fell in love with a fairy bathing in the sea and left his handprint as he fell – a sweet tale for children standing in front of the mark.</p>\n\n<h2>Suggested itinerary</h2>\n<h3>5:15 – Set off</h3>\n<p>From the centre, ride along Tran Phu, cross Tran Phu bridge and turn onto Nguyen Dinh Chieu street – 10 to 15 minutes. Summer sunrises are early, so check the time the day before.</p>\n<h3>5:30 – Find your sunrise spot</h3>\n<p>The outcrops facing the bay are best for watching the sun rise behind the islands. Choose dry rock and avoid mossy patches.</p>\n<h3>6:15 – Photos and a stroll</h3>\n<p>Once the light is up, follow the path to see the Hon Chong boulders from several angles. Shooting from above with the white surf in frame gives the classic picture.</p>\n<h3>7:00 – Coffee and breakfast</h3>\n<p>Just outside are sea-view cafés and stalls selling noodle soup and banh can rice cakes – enjoy them before the heat sets in.</p>\n\n<h2>Safety notes</h2>\n<ul>\n  <li>Wear shoes with grip; foam flip-flops slip easily on wet rock.</li>\n  <li>Don't climb signposted boulders or go near the edge in big swells, especially in the north-east monsoon (around October – December).</li>\n  <li>Keep children close at all times.</li>\n</ul>\n\n<h2>Cost and time</h2>\n<p>Admission is around 30,000 VND per person plus a few thousand for parking. The site is small and takes 45 – 60 minutes to cover; the rest is time to sit and watch the sea.</p>\n\n<h2>Where next?</h2>\n<p>Po Nagar Cham Towers are a few minutes away, making an easy \"sea and heritage\" morning. For a calmer swim, the beach beside Hon Chong is used by local swimmers at dawn and is pleasantly clean.</p>",
+    "meta": {
+     "address": "Nguyễn Đình Chiểu, Bắc Nha Trang, Khánh Hòa",
+     "price": "Tickets around 30,000 VND",
+     "hours": "06:00 – 18:00 daily",
+     "badge": "Coastal landmark",
+     "note": "",
+     "place_name": "Hon Chong Promontory"
+    }
+   }
+  },
+  {
+   "key": "lan-ngam-san-ho-hon-mun-cho-nguoi-moi",
+   "date": "2026-10-04 08:00:00",
+   "category": "du-lich",
+   "region": "nha-trang",
+   "tags": [
+    "ven-bien",
+    "lan-bien"
+   ],
+   "image": "bay",
+   "meta": {
+    "rating": 4.4,
+    "review_count": 213,
+    "price_level": "trung-cap"
+   },
+   "vi": {
+    "slug": "lan-ngam-san-ho-hon-mun-cho-nguoi-moi",
+    "title": "Lặn Ngắm San Hô Ở Hòn Mun: Chọn Tour, Chi Phí Và Kinh Nghiệm Cho Người Lần Đầu",
+    "excerpt": "Hòn Mun là vùng lõi khu bảo tồn biển vịnh Nha Trang. Phân biệt lặn ống thở và lặn bình, chọn mùa nước trong và những quy tắc để bảo vệ rạn san hô.",
+    "content": "<p>Tên gọi Hòn Mun đến từ những vách đá sẫm màu như gỗ mun bao quanh đảo. Nhưng thứ khiến du khách tìm đến là bên dưới mặt nước: vùng lõi của khu bảo tồn biển vịnh Nha Trang, nơi các rạn san hô và đàn cá nhiệt đới được bảo vệ nghiêm ngặt hơn những khu vực khác.</p>\n\n<h2>Lặn ống thở hay lặn bình?</h2>\n<table>\n  <thead><tr><th></th><th>Lặn ống thở (snorkeling)</th><th>Lặn bình (scuba)</th></tr></thead>\n  <tbody>\n    <tr><td>Kỹ năng</td><td>Biết nổi là được, có áo phao</td><td>Cần hướng dẫn viên kèm 1-1 hoặc chứng chỉ</td></tr>\n    <tr><td>Độ sâu</td><td>Sát mặt nước</td><td>Khoảng 5 – 12 m với người mới</td></tr>\n    <tr><td>Thời gian dưới nước</td><td>Tùy sức, thường 30 – 45 phút</td><td>Khoảng 30 – 40 phút mỗi lượt</td></tr>\n    <tr><td>Chi phí tham khảo</td><td>Từ 350.000 ₫ (đã gồm tour đảo)</td><td>Từ 1.200.000 ₫ cho buổi thử lặn</td></tr>\n  </tbody>\n</table>\n<p>Nếu đi cùng gia đình có trẻ nhỏ, lặn ống thở là đủ để thấy san hô và cá sặc sỡ ở những rạn nông. Người muốn trải nghiệm sâu hơn có thể đăng ký \"thử lặn bình\" (discover scuba) mà không cần chứng chỉ.</p>\n\n<h2>Thời điểm nước trong nhất</h2>\n<p>Từ khoảng tháng 2 đến tháng 8, biển Nha Trang lặng và tầm nhìn dưới nước tốt nhất. Mùa mưa bão cuối năm, nước đục và tàu có thể bị hủy chuyến. Trong ngày, buổi sáng thường êm hơn buổi chiều.</p>\n\n<h2>Chọn đơn vị tour thế nào?</h2>\n<ul>\n  <li>Hỏi rõ tour có đi đúng <strong>Hòn Mun</strong> hay chỉ ghé các bãi gần bờ.</li>\n  <li>Với lặn bình, ưu tiên trung tâm có huấn luyện viên được cấp chứng nhận và kiểm tra thiết bị trước giờ xuống nước.</li>\n  <li>Xác nhận giá đã gồm phí tham quan khu bảo tồn, ăn trưa và đưa đón hay chưa.</li>\n  <li>Đọc nhận xét gần đây, đặc biệt về số khách trên mỗi tàu và mỗi hướng dẫn viên.</li>\n</ul>\n\n<h2>Quy tắc để không làm hại rạn san hô</h2>\n<p>San hô phát triển chỉ vài milimét đến vài centimét mỗi năm, một cú đạp chân vô ý có thể phá hủy công sức hàng chục năm. Hãy giữ khoảng cách, không đứng hay bám lên rạn, không bẻ san hô hay bắt sao biển để chụp ảnh. Kem chống nắng thân thiện rạn san hô hoặc áo chống nắng dài tay là lựa chọn tốt hơn.</p>\n\n<h2>Chuẩn bị gì trước chuyến đi?</h2>\n<ul>\n  <li>Ăn sáng nhẹ, uống thuốc chống say sóng trước khi lên tàu nếu dễ say.</li>\n  <li>Mang đồ bơi mặc sẵn, khăn, túi chống nước cho điện thoại.</li>\n  <li>Người có bệnh tim mạch, huyết áp hoặc vừa phẫu thuật nên hỏi ý kiến bác sĩ trước khi lặn bình.</li>\n  <li>Không lặn bình trong vòng 18–24 giờ trước khi bay.</li>\n</ul>\n\n<p>Tàu ra Hòn Mun thường khởi hành từ khu vực cảng Cầu Đá phía nam thành phố, mất khoảng 30–45 phút. Một ngày lặn ở đây thường kết hợp thêm bãi tắm ở các đảo lân cận, nên hãy dành trọn buổi sáng đến đầu giờ chiều.</p>",
+    "meta": {
+     "address": "Khu bảo tồn biển Hòn Mun, vịnh Nha Trang, Khánh Hòa",
+     "price": "Tour từ 350.000 ₫/người",
+     "hours": "Tour khởi hành 08:00 - 09:00",
+     "badge": "Lặn ngắm san hô",
+     "place_name": "Hòn Mun"
+    }
+   },
+   "en": {
+    "slug": "hon-mun-snorkeling-diving-first-timers",
+    "title": "Snorkeling and Diving at Hon Mun: Tours, Costs and Tips for First-Timers",
+    "excerpt": "Hon Mun is the core zone of the Nha Trang Bay marine protected area. Snorkeling vs. scuba, the clear-water season and rules that protect the reef.",
+    "content": "<p>Hon Mun takes its name from the dark, ebony-like cliffs around the island. But what draws visitors is below the surface: the core of the Nha Trang Bay marine protected area, where reefs and tropical fish are more strictly protected than elsewhere in the bay.</p>\n\n<h2>Snorkeling or scuba?</h2>\n<table>\n  <thead><tr><th></th><th>Snorkeling</th><th>Scuba diving</th></tr></thead>\n  <tbody>\n    <tr><td>Skills</td><td>Being able to float, with a life jacket</td><td>One-to-one instructor or certification</td></tr>\n    <tr><td>Depth</td><td>At the surface</td><td>About 5 – 12 m for beginners</td></tr>\n    <tr><td>Time in the water</td><td>Usually 30 – 45 minutes</td><td>About 30 – 40 minutes per dive</td></tr>\n    <tr><td>Reference cost</td><td>From 350,000 VND (island tour included)</td><td>From 1,200,000 VND for a try-dive</td></tr>\n  </tbody>\n</table>\n<p>For families with young children, snorkeling is enough to see coral and colourful fish on the shallow reefs. If you want more, a \"discover scuba\" session needs no certificate.</p>\n\n<h2>When the water is clearest</h2>\n<p>From roughly February to August the sea is calm and visibility is at its best. During the late-year rainy season the water clouds and boats may be cancelled. Mornings are usually calmer than afternoons.</p>\n\n<h2>Choosing a tour operator</h2>\n<ul>\n  <li>Check that the tour actually goes to <strong>Hon Mun</strong> rather than only near-shore beaches.</li>\n  <li>For scuba, choose a centre with certified instructors who check your gear before you enter the water.</li>\n  <li>Confirm whether the price includes the marine park fee, lunch and hotel transfers.</li>\n  <li>Read recent reviews, especially about group size per boat and per guide.</li>\n</ul>\n\n<h2>Rules that protect the reef</h2>\n<p>Coral grows only millimetres to centimetres a year; one careless kick can destroy decades of growth. Keep your distance, never stand on or hold the reef, and don't break coral or pick up starfish for photos. Reef-safe sunscreen or a long-sleeved rash guard is the better choice.</p>\n\n<h2>Before you go</h2>\n<ul>\n  <li>Eat a light breakfast and take seasickness tablets if you need them.</li>\n  <li>Wear swimwear under your clothes and bring a towel and a dry bag for your phone.</li>\n  <li>People with heart conditions, blood-pressure issues or recent surgery should consult a doctor before scuba diving.</li>\n  <li>Don't scuba dive in the 18 – 24 hours before a flight.</li>\n</ul>\n\n<p>Boats usually leave from Cau Da port in the south of the city and take 30 – 45 minutes to reach Hon Mun. Most trips add a beach stop on a nearby island, so set aside the morning and early afternoon.</p>",
+    "meta": {
+     "address": "Khu bảo tồn biển Hòn Mun, vịnh Nha Trang, Khánh Hòa",
+     "price": "Tours from 350,000 VND/person",
+     "hours": "Tours depart 08:00 – 09:00",
+     "badge": "Coral reef trips",
+     "note": "",
+     "place_name": "Hon Mun Island"
+    }
+   }
+  },
+  {
+   "key": "dao-binh-ba-2-ngay-1-dem",
+   "date": "2026-10-05 08:00:00",
+   "category": "du-lich",
+   "region": "cam-ranh",
+   "tags": [
+    "ven-bien",
+    "dac-san",
+    "noi-bat"
+   ],
+   "image": "seafood",
+   "meta": {
+    "rating": 4.5,
+    "review_count": 1183,
+    "price_level": "trung-cap"
+   },
+   "vi": {
+    "slug": "dao-binh-ba-2-ngay-1-dem",
+    "title": "Đảo Bình Ba 2 Ngày 1 Đêm: Lịch Trình Ăn Tôm Hùm, Tắm Bãi Nồm Và Ngủ Homestay",
+    "excerpt": "Hòn đảo nhỏ giữa vịnh Cam Ranh nổi tiếng với những bè tôm hùm và các bãi tắm hoang sơ. Lịch trình chi tiết, cách đi và những giấy tờ cần mang.",
+    "content": "<p>Bình Ba là một trong những hòn đảo hiếm hoi ở Khánh Hòa giữ được nhịp sống làng chài khá nguyên vẹn. Ban ngày, ghe thuyền ra vào tấp nập; tối đến, cả đảo yên ắng đến mức nghe rõ tiếng sóng. Nếu chỉ đi trong ngày, bạn sẽ bỏ lỡ phần thú vị nhất – vì vậy lịch trình 2 ngày 1 đêm là hợp lý.</p>\n\n<h2>Trước khi đi: giấy tờ và lưu ý</h2>\n<p>Bình Ba nằm trong khu vực vịnh Cam Ranh nên du khách cần mang <strong>căn cước công dân</strong> để đăng ký khi ra đảo. Khách nước ngoài cần hỏi kỹ đơn vị tour hoặc chủ homestay về thủ tục trước khi lên kế hoạch. Mùa đẹp nhất là từ tháng 1 đến tháng 8; cuối năm có gió mùa, biển động và tàu có thể tạm ngưng.</p>\n\n<h2>Ngày 1: Lên đảo và chinh phục các bãi tắm</h2>\n<h3>Buổi sáng</h3>\n<p>Từ trung tâm Cam Ranh, di chuyển đến <strong>cảng Ba Ngòi</strong> hoặc bến tàu theo hướng dẫn của homestay. Tàu khách ra đảo mất khoảng 40–60 phút, giá vé chỉ vài chục nghìn đồng mỗi lượt. Gửi xe máy ở bến hoặc thuê xe máy trên đảo để di chuyển.</p>\n<h3>Buổi trưa</h3>\n<p>Nhận phòng homestay, ăn trưa với cá, mực vừa cập bến. Nghỉ ngơi tránh nắng đến khoảng 15 giờ.</p>\n<h3>Buổi chiều</h3>\n<p><strong>Bãi Nồm</strong> có nước trong, cát mịn và những tảng đá lớn – thích hợp tắm và chụp ảnh. Nếu còn sức, đi tiếp sang <strong>bãi Chướng</strong> nhiều đá, hoang sơ hơn. Ngắm hoàng hôn từ trên dốc khi trở về làng.</p>\n<h3>Buổi tối</h3>\n<p>Bữa tối chính là lúc thưởng thức tôm hùm. Bạn có thể ra thẳng bè nuôi, chọn tôm theo cân rồi nhờ chế biến: hấp, nướng phô mai hay nấu cháo. Giá tôm biến động theo mùa và theo loại (tôm hùm xanh, tôm hùm bông), nên hỏi giá trước khi cân.</p>\n\n<h2>Ngày 2: Bè nổi và làng chài</h2>\n<p>Dậy sớm xem chợ cá họp ngay bến – lúc này ghe thuyền vừa về, hải sản tươi nhất trong ngày. Sau bữa sáng, thuê thuyền nhỏ ra tham quan các bè nuôi tôm, cá, một số bè có dịch vụ câu cá và ăn uống ngay trên mặt nước. Trưa trả phòng và bắt tàu về đất liền.</p>\n\n<h2>Dự trù chi phí</h2>\n<table>\n  <thead><tr><th>Khoản</th><th>Mức tham khảo / người</th></tr></thead>\n  <tbody>\n    <tr><td>Tàu khứ hồi</td><td>100.000 – 200.000 ₫</td></tr>\n    <tr><td>Homestay (phòng đôi chia 2)</td><td>200.000 – 400.000 ₫</td></tr>\n    <tr><td>Thuê xe máy trên đảo</td><td>100.000 – 150.000 ₫/ngày</td></tr>\n    <tr><td>Ăn uống (chưa gồm tôm hùm)</td><td>300.000 – 500.000 ₫</td></tr>\n    <tr><td>Tôm hùm</td><td>Theo giá thị trường, tính theo kg</td></tr>\n  </tbody>\n</table>\n\n<blockquote>Bình Ba không có nhiều điểm rút tiền; hãy mang đủ tiền mặt cho hai ngày. Nhớ mang theo túi đựng rác khi ra các bãi hoang sơ – đảo đẹp được là nhờ mỗi người góp một chút.</blockquote>",
+    "meta": {
+     "address": "Đảo Bình Ba, vịnh Cam Ranh, Khánh Hòa",
+     "price": "Từ 1.000.000 ₫/người (2N1Đ)",
+     "hours": "Tàu khách chạy theo lịch trong ngày",
+     "badge": "Đảo tôm hùm",
+     "place_name": "Đảo Bình Ba"
+    }
+   },
+   "en": {
+    "slug": "binh-ba-island-2-day-itinerary",
+    "title": "Binh Ba Island in 2 Days: Lobster Dinners, Bai Nom Beach and a Homestay Night",
+    "excerpt": "A small island in Cam Ranh Bay famous for lobster farms and untouched beaches. A detailed itinerary, how to get there and the documents you need.",
+    "content": "<p>Binh Ba is one of the few islands in Khanh Hoa where fishing-village life remains largely intact. By day boats come and go constantly; at night the whole island goes so quiet you can hear the waves. A day trip misses the best part, so plan on two days and one night.</p>\n\n<h2>Before you go: documents and notes</h2>\n<p>Binh Ba lies within Cam Ranh Bay, so visitors must carry <strong>ID</strong> to register when travelling to the island. International visitors should check the latest requirements with their tour operator or homestay before planning. The best season is January to August; at the end of the year monsoon winds can make the sea rough and boats may be suspended.</p>\n\n<h2>Day 1: Arrive and explore the beaches</h2>\n<h3>Morning</h3>\n<p>From central Cam Ranh, head to <strong>Ba Ngoi port</strong> or the pier your homestay recommends. The passenger boat takes 40 – 60 minutes and costs a few tens of thousands of dong each way. Leave your motorbike at the pier or rent one on the island.</p>\n<h3>Midday</h3>\n<p>Check in and have lunch with fish and squid fresh off the boats. Rest out of the sun until about 3 p.m.</p>\n<h3>Afternoon</h3>\n<p><strong>Bai Nom</strong> has clear water, fine sand and big boulders – ideal for swimming and photos. If you still have energy, continue to rockier, wilder <strong>Bai Chuong</strong>. Watch the sunset from the hill on your way back to the village.</p>\n<h3>Evening</h3>\n<p>Dinner is lobster time. Go straight to a floating farm, choose lobsters by weight and have them steamed, grilled with cheese or cooked into congee. Prices vary by season and type (green or ornate spiny lobster), so ask before weighing.</p>\n\n<h2>Day 2: Floating farms and the village</h2>\n<p>Get up early for the fish market at the pier, when the boats have just returned. After breakfast, hire a small boat to visit the lobster and fish farms; some offer fishing and meals on the water. Check out at noon and catch the boat back to the mainland.</p>\n\n<h2>Budget</h2>\n<table>\n  <thead><tr><th>Item</th><th>Approximate cost / person</th></tr></thead>\n  <tbody>\n    <tr><td>Return boat</td><td>100,000 – 200,000 VND</td></tr>\n    <tr><td>Homestay (double room shared)</td><td>200,000 – 400,000 VND</td></tr>\n    <tr><td>Motorbike rental on the island</td><td>100,000 – 150,000 VND/day</td></tr>\n    <tr><td>Meals (excluding lobster)</td><td>300,000 – 500,000 VND</td></tr>\n    <tr><td>Lobster</td><td>Market price, by the kilo</td></tr>\n  </tbody>\n</table>\n\n<blockquote>There are few ATMs on Binh Ba – bring enough cash for two days. And take a bag for your rubbish to the wild beaches; the island stays beautiful because everyone does their part.</blockquote>",
+    "meta": {
+     "address": "Đảo Bình Ba, vịnh Cam Ranh, Khánh Hòa",
+     "price": "From 1,000,000 VND/person (2 days)",
+     "hours": "Passenger boats run during the day",
+     "badge": "Lobster island",
+     "note": "",
+     "place_name": "Binh Ba Island"
+    }
+   }
+  },
+  {
+   "key": "diep-son-con-duong-cat-giua-bien-van-ninh",
+   "date": "2026-10-06 08:00:00",
+   "category": "du-lich",
+   "region": "van-ninh",
+   "tags": [
+    "ven-bien",
+    "check-in"
+   ],
+   "image": "bay",
+   "meta": {
+    "rating": 4.4,
+    "review_count": 288,
+    "price_level": "binh-dan"
+   },
+   "vi": {
+    "slug": "diep-son-con-duong-cat-giua-bien-van-ninh",
+    "title": "Điệp Sơn: Đi Bộ Trên Con Đường Cát Giữa Biển Vân Phong — Cần Chuẩn Bị Những Gì?",
+    "excerpt": "Cụm đảo nhỏ ở vịnh Vân Phong nổi tiếng với dải cát nối liền giữa hai làn nước. Thời điểm nước ròng, cách đi từ Nha Trang và lịch trình gợi ý.",
+    "content": "<p>Nằm cách Nha Trang khoảng 70 km về phía bắc, Điệp Sơn là cụm ba hòn đảo nhỏ giữa vịnh Vân Phong. Điều làm nên tên tuổi của nơi này là <strong>dải cát dài vài trăm mét</strong> nối các đảo với nhau, khi nước ròng hiện lên như một con đường giữa biển, hai bên là nước trong xanh.</p>\n\n<h2>Bí quyết duy nhất: canh con nước</h2>\n<p>Con đường chỉ lộ rõ khi thủy triều xuống. Lúc nước lớn, dải cát chìm dưới vài tấc nước – vẫn lội được nhưng ảnh sẽ không đẹp bằng. Trước khi đi, hãy hỏi đơn vị khai thác hoặc chủ tàu về giờ nước ròng của ngày hôm đó. Thông thường buổi sáng là thời điểm thuận lợi nhất, vừa có nước cạn vừa tránh nắng gắt.</p>\n\n<h2>Đi Điệp Sơn từ Nha Trang</h2>\n<ol>\n  <li>Đi theo quốc lộ 1 hướng ra bắc khoảng 1,5 giờ đến khu vực Vạn Giã – Vạn Thắng.</li>\n  <li>Tìm đến bến tàu đi Điệp Sơn theo chỉ dẫn của đơn vị bán vé.</li>\n  <li>Tàu ra đảo mất khoảng 20–30 phút, ngắm được các bè nuôi hải sản trên vịnh.</li>\n</ol>\n<p>Nếu không tự lái, có thể chọn tour trong ngày từ Nha Trang, thường đã gồm xe đưa đón, vé tàu và bữa trưa hải sản.</p>\n\n<h2>Trên đảo có gì?</h2>\n<ul>\n  <li><strong>Con đường cát:</strong> điểm check-in chính; đi chân trần sẽ thoải mái hơn nhưng coi chừng vỏ ốc, san hô vỡ.</li>\n  <li><strong>Làng chài nhỏ:</strong> vài chục hộ dân sống bằng nghề biển, khung cảnh bình yên.</li>\n  <li><strong>Bãi tắm và nhà bè:</strong> nước nông, sạch, phù hợp ngâm mình sau khi đi bộ.</li>\n  <li><strong>Hải sản bè:</strong> ốc, mực, cá được chế biến đơn giản, đúng vị biển.</li>\n</ul>\n\n<h2>Danh sách cần mang</h2>\n<ul>\n  <li>Nón rộng vành, kính râm, kem chống nắng – trên đảo gần như không có bóng cây.</li>\n  <li>Dép quai hậu hoặc giày lội nước.</li>\n  <li>Nước uống và đồ ăn nhẹ, phòng khi dịch vụ trên đảo đóng cửa.</li>\n  <li>Túi chống nước cho điện thoại và túi rác cá nhân.</li>\n</ul>\n\n<h2>Kết hợp gì trong cùng chuyến?</h2>\n<p>Vạn Ninh còn có <strong>Mũi Đôi – Hòn Đầu</strong>, điểm cực Đông trên đất liền, nhưng đây là cung leo núi đá vất vả nên cần đi riêng một ngày với người dẫn đường. Nhẹ nhàng hơn, bạn có thể dừng chân ở bãi biển Đại Lãnh trên đường về hoặc thưởng thức hải sản ở chợ Vạn Giã.</p>",
+    "meta": {
+     "address": "Đảo Điệp Sơn, vịnh Vân Phong, Vạn Thắng, Khánh Hòa",
+     "price": "150.000 - 300.000 ₫ (tàu + tham quan)",
+     "hours": "Nên đi buổi sáng khi nước ròng",
+     "badge": "Đường cát giữa biển",
+     "place_name": "Đảo Điệp Sơn"
+    }
+   },
+   "en": {
+    "slug": "diep-son-sandbar-walk-van-phong-bay",
+    "title": "Diep Son: Walking the Sandbar Across Van Phong Bay – What to Prepare",
+    "excerpt": "A cluster of small islands in Van Phong Bay known for a sand path between two bodies of water. Low-tide timing, getting there from Nha Trang and a suggested plan.",
+    "content": "<p>About 70 km north of Nha Trang, Diep Son is a group of three small islands in Van Phong Bay. What makes it famous is <strong>a sandbar several hundred metres long</strong> linking the islands; at low tide it emerges like a road through the sea, with clear blue water on both sides.</p>\n\n<h2>The one secret: time the tide</h2>\n<p>The path only shows clearly at low tide. At high tide the sand sits under a few dozen centimetres of water – still walkable, but the photos are less striking. Ask the operator or boat owner for that day's low-tide time. Mornings are usually best, with shallow water and gentler sun.</p>\n\n<h2>Getting to Diep Son from Nha Trang</h2>\n<ol>\n  <li>Follow National Route 1 north for about 1.5 hours to the Van Gia – Van Thang area.</li>\n  <li>Head to the Diep Son boat pier as directed by your ticket seller.</li>\n  <li>The boat takes 20 – 30 minutes, passing fish farms across the bay.</li>\n</ol>\n<p>If you'd rather not drive, day tours from Nha Trang usually include transfers, the boat ticket and a seafood lunch.</p>\n\n<h2>What's on the island?</h2>\n<ul>\n  <li><strong>The sandbar:</strong> the main photo spot; barefoot is comfortable but watch for shells and coral fragments.</li>\n  <li><strong>A small fishing village:</strong> a few dozen households living from the sea, peaceful and unhurried.</li>\n  <li><strong>Beach and floating houses:</strong> shallow, clean water for a dip after the walk.</li>\n  <li><strong>Seafood on the rafts:</strong> snails, squid and fish cooked simply, true to the sea.</li>\n</ul>\n\n<h2>Packing list</h2>\n<ul>\n  <li>Wide-brimmed hat, sunglasses and sunscreen – there is almost no shade.</li>\n  <li>Strapped sandals or water shoes.</li>\n  <li>Water and snacks in case island services are closed.</li>\n  <li>A waterproof phone pouch and a bag for your rubbish.</li>\n</ul>\n\n<h2>What else to combine?</h2>\n<p>Van Ninh is also home to <strong>Mui Doi – Hon Dau</strong>, the easternmost point of mainland Vietnam, but that is a tough rock scramble best done on a separate day with a local guide. For something gentler, stop at Dai Lanh beach on the way back or eat seafood at Van Gia market.</p>",
+    "meta": {
+     "address": "Đảo Điệp Sơn, vịnh Vân Phong, Vạn Thắng, Khánh Hòa",
+     "price": "150,000 – 300,000 VND (boat + visit)",
+     "hours": "Best in the morning at low tide",
+     "badge": "Sandbar in the sea",
+     "note": "",
+     "place_name": "Diep Son Island"
+    }
+   }
+  },
+  {
+   "key": "bien-doc-let-ninh-hoa-cho-gia-dinh",
+   "date": "2026-10-07 08:00:00",
+   "category": "du-lich",
+   "region": "ninh-hoa",
+   "tags": [
+    "ven-bien",
+    "gia-dinh"
+   ],
+   "image": "bay",
+   "meta": {
+    "rating": 4.4,
+    "review_count": 852,
+    "price_level": "binh-dan"
+   },
+   "vi": {
+    "slug": "bien-doc-let-ninh-hoa-cho-gia-dinh",
+    "title": "Biển Dốc Lết Ninh Hòa: Cát Trắng, Nước Nông – Lựa Chọn Dễ Chịu Cho Chuyến Đi Gia Đình",
+    "excerpt": "Bờ cát trắng mịn, sóng êm và độ dốc thoai thoải giúp Dốc Lết trở thành bãi tắm được nhiều gia đình chọn. Cách đi, chỗ tắm và món ngon quanh khu vực.",
+    "content": "<p>Cách trung tâm Nha Trang khoảng 50 km về phía bắc, Dốc Lết là bãi biển mà người Khánh Hòa hay chọn cho những chuyến đi cuối tuần cùng con nhỏ. Lý do rất đơn giản: <strong>cát trắng mịn, nước trong và bãi thoai thoải</strong>, đi ra khá xa vẫn chưa ngập quá ngực.</p>\n\n<h2>Vì sao hợp với gia đình?</h2>\n<ul>\n  <li><strong>Sóng êm</strong> vào mùa khô, trẻ em có thể nghịch cát, tắm gần bờ an toàn hơn.</li>\n  <li><strong>Bãi rộng</strong>, ít đá ngầm, dễ quan sát con khi chơi.</li>\n  <li><strong>Hàng quán đầy đủ</strong>: ghế dù, nhà tắm nước ngọt, đồ ăn hải sản ngay sát bãi.</li>\n</ul>\n\n<h2>Đi Dốc Lết bằng gì?</h2>\n<p>Từ Nha Trang, đi theo quốc lộ 1 ra hướng Ninh Hòa rồi rẽ vào đường dẫn ra biển, tổng cộng khoảng 1 – 1,5 giờ. Xe máy giúp chủ động ghé thêm đồng muối Hòn Khói gần đó; đi gia đình đông người thì thuê xe 7 chỗ sẽ thoải mái hơn. Một số khu nghỉ dưỡng ven bãi có xe đưa đón nếu bạn ở lại qua đêm.</p>\n\n<h2>Bãi công cộng hay khu dịch vụ?</h2>\n<p>Phần bãi công cộng không thu phí vào cửa, bạn chỉ trả tiền thuê ghế, gửi xe và tắm nước ngọt. Các khu dịch vụ và resort ven biển có bãi riêng sạch sẽ, nhiều tiện ích hơn nhưng sẽ thu phí hoặc yêu cầu sử dụng dịch vụ. Nếu đi trong ngày, bãi công cộng vào buổi sáng sớm là đủ đẹp.</p>\n\n<h2>Thời điểm đẹp</h2>\n<p>Từ khoảng tháng 3 đến tháng 8, trời trong và biển lặng. Trong ngày, hãy tắm biển trước 9 giờ hoặc sau 15 giờ 30 – cát trắng phản chiếu nắng rất mạnh vào giữa trưa, dễ cháy da và mỏi mắt.</p>\n\n<h2>Ăn gì quanh Dốc Lết?</h2>\n<p>Các quán ven bãi bán ốc, mực, cá nướng với giá dễ chịu. Trên đường về, ghé thị xã Ninh Hòa để thử <strong>nem Ninh Hòa</strong> – loại nem chua, nem nướng có tiếng của vùng – hoặc mua làm quà.</p>\n\n<h2>Chuẩn bị gì?</h2>\n<ul>\n  <li>Áo chống nắng cho trẻ, nón rộng vành, kính râm.</li>\n  <li>Đồ chơi xúc cát, phao bơi phù hợp lứa tuổi.</li>\n  <li>Thay đồ khô và túi đựng đồ ướt cho đoạn đường về.</li>\n</ul>\n\n<blockquote>Lưu ý: luôn tắm trong khu vực có cờ hoặc người cứu hộ, tránh xuống nước khi có cờ đỏ hoặc gió mạnh.</blockquote>",
+    "meta": {
+     "address": "Bãi biển Dốc Lết, Đông Ninh Hòa, Khánh Hòa",
+     "price": "Bãi công cộng miễn phí",
+     "hours": "Tắm biển đẹp nhất 06:00 - 09:00 và sau 15:30",
+     "badge": "Cát trắng nắng vàng",
+     "place_name": "Bãi biển Dốc Lết"
+    }
+   },
+   "en": {
+    "slug": "doc-let-beach-ninh-hoa-family-guide",
+    "title": "Doc Let Beach, Ninh Hoa: White Sand and Shallow Water for an Easy Family Trip",
+    "excerpt": "Fine white sand, gentle waves and a gradual slope make Doc Let a favourite with families. How to get there, where to swim and what to eat nearby.",
+    "content": "<p>About 50 km north of central Nha Trang, Doc Let is the beach Khanh Hoa locals pick for weekend trips with young kids. The reason is simple: <strong>fine white sand, clear water and a gentle slope</strong> – you can wade a long way out and still be only chest-deep.</p>\n\n<h2>Why it suits families</h2>\n<ul>\n  <li><strong>Calm waves</strong> in the dry season, so children can play in the sand and paddle near the shore.</li>\n  <li><strong>A wide beach</strong> with few submerged rocks, making it easy to keep an eye on kids.</li>\n  <li><strong>Plenty of services</strong>: umbrellas, freshwater showers and seafood right on the sand.</li>\n</ul>\n\n<h2>Getting to Doc Let</h2>\n<p>From Nha Trang, take National Route 1 towards Ninh Hoa and turn onto the road to the coast – 1 to 1.5 hours in total. A motorbike lets you stop at the Hon Khoi salt fields nearby; for a larger family, a 7-seat car is more comfortable. Some beachfront resorts offer transfers if you stay overnight.</p>\n\n<h2>Public beach or resort beach?</h2>\n<p>The public section has no entrance fee; you only pay for chairs, parking and showers. Resorts and service areas along the coast have cleaner private stretches with more facilities but charge a fee or require you to use their services. For a day trip, the public beach early in the morning is beautiful enough.</p>\n\n<h2>When to go</h2>\n<p>From around March to August the skies are clear and the sea is calm. During the day, swim before 9 a.m. or after 3:30 p.m. – the white sand reflects intense midday sun, which burns skin and tires eyes.</p>\n\n<h2>What to eat around Doc Let</h2>\n<p>Stalls along the beach sell grilled snails, squid and fish at friendly prices. On the way back, stop in Ninh Hoa town to try <strong>Ninh Hoa nem</strong> – the area's well-known fermented and grilled pork rolls – or buy some as gifts.</p>\n\n<h2>What to bring</h2>\n<ul>\n  <li>Sun shirts for the kids, wide hats and sunglasses.</li>\n  <li>Sand toys and age-appropriate swim floats.</li>\n  <li>Dry clothes and a bag for wet things for the ride home.</li>\n</ul>\n\n<blockquote>Always swim in areas with flags or lifeguards, and stay out of the water when the red flag is up or the wind is strong.</blockquote>",
+    "meta": {
+     "address": "Bãi biển Dốc Lết, Đông Ninh Hòa, Khánh Hòa",
+     "price": "Public beach free",
+     "hours": "Best swimming 06:00 – 09:00 and after 15:30",
+     "badge": "White-sand beach",
+     "note": "",
+     "place_name": "Doc Let Beach"
+    }
+   }
+  },
+  {
+   "key": "vinh-vinh-hy-tau-day-kinh-va-vuon-nho",
+   "date": "2026-10-08 08:00:00",
+   "category": "du-lich",
+   "region": "phan-rang-vinh-hy",
+   "tags": [
+    "ven-bien",
+    "check-in",
+    "noi-bat"
+   ],
+   "image": "nature",
+   "meta": {
+    "rating": 4.5,
+    "review_count": 1364,
+    "price_level": "trung-cap"
+   },
+   "vi": {
+    "slug": "vinh-vinh-hy-tau-day-kinh-va-vuon-nho",
+    "title": "Vịnh Vĩnh Hy: Đi Tàu Đáy Kính, Ngắm San Hô Và Ghé Vườn Nho Trên Cung Đường Biển",
+    "excerpt": "Vịnh nằm trong vùng biển Núi Chúa với nước xanh ngọc, rạn san hô gần bờ và cung đường ven biển đẹp bậc nhất miền Trung. Hướng dẫn trọn một ngày.",
+    "content": "<p>Sau khi Ninh Thuận sáp nhập vào Khánh Hòa, Vĩnh Hy trở thành một trong những vịnh đẹp nhất của tỉnh mới. Vịnh được bao bọc bởi núi đá của vùng Núi Chúa, nước trong đến mức đứng trên tàu vẫn nhìn thấy đáy cát. Đây là gợi ý cho một ngày trọn vẹn, có thể xuất phát từ Phan Rang hoặc Cam Ranh.</p>\n\n<h2>Đường đến Vĩnh Hy: chính cung đường đã là điểm đến</h2>\n<p>Tuyến đường ven biển nối Cam Ranh – Bình Tiên – Vĩnh Hy – Phan Rang uốn lượn giữa núi và biển, nhiều đoạn có điểm dừng ngắm cảnh. Từ Phan Rang đi khoảng 40 km, từ Cam Ranh khoảng 45 km. Hãy chạy chậm, đường đèo có khúc cua gắt và gió lớn.</p>\n\n<h2>Lịch trình một ngày</h2>\n<table>\n  <thead><tr><th>Giờ</th><th>Hoạt động</th></tr></thead>\n  <tbody>\n    <tr><td>07:00</td><td>Xuất phát, dừng chụp ảnh trên cung đường biển</td></tr>\n    <tr><td>08:30</td><td>Lên tàu đáy kính tại làng chài Vĩnh Hy</td></tr>\n    <tr><td>09:30</td><td>Tắm biển, lặn ống thở ở bãi đá gần bờ</td></tr>\n    <tr><td>11:30</td><td>Ăn trưa hải sản trên nhà bè</td></tr>\n    <tr><td>14:00</td><td>Ghé vườn nho, mua nho và rượu vang địa phương</td></tr>\n    <tr><td>16:00</td><td>Hang Rái hoặc trở về ngắm hoàng hôn</td></tr>\n  </tbody>\n</table>\n\n<h2>Tàu đáy kính và lặn ngắm</h2>\n<p>Tàu đưa khách dạo quanh vịnh, qua những điểm có rạn san hô nông. Đáy tàu bằng kính giúp cả người không biết bơi cũng thấy được san hô và cá. Nhiều tàu dừng ở bãi tắm để khách lặn ống thở. Giá tham khảo từ khoảng 150.000 ₫/người tùy hành trình; tàu chung rẻ hơn thuê riêng.</p>\n\n<h2>Hải sản trên nhà bè</h2>\n<p>Các nhà bè quanh vịnh phục vụ cá, mực, ốc, tôm vừa đánh bắt. Hỏi giá trước khi chọn món, nhất là với hải sản tính theo kg như tôm hùm hay cá mú.</p>\n\n<h2>Vườn nho – đặc sản vùng nắng gió</h2>\n<p>Trên đường về Phan Rang có nhiều vườn nho mở cửa đón khách. Bạn có thể đi giữa giàn nho, nếm thử nho tươi và mua các sản phẩm như nho sấy, mật nho, rượu vang. Mùa thu hoạch rải rác quanh năm nhờ khí hậu khô.</p>\n\n<h2>Lưu ý nhỏ</h2>\n<ul>\n  <li>Nắng vùng này rất gắt; mang áo dài tay, nón và nhiều nước.</li>\n  <li>Không giẫm lên san hô khi xuống nước, không mang san hô về làm kỷ niệm.</li>\n  <li>Mùa khô (khoảng tháng 1 – 8) biển đẹp nhất; mùa mưa có thể có sóng lớn.</li>\n</ul>",
+    "meta": {
+     "address": "Vịnh Vĩnh Hy, Vĩnh Hải, Khánh Hòa",
+     "price": "Tàu đáy kính từ 150.000 ₫/người",
+     "hours": "Tàu chạy ban ngày, đẹp nhất buổi sáng",
+     "badge": "Vịnh nước xanh",
+     "place_name": "Vịnh Vĩnh Hy"
+    }
+   },
+   "en": {
+    "slug": "vinh-hy-bay-glass-bottom-boat-vineyards",
+    "title": "Vinh Hy Bay: Glass-Bottom Boats, Coral Reefs and Vineyards on a Coastal Road Trip",
+    "excerpt": "A bay within the Nui Chua marine area with jade water, near-shore coral and one of central Vietnam’s most scenic coastal roads. A full-day guide.",
+    "content": "<p>Since Ninh Thuan merged into Khanh Hoa, Vinh Hy has become one of the most beautiful bays in the enlarged province. It is ringed by the rocky mountains of Nui Chua, and the water is so clear you can see the sandy bottom from the boat. Here is a plan for a full day starting from Phan Rang or Cam Ranh.</p>\n\n<h2>The road there is a destination in itself</h2>\n<p>The coastal road linking Cam Ranh – Binh Tien – Vinh Hy – Phan Rang winds between mountains and sea, with viewpoints along the way. It is about 40 km from Phan Rang and 45 km from Cam Ranh. Drive slowly; the pass has sharp bends and strong winds.</p>\n\n<h2>One-day itinerary</h2>\n<table>\n  <thead><tr><th>Time</th><th>Activity</th></tr></thead>\n  <tbody>\n    <tr><td>07:00</td><td>Set off, stopping for photos along the coastal road</td></tr>\n    <tr><td>08:30</td><td>Board a glass-bottom boat at Vinh Hy fishing village</td></tr>\n    <tr><td>09:30</td><td>Swim and snorkel at a rocky cove</td></tr>\n    <tr><td>11:30</td><td>Seafood lunch on a floating house</td></tr>\n    <tr><td>14:00</td><td>Visit a vineyard; buy grapes and local wine</td></tr>\n    <tr><td>16:00</td><td>Hang Rai, or head back for sunset</td></tr>\n  </tbody>\n</table>\n\n<h2>Glass-bottom boats and snorkeling</h2>\n<p>Boats circle the bay past shallow reefs. The glass floor lets even non-swimmers see coral and fish. Many stop at a beach so you can snorkel. Prices start at around 150,000 VND per person depending on the route; shared boats are cheaper than private hire.</p>\n\n<h2>Seafood on the floating houses</h2>\n<p>Floating restaurants around the bay serve fish, squid, snails and prawns fresh from the sea. Ask for prices before ordering, especially for seafood sold by the kilo such as lobster or grouper.</p>\n\n<h2>Vineyards – a specialty of the sunny south</h2>\n<p>On the road back to Phan Rang, many vineyards welcome visitors. Walk under the vines, taste fresh grapes and pick up raisins, grape syrup or wine. Thanks to the dry climate, harvests happen at intervals throughout the year.</p>\n\n<h2>Good to know</h2>\n<ul>\n  <li>The sun here is intense: bring long sleeves, a hat and plenty of water.</li>\n  <li>Don't step on coral or take any home as a souvenir.</li>\n  <li>The dry season (roughly January – August) has the best sea; the rainy season can bring big waves.</li>\n</ul>",
+    "meta": {
+     "address": "Vịnh Vĩnh Hy, Vĩnh Hải, Khánh Hòa",
+     "price": "Glass-bottom boat from 150,000 VND/person",
+     "hours": "Boats run by day, best in the morning",
+     "badge": "Turquoise bay",
+     "note": "",
+     "place_name": "Vinh Hy Bay"
+    }
+   }
+  },
+  {
+   "key": "bun-ca-nguyen-loan-ngo-gia-tu",
+   "date": "2026-10-09 08:00:00",
+   "category": "am-thuc",
+   "region": "nha-trang",
+   "tags": [
+    "dac-san"
+   ],
+   "image": "noodle",
+   "meta": {
+    "rating": 4.3,
+    "review_count": 1478,
+    "price_level": "binh-dan"
+   },
+   "vi": {
+    "slug": "bun-ca-nguyen-loan-ngo-gia-tu",
+    "title": "Bún Cá Nguyên Loan Đường Ngô Gia Tự: Tô Bún Sứa Chả Cá Cho Bữa Sáng Kiểu Nha Trang",
+    "excerpt": "Nước dùng ngọt thanh từ xương cá, chả cá chiên vàng và miếng sứa giòn sần sật – lý do quán bún cá đường Ngô Gia Tự luôn kín chỗ mỗi sáng.",
+    "content": "<p>Hỏi người Nha Trang ăn sáng gì, câu trả lời phổ biến nhất có lẽ là <strong>bún chả cá</strong>. Trong vô số quán khắp thành phố, quán Nguyên Loan trên đường Ngô Gia Tự thuộc nhóm được nhắc tên nhiều nhất, cả với khách địa phương lẫn khách du lịch.</p>\n\n<h2>Bún cá Nha Trang khác gì nơi khác?</h2>\n<p>Nước dùng được ninh từ xương cá biển nên trong và ngọt thanh, không đậm mắm như bún cá miền Tây. Chả cá làm từ cá thu, cá mối hoặc cá chuồn, có hai kiểu: <strong>chả hấp</strong> trắng mềm và <strong>chả chiên</strong> vàng thơm. Ăn kèm là rau sống, chanh và đĩa <strong>ớt xanh dầm</strong> – thứ gia vị đặc trưng mà khách phương xa hay bất ngờ vì độ cay xộc lên mũi.</p>\n\n<h2>Gọi gì khi đến lần đầu?</h2>\n<ul>\n  <li><strong>Bún chả cá thập cẩm:</strong> đủ chả hấp, chả chiên, chả cuộn – cách dễ nhất để biết quán làm chả ra sao.</li>\n  <li><strong>Bún sứa:</strong> sứa giòn mát, hợp những ngày nắng nóng; có thể gọi thêm sứa vào tô chả cá.</li>\n  <li><strong>Chả cá gói mang về:</strong> nhiều khách mua làm quà, nên hỏi cách bảo quản nếu đi xa.</li>\n</ul>\n\n<h2>Không gian và cách phục vụ</h2>\n<p>Đây là quán ăn bình dân đúng nghĩa: bàn ghế inox, phục vụ nhanh, khách vào ra liên tục. Giờ cao điểm buổi sáng có thể phải ngồi ghép bàn. Nếu muốn thong thả, hãy đến trước 7 giờ hoặc sau 9 giờ.</p>\n\n<h2>Giá cả</h2>\n<p>Một tô bún dao động khoảng 35.000 – 60.000 ₫ tùy loại và lượng chả, sứa. Giá được niêm yết rõ ràng, phù hợp cho bữa sáng nhanh trước khi đi chơi.</p>\n\n<h2>Đánh giá nhanh</h2>\n<table>\n  <thead><tr><th>Điểm cộng</th><th>Điểm cần lưu ý</th></tr></thead>\n  <tbody>\n    <tr><td>Nước dùng thanh, chả cá thơm, phần ăn đầy đặn</td><td>Đông khách giờ cao điểm, không gian ồn</td></tr>\n    <tr><td>Vị trí trung tâm, dễ tìm</td><td>Chỗ để xe hạn chế trên vỉa hè</td></tr>\n    <tr><td>Giá dễ chịu, phục vụ nhanh</td><td>Không phù hợp nếu muốn ngồi lâu trò chuyện</td></tr>\n  </tbody>\n</table>\n\n<blockquote>Mẹo: nếu không ăn cay, hãy nếm thử một chút ớt xanh trước khi cho cả muỗng vào tô.</blockquote>",
+    "meta": {
+     "address": "123 Ngô Gia Tự, Nha Trang, Khánh Hòa",
+     "price": "35.000 - 60.000 ₫/tô",
+     "hours": "Mở từ sáng sớm, đông nhất 06:30 - 09:00",
+     "badge": "Món sáng địa phương",
+     "place_name": "Bún cá Nguyên Loan"
+    }
+   },
+   "en": {
+    "slug": "nguyen-loan-fish-noodle-soup-ngo-gia-tu",
+    "title": "Nguyen Loan Fish Noodle Soup on Ngo Gia Tu: A Nha Trang Breakfast of Jellyfish and Fish Cakes",
+    "excerpt": "A clear, sweet fish-bone broth, golden fried fish cakes and crunchy jellyfish – why this noodle shop on Ngo Gia Tu is packed every morning.",
+    "content": "<p>Ask a Nha Trang local what to have for breakfast and the most common answer is <strong>bun cha ca</strong> – rice noodles with fish cakes. Among countless shops across the city, Nguyen Loan on Ngo Gia Tu street is one of the names mentioned most often, by locals and visitors alike.</p>\n\n<h2>What makes Nha Trang fish noodles different?</h2>\n<p>The broth is simmered from sea-fish bones, so it is clear and lightly sweet rather than pungent with fish sauce. The fish cakes are made from mackerel, lizardfish or flying fish in two styles: <strong>steamed</strong>, white and soft, and <strong>fried</strong>, golden and fragrant. Alongside come fresh herbs, lime and a dish of <strong>crushed green chilli</strong> – the local condiment that surprises visitors with its nose-tingling heat.</p>\n\n<h2>What to order on your first visit</h2>\n<ul>\n  <li><strong>Mixed fish-cake noodles:</strong> steamed, fried and rolled fish cake – the easiest way to judge the shop.</li>\n  <li><strong>Jellyfish noodles:</strong> crunchy and cooling on hot days; you can also add jellyfish to the fish-cake bowl.</li>\n  <li><strong>Fish cakes to take away:</strong> popular as gifts; ask how to store them if travelling far.</li>\n</ul>\n\n<h2>Space and service</h2>\n<p>This is a true street-food eatery: stainless-steel tables, fast service and a constant flow of customers. At the morning peak you may share a table. For a calmer meal, arrive before 7 a.m. or after 9 a.m.</p>\n\n<h2>Prices</h2>\n<p>A bowl costs about 35,000 – 60,000 VND depending on the type and amount of fish cake or jellyfish. Prices are clearly displayed – ideal for a quick breakfast before a day out.</p>\n\n<h2>Quick verdict</h2>\n<table>\n  <thead><tr><th>Pros</th><th>Things to note</th></tr></thead>\n  <tbody>\n    <tr><td>Clean broth, fragrant fish cakes, generous portions</td><td>Crowded and noisy at peak times</td></tr>\n    <tr><td>Central location, easy to find</td><td>Limited motorbike parking on the pavement</td></tr>\n    <tr><td>Fair prices, fast service</td><td>Not the place for a long, leisurely chat</td></tr>\n  </tbody>\n</table>\n\n<blockquote>Tip: if you don't eat spicy food, try a tiny bit of the green chilli before adding a whole spoonful to your bowl.</blockquote>",
+    "meta": {
+     "address": "123 Ngô Gia Tự, Nha Trang, Khánh Hòa",
+     "price": "35,000 – 60,000 VND/bowl",
+     "hours": "Opens early; busiest 06:30 – 09:00",
+     "badge": "Local breakfast",
+     "note": "",
+     "place_name": "Nguyen Loan Fish Noodle Soup"
+    }
+   }
+  },
+  {
+   "key": "nem-nuong-dang-van-quyen-duong-lan-ong",
+   "date": "2026-10-10 08:00:00",
+   "category": "am-thuc",
+   "region": "nha-trang",
+   "tags": [
+    "dac-san",
+    "gia-dinh"
+   ],
+   "image": "grill",
+   "meta": {
+    "rating": 4.2,
+    "review_count": 5699,
+    "price_level": "binh-dan"
+   },
+   "vi": {
+    "slug": "nem-nuong-dang-van-quyen-duong-lan-ong",
+    "title": "Ăn Nem Nướng Đặng Văn Quyên: Cách Cuốn Đúng Kiểu Và Bí Mật Của Chén Nước Chấm Sệt",
+    "excerpt": "Cái tên gắn liền với món nem nướng Nha Trang. Hướng dẫn cuốn nem cùng ram chiên giòn, rau rừng và chén nước chấm sánh đặc làm nên thương hiệu.",
+    "content": "<p>Nằm trên con đường Lãn Ông nhỏ gần Chợ Đầm, Đặng Văn Quyên là địa chỉ nem nướng mà gần như cẩm nang du lịch Nha Trang nào cũng nhắc tới. Quán lâu năm, bán gần như một món duy nhất – và chính sự tập trung ấy làm nên tên tuổi.</p>\n\n<h2>Một phần nem nướng gồm những gì?</h2>\n<ul>\n  <li><strong>Nem nướng:</strong> thịt heo quết nhuyễn, nướng than đến khi xém cạnh, thơm mùi khói.</li>\n  <li><strong>Ram chiên:</strong> cuộn bánh tráng chiên giòn rụm, là \"linh hồn\" giúp cuốn nem có độ giòn.</li>\n  <li><strong>Bánh tráng mỏng</strong> và rổ rau sống đủ loại: xà lách, rau thơm, dưa leo, xoài xanh, chuối chát.</li>\n  <li><strong>Nước chấm sệt:</strong> màu cam nâu, sánh đặc, vị béo ngọt bùi – thứ khiến nhiều người nhớ mãi.</li>\n</ul>\n\n<h2>Cuốn nem thế nào cho đúng?</h2>\n<ol>\n  <li>Trải bánh tráng, xếp rau lót dưới để bánh không bị rách.</li>\n  <li>Đặt một xiên nem đã tuốt khỏi que, thêm một thanh ram chiên.</li>\n  <li>Thêm vài lát xoài, dưa leo rồi cuốn chặt tay.</li>\n  <li>Chấm ngập đầu cuốn vào chén nước sệt, có thể thêm tỏi phi, ớt.</li>\n</ol>\n<p>Nhân viên thường sẵn lòng làm mẫu cuốn đầu tiên nếu bạn hỏi.</p>\n\n<h2>Nước chấm – thứ không thể mang ra ngoài</h2>\n<p>Nước chấm nem Nha Trang được nấu từ nhiều nguyên liệu như gan, thịt xay, đậu phộng, nếp, tạo độ sánh và vị béo. Mỗi quán có công thức riêng và thường giữ kín. Nếu mua nem mang về, hãy xin thêm nước chấm vì đây mới là phần khó tìm nơi khác.</p>\n\n<h2>Giá và mua làm quà</h2>\n<p>Ăn tại chỗ khoảng 50.000 – 100.000 ₫/người tùy lượng nem. Quán có bán nem sống, nem đóng gói để mang về, phù hợp làm quà cho người thân; hỏi kỹ thời gian bảo quản nếu đi máy bay.</p>\n\n<h2>Có nên đến?</h2>\n<p>Nếu đây là lần đầu bạn ăn nem nướng Nha Trang, quán là lựa chọn an toàn để biết món \"chuẩn\" có vị ra sao. Giờ trưa và tối khá đông, nên đến sớm hơn giờ ăn một chút. Những ai quen ăn nhạt có thể thấy nước chấm hơi ngọt – đó là phong cách chung của nem miền Trung.</p>",
+    "meta": {
+     "address": "16A Lãn Ông, Nha Trang, Khánh Hòa",
+     "price": "50.000 - 100.000 ₫/người",
+     "hours": "Mở cả ngày đến tối",
+     "badge": "Đặc sản Nha Trang",
+     "note": "Có bán nem mang về",
+     "place_name": "Nem nướng Đặng Văn Quyên"
+    }
+   },
+   "en": {
+    "slug": "dang-van-quyen-nem-nuong-how-to-roll",
+    "title": "Dang Van Quyen Nem Nuong: How to Roll Nha Trang’s Grilled Pork and the Secret of the Thick Dipping Sauce",
+    "excerpt": "The name most linked to Nha Trang’s grilled pork rolls. How to wrap nem with crispy fried rice paper and fresh herbs – and dip it in the famous thick sauce.",
+    "content": "<p>On narrow Lan Ong street near Dam Market, Dang Van Quyen is the grilled-pork-roll (<em>nem nuong</em>) address that almost every Nha Trang guide mentions. It is a long-running shop that sells essentially one dish – and that focus is what built its name.</p>\n\n<h2>What comes in a serving?</h2>\n<ul>\n  <li><strong>Nem nuong:</strong> pounded pork grilled over charcoal until the edges char, smoky and fragrant.</li>\n  <li><strong>Ram chien:</strong> crispy fried rice-paper rolls – the \"soul\" that gives each wrap its crunch.</li>\n  <li><strong>Thin rice paper</strong> and a basket of greens: lettuce, herbs, cucumber, green mango and green banana.</li>\n  <li><strong>Thick dipping sauce:</strong> orange-brown, rich and nutty – the part people remember most.</li>\n</ul>\n\n<h2>How to roll it properly</h2>\n<ol>\n  <li>Lay out the rice paper and line it with greens so it doesn't tear.</li>\n  <li>Add one skewer of nem, slid off the stick, and one crispy ram roll.</li>\n  <li>Top with a few slices of mango and cucumber, then roll tightly.</li>\n  <li>Dip deep into the thick sauce; add fried garlic or chilli to taste.</li>\n</ol>\n<p>Staff are usually happy to demonstrate the first roll if you ask.</p>\n\n<h2>The sauce you can't find elsewhere</h2>\n<p>Nha Trang nem sauce is cooked from ingredients such as pork liver, minced pork, peanuts and glutinous rice, giving it body and richness. Every shop has its own recipe and keeps it secret. If you buy nem to take away, ask for extra sauce – that's the hard part to find anywhere else.</p>\n\n<h2>Prices and gifts</h2>\n<p>Eating in costs about 50,000 – 100,000 VND per person depending on how much nem you order. The shop sells raw and packaged nem to take home – ask about storage times if you are flying.</p>\n\n<h2>Worth a visit?</h2>\n<p>If this is your first taste of Nha Trang nem nuong, the shop is a safe way to learn what the \"real thing\" tastes like. Lunch and dinner get busy, so come a little before mealtimes. Those used to milder food may find the sauce sweet – that is the general style of central Vietnamese nem.</p>",
+    "meta": {
+     "address": "16A Lãn Ông, Nha Trang, Khánh Hòa",
+     "price": "50,000 – 100,000 VND/person",
+     "hours": "Open all day until evening",
+     "badge": "Nha Trang specialty",
+     "note": "Take-away nem available",
+     "place_name": "Dang Van Quyen Grilled Pork Rolls"
+    }
+   }
+  },
+  {
+   "key": "bo-nuong-lac-canh-quan-nuong-lau-doi",
+   "date": "2026-10-11 08:00:00",
+   "category": "am-thuc",
+   "region": "nha-trang",
+   "tags": [
+    "dac-san"
+   ],
+   "image": "grill",
+   "meta": {
+    "rating": 4,
+    "review_count": 4079,
+    "price_level": "trung-cap"
+   },
+   "vi": {
+    "slug": "bo-nuong-lac-canh-quan-nuong-lau-doi",
+    "title": "Bò Nướng Lạc Cảnh: Quán Nướng Than Hoa Lâu Đời Giữa Lòng Nha Trang Có Còn Đáng Thử?",
+    "excerpt": "Bếp than đặt giữa bàn, thịt bò ướp ngũ vị và khói nghi ngút – Lạc Cảnh là địa chỉ quen của nhiều thế hệ thực khách. Nhận xét thẳng thắn về món, giá và không gian.",
+    "content": "<p>Lạc Cảnh là một trong những quán nướng lâu đời nhất của Nha Trang, nổi tiếng với cách <strong>nướng tại bàn trên bếp than hoa</strong>. Quán xuất hiện trong nhiều sách hướng dẫn du lịch quốc tế, nên đến đây bạn sẽ thấy khá nhiều khách nước ngoài ngồi cạnh khách địa phương.</p>\n\n<h2>Món nên gọi</h2>\n<ul>\n  <li><strong>Bò nướng ướp ngũ vị:</strong> món làm nên tên tuổi; thịt thái mỏng, ướp đậm, chỉ cần lật nhanh trên than.</li>\n  <li><strong>Mực nướng, tôm nướng:</strong> hải sản tươi, hợp để gọi thêm cho bàn đông người.</li>\n  <li><strong>Gỏi và rau sống:</strong> giúp bữa ăn bớt ngấy.</li>\n</ul>\n\n<h2>Trải nghiệm nướng tại bàn</h2>\n<p>Nhân viên mang lò than đỏ rực đặt giữa bàn, bạn tự nướng theo ý thích. Mẹo nhỏ: đừng để thịt bò quá lâu trên vỉ vì lát thịt mỏng rất nhanh chín và dễ dai. Khói khá nhiều, nên tránh mặc đồ trắng hoặc đồ khó giặt.</p>\n\n<h2>Không gian</h2>\n<p>Quán rộng, nhiều tầng, phong cách bình dân và có phần cũ kỹ. Giờ cao điểm buổi tối rất ồn và nóng vì hàng chục bếp than cùng đỏ lửa. Đổi lại, đây chính là \"không khí quán nướng\" mà nhiều người tìm kiếm.</p>\n\n<h2>Giá cả</h2>\n<p>Trung bình 100.000 – 200.000 ₫/người tùy lượng món. Hải sản theo thời giá. Thực đơn có ghi giá rõ ràng.</p>\n\n<h2>Nhận xét thẳng thắn</h2>\n<table>\n  <thead><tr><th>Ưu điểm</th><th>Hạn chế</th></tr></thead>\n  <tbody>\n    <tr><td>Hương vị bò ướp đặc trưng, khó tìm nơi khác</td><td>Không gian nóng, nhiều khói</td></tr>\n    <tr><td>Trải nghiệm nướng tại bàn vui cho nhóm bạn</td><td>Giờ đông phục vụ có thể chậm</td></tr>\n    <tr><td>Vị trí trung tâm, gần Chợ Đầm</td><td>Đánh giá trên mạng khá trái chiều về thái độ phục vụ</td></tr>\n  </tbody>\n</table>\n\n<p>Kết luận: nếu bạn tò mò về một quán \"huyền thoại\" và thích không khí náo nhiệt, Lạc Cảnh vẫn đáng một lần thử. Hãy đến sớm, khoảng 17 giờ, để có chỗ ngồi thoáng và được phục vụ nhanh hơn.</p>",
+    "meta": {
+     "address": "77 Nguyễn Bỉnh Khiêm, Nha Trang, Khánh Hòa",
+     "price": "100.000 - 200.000 ₫/người",
+     "hours": "Mở trưa và tối",
+     "badge": "Nướng tại bàn",
+     "place_name": "Quán bò nướng Lạc Cảnh"
+    }
+   },
+   "en": {
+    "slug": "lac-canh-grilled-beef-nha-trang-review",
+    "title": "Lac Canh Grilled Beef: Is Nha Trang’s Long-Running Charcoal Grill Still Worth Trying?",
+    "excerpt": "Charcoal stoves on every table, five-spice marinated beef and plenty of smoke – Lac Canh has served generations of diners. An honest look at the food, prices and setting.",
+    "content": "<p>Lac Canh is one of Nha Trang's longest-running grill restaurants, famous for <strong>cook-it-yourself charcoal grilling at the table</strong>. It appears in many international guidebooks, so you'll often see foreign travellers sitting next to local families.</p>\n\n<h2>What to order</h2>\n<ul>\n  <li><strong>Five-spice marinated beef:</strong> the signature dish; thin, well-seasoned slices that only need a quick flip on the grill.</li>\n  <li><strong>Grilled squid and prawns:</strong> fresh seafood that's good for sharing in a group.</li>\n  <li><strong>Salads and fresh greens:</strong> to balance the richness.</li>\n</ul>\n\n<h2>Grilling at the table</h2>\n<p>Staff set a glowing charcoal stove in the middle of your table and you grill to your liking. Tip: don't leave the beef on too long – the thin slices cook fast and toughen quickly. It gets smoky, so avoid white or hard-to-wash clothes.</p>\n\n<h2>The setting</h2>\n<p>The restaurant is large, spread over several floors, casual and a little worn. At the evening peak it is loud and hot with dozens of grills burning at once – which is exactly the \"grill-house atmosphere\" many people come for.</p>\n\n<h2>Prices</h2>\n<p>Expect around 100,000 – 200,000 VND per person depending on how much you order. Seafood is at market price. The menu shows prices clearly.</p>\n\n<h2>Honest verdict</h2>\n<table>\n  <thead><tr><th>Pros</th><th>Cons</th></tr></thead>\n  <tbody>\n    <tr><td>Distinctive marinated beef that's hard to find elsewhere</td><td>Hot and smoky dining room</td></tr>\n    <tr><td>Table grilling is fun for groups</td><td>Service can be slow at busy times</td></tr>\n    <tr><td>Central, near Dam Market</td><td>Online reviews are mixed about the service</td></tr>\n  </tbody>\n</table>\n\n<p>Bottom line: if you're curious about a \"legendary\" local spot and enjoy a lively atmosphere, Lac Canh is still worth one visit. Arrive early, around 5 p.m., for a cooler seat and quicker service.</p>",
+    "meta": {
+     "address": "77 Nguyễn Bỉnh Khiêm, Nha Trang, Khánh Hòa",
+     "price": "100,000 – 200,000 VND/person",
+     "hours": "Open for lunch and dinner",
+     "badge": "Grill at your table",
+     "note": "",
+     "place_name": "Lac Canh Grilled Beef Restaurant"
+    }
+   }
+  },
+  {
+   "key": "hai-san-moc-quan-nha-trang-chon-mon-theo-can",
+   "date": "2026-10-12 08:00:00",
+   "category": "am-thuc",
+   "region": "nha-trang",
+   "tags": [
+    "dac-san",
+    "gia-dinh",
+    "noi-bat"
+   ],
+   "image": "seafood",
+   "meta": {
+    "rating": 4.5,
+    "review_count": 15402,
+    "price_level": "trung-cap"
+   },
+   "vi": {
+    "slug": "hai-san-moc-quan-nha-trang-chon-mon-theo-can",
+    "title": "Hải Sản Mộc Quán Nha Trang: Kinh Nghiệm Chọn Hải Sản Theo Cân Để Ăn Ngon Mà Không Lố Tiền",
+    "excerpt": "Quán hải sản trang trí gỗ mộc với bể hải sản sống luôn kín khách. Cách chọn món, gọi lượng vừa đủ và những món chế biến đáng thử.",
+    "content": "<p>Với hơn mười nghìn lượt đánh giá trên bản đồ, Mộc Quán là một trong những nhà hàng hải sản đông khách nhất Nha Trang. Quán trang trí theo phong cách gỗ mộc, mặt tiền bày bể hải sản sống – bạn chọn con, cân ký rồi chọn cách chế biến.</p>\n\n<h2>Cách gọi món theo cân thông minh</h2>\n<ol>\n  <li><strong>Xem bảng giá trước:</strong> giá niêm yết theo kg, thay đổi theo mùa. Hỏi lại giá của con bạn chọn trước khi cân.</li>\n  <li><strong>Chứng kiến cân:</strong> yêu cầu cân trước mặt và ghi rõ trọng lượng vào phiếu.</li>\n  <li><strong>Ước lượng khẩu phần:</strong> khoảng 300 – 400 g hải sản có vỏ mỗi người là đủ khi gọi thêm rau và cơm/bún.</li>\n  <li><strong>Đa dạng cách chế biến:</strong> một món nướng, một món hấp, một món xào giúp bữa ăn không bị ngán.</li>\n</ol>\n\n<h2>Món đáng thử</h2>\n<ul>\n  <li><strong>Tôm nướng muối ớt</strong> hoặc tôm hấp nước dừa.</li>\n  <li><strong>Ốc hương rang muối</strong> – món \"quốc dân\" của các quán hải sản Nha Trang.</li>\n  <li><strong>Mực một nắng nướng</strong> chấm tương ớt.</li>\n  <li><strong>Cháo hoặc lẩu hải sản</strong> để kết thúc bữa cho cả nhóm.</li>\n</ul>\n\n<h2>Không gian và phục vụ</h2>\n<p>Quán rộng, nhiều bàn lớn hợp nhóm bạn và gia đình. Vì nổi tiếng với khách đoàn, giờ cao điểm buổi tối rất đông, có lúc phải chờ bàn. Nhân viên quen phục vụ khách nước ngoài, thực đơn có hình ảnh minh họa.</p>\n\n<h2>Ngân sách tham khảo</h2>\n<p>Trung bình khoảng 200.000 – 400.000 ₫/người cho bữa ăn đầy đủ. Nếu gọi tôm hùm, cua lớn hay cá mú, hóa đơn có thể tăng đáng kể.</p>\n\n<h2>Có nên đặt bàn?</h2>\n<p>Với nhóm từ 6 người hoặc đi vào cuối tuần, mùa hè, nên gọi đặt bàn trước. Đến khoảng 17 giờ 30 là thời điểm dễ có chỗ nhất.</p>\n\n<blockquote>Lời khuyên chung khi ăn hải sản ở phố biển: luôn hỏi giá trước khi cân, kiểm tra hóa đơn trước khi thanh toán – không chỉ ở Mộc Quán mà ở bất kỳ quán nào.</blockquote>",
+    "meta": {
+     "address": "74 Hồng Bàng, Tân Lập, Nha Trang, Khánh Hòa",
+     "price": "200.000 - 400.000 ₫/người",
+     "hours": "Mở trưa và tối, đông nhất 18:00 - 20:00",
+     "badge": "Hải sản tươi sống",
+     "place_name": "Hải sản Mộc Quán"
+    }
+   },
+   "en": {
+    "slug": "moc-quan-seafood-nha-trang-ordering-by-weight",
+    "title": "Moc Quan Seafood, Nha Trang: How to Order Seafood by Weight Without Overspending",
+    "excerpt": "A rustic wooden seafood restaurant with live tanks and a constant crowd. How to choose, order the right amount and which preparations are worth trying.",
+    "content": "<p>With well over ten thousand map reviews, Moc Quan is one of the busiest seafood restaurants in Nha Trang. It is decorated in rustic wood with live tanks out front: you pick your seafood, it's weighed, and you choose how it's cooked.</p>\n\n<h2>Ordering by weight, the smart way</h2>\n<ol>\n  <li><strong>Check the price board first:</strong> prices are per kilo and change with the season. Confirm the price of the one you pick before it's weighed.</li>\n  <li><strong>Watch the weighing:</strong> ask for it to be weighed in front of you and written on your order slip.</li>\n  <li><strong>Estimate portions:</strong> about 300 – 400 g of shellfish per person is plenty with greens and rice or noodles.</li>\n  <li><strong>Mix the cooking styles:</strong> one grilled, one steamed and one stir-fried dish keeps the meal interesting.</li>\n</ol>\n\n<h2>Dishes worth trying</h2>\n<ul>\n  <li><strong>Prawns grilled with salt and chilli</strong>, or steamed in coconut water.</li>\n  <li><strong>Babylon snails roasted with salt</strong> – a Nha Trang seafood classic.</li>\n  <li><strong>Grilled sun-dried squid</strong> with chilli sauce.</li>\n  <li><strong>Seafood congee or hotpot</strong> to finish the meal for the table.</li>\n</ul>\n\n<h2>Setting and service</h2>\n<p>The restaurant is spacious with plenty of large tables for groups and families. Because it's popular with tour groups, the evening peak is very busy and you may wait for a table. Staff are used to international guests and the menu has photos.</p>\n\n<h2>Budget</h2>\n<p>Around 200,000 – 400,000 VND per person for a full meal. Lobster, large crabs or grouper can raise the bill considerably.</p>\n\n<h2>Should you book?</h2>\n<p>For groups of six or more, or at weekends and in summer, call ahead. Arriving around 5:30 p.m. is the easiest way to get a table.</p>\n\n<blockquote>A general rule for seafood in any beach town: always ask the price before weighing and check the bill before paying – not just at Moc Quan, but anywhere.</blockquote>",
+    "meta": {
+     "address": "74 Hồng Bàng, Tân Lập, Nha Trang, Khánh Hòa",
+     "price": "200,000 – 400,000 VND/person",
+     "hours": "Lunch and dinner, busiest 18:00 – 20:00",
+     "badge": "Live seafood",
+     "note": "",
+     "place_name": "Moc Quan Seafood Restaurant"
+    }
+   }
+  },
+  {
+   "key": "xom-moi-garden-nha-hang-vuon-mon-viet",
+   "date": "2026-10-13 08:00:00",
+   "category": "am-thuc",
+   "region": "nha-trang",
+   "tags": [
+    "gia-dinh",
+    "check-in"
+   ],
+   "image": "noodle",
+   "meta": {
+    "rating": 4.6,
+    "review_count": 16141,
+    "price_level": "trung-cap"
+   },
+   "vi": {
+    "slug": "xom-moi-garden-nha-hang-vuon-mon-viet",
+    "title": "Xóm Mới Garden: Bữa Tối Món Việt Trong Khu Vườn Xanh Giữa Phố Biển Nha Trang",
+    "excerpt": "Nhà hàng sân vườn rợp cây xanh với thực đơn món Việt và hải sản phong phú – lựa chọn hợp lý cho bữa tối gia đình hoặc tiếp khách phương xa.",
+    "content": "<p>Giữa những con phố đông đúc của Nha Trang, Xóm Mới Garden gây ấn tượng bằng <strong>khoảng sân vườn rộng</strong>, cây xanh phủ bóng và những dãy bàn gỗ đặt dưới đèn vàng. Đây là kiểu nhà hàng phù hợp khi bạn muốn một bữa tối thong thả, đủ món cho nhiều khẩu vị.</p>\n\n<h2>Thực đơn: rộng và dễ chọn</h2>\n<p>Thực đơn trải dài từ món Việt quen thuộc đến hải sản. Nếu đi đông người, một mâm hợp lý có thể gồm:</p>\n<ul>\n  <li><strong>Món khai vị:</strong> gỏi, chả giò hoặc các món cuốn để cả bàn cùng ăn.</li>\n  <li><strong>Hải sản:</strong> tôm, mực, cá chế biến theo kiểu nướng, hấp hoặc sốt.</li>\n  <li><strong>Món chính kiểu nhà:</strong> canh chua, rau xào, cơm chiên – giúp bữa ăn cân bằng.</li>\n  <li><strong>Món tráng miệng</strong> hoặc nước ép trái cây cho trẻ em.</li>\n</ul>\n\n<h2>Vì sao hợp đi gia đình?</h2>\n<ul>\n  <li>Không gian thoáng, trẻ nhỏ có chỗ đi lại thay vì ngồi im trong phòng kín.</li>\n  <li>Thực đơn nhiều món không cay, dễ chọn cho người lớn tuổi.</li>\n  <li>Nhiều bàn lớn, thuận tiện cho nhóm 8 – 12 người.</li>\n</ul>\n\n<h2>Mức giá</h2>\n<p>Khoảng giá rộng: 100.000 ₫/người nếu chọn các món Việt cơ bản, lên tới 600.000 – 700.000 ₫/người nếu gọi nhiều hải sản cao cấp. Thực đơn có ghi giá, hải sản tươi sống tính theo kg.</p>\n\n<h2>Lưu ý trước khi đến</h2>\n<ul>\n  <li>Nhà hàng rất nổi tiếng với khách du lịch; buổi tối cuối tuần nên đặt bàn trước.</li>\n  <li>Khu vườn ngoài trời có thể có muỗi vào mùa mưa, nên chọn bàn gần quạt hoặc trong nhà.</li>\n  <li>Hỏi trước nếu cần ghế trẻ em hoặc bàn cho người đi xe lăn.</li>\n</ul>\n\n<p>Tóm lại, Xóm Mới Garden không phải chỗ để tìm món \"độc lạ\", mà là nơi an toàn để đãi cả nhà một bữa tối ngon miệng trong không gian dễ chịu – điều không phải nhà hàng nào ở trung tâm cũng làm được.</p>",
+    "meta": {
+     "address": "144 Võ Trứ, Nha Trang, Khánh Hòa",
+     "price": "100.000 - 700.000 ₫/người",
+     "hours": "Mở trưa và tối",
+     "badge": "Không gian sân vườn",
+     "place_name": "Xóm Mới Garden"
+    }
+   },
+   "en": {
+    "slug": "xom-moi-garden-vietnamese-garden-restaurant",
+    "title": "Xom Moi Garden: A Vietnamese Dinner in a Leafy Courtyard in the Heart of Nha Trang",
+    "excerpt": "A garden restaurant shaded by trees with a long menu of Vietnamese dishes and seafood – a sensible choice for family dinners or hosting visitors.",
+    "content": "<p>Among Nha Trang's busy streets, Xom Moi Garden stands out for its <strong>large garden courtyard</strong>, shady trees and rows of wooden tables under warm lights. It's the kind of restaurant to choose for an unhurried dinner with enough dishes to please every taste.</p>\n\n<h2>The menu: wide and easy to choose from</h2>\n<p>The menu runs from familiar Vietnamese dishes to seafood. For a group, a balanced spread might include:</p>\n<ul>\n  <li><strong>Starters:</strong> salads, spring rolls or wraps for the whole table to share.</li>\n  <li><strong>Seafood:</strong> prawns, squid and fish grilled, steamed or in sauce.</li>\n  <li><strong>Home-style mains:</strong> sour soup, stir-fried greens and fried rice to round out the meal.</li>\n  <li><strong>Desserts</strong> or fresh juices for the kids.</li>\n</ul>\n\n<h2>Why it works for families</h2>\n<ul>\n  <li>An open space where children can move around instead of sitting still in a closed room.</li>\n  <li>Plenty of non-spicy dishes that suit older relatives.</li>\n  <li>Many large tables for groups of 8 – 12.</li>\n</ul>\n\n<h2>Prices</h2>\n<p>The range is wide: around 100,000 VND per person for basic Vietnamese dishes, up to 600,000 – 700,000 VND per person if you order a lot of premium seafood. The menu lists prices; live seafood is sold by the kilo.</p>\n\n<h2>Before you go</h2>\n<ul>\n  <li>The restaurant is very popular with visitors; book ahead for weekend dinners.</li>\n  <li>The outdoor garden can have mosquitoes in the rainy season – choose a table near a fan or indoors.</li>\n  <li>Ask in advance if you need a high chair or wheelchair-accessible table.</li>\n</ul>\n\n<p>In short, Xom Moi Garden isn't the place for unusual dishes, but it's a safe bet for treating the whole family to a satisfying dinner in a pleasant setting – something not every central restaurant manages.</p>",
+    "meta": {
+     "address": "144 Võ Trứ, Nha Trang, Khánh Hòa",
+     "price": "100,000 – 700,000 VND/person",
+     "hours": "Open for lunch and dinner",
+     "badge": "Garden dining",
+     "note": "",
+     "place_name": "Xom Moi Garden Restaurant"
+    }
+   }
+  },
+  {
+   "key": "amiana-resort-nha-trang-ho-boi-nuoc-man",
+   "date": "2026-10-14 08:00:00",
+   "category": "luu-tru",
+   "region": "bac-nha-trang",
+   "tags": [
+    "nghi-duong",
+    "ven-bien",
+    "binh-minh"
+   ],
+   "image": "bay",
+   "meta": {
+    "rating": 4.6,
+    "review_count": 7243,
+    "price_level": "cao-cap"
+   },
+   "vi": {
+    "slug": "amiana-resort-nha-trang-ho-boi-nuoc-man",
+    "title": "Amiana Resort Nha Trang: Có Đáng Tiền Với Hồ Bơi Nước Mặn Và Vịnh Biển Riêng?",
+    "excerpt": "Resort nằm gọn trong một vịnh nhỏ phía bắc thành phố, nổi bật với hồ bơi nước mặn lớn và dãy villa hồ bơi riêng. Ai nên chọn và cách đặt phòng hợp lý.",
+    "content": "<p>Amiana nằm trên cung đường Phạm Văn Đồng ven biển phía bắc Nha Trang, cách trung tâm khoảng 15 phút đi xe. Khu nghỉ dưỡng ôm trọn một vịnh nhỏ, nên cảm giác tách biệt hơn hẳn các khách sạn trên đường Trần Phú.</p>\n\n<h2>Điểm nhấn của resort</h2>\n<ul>\n  <li><strong>Hồ bơi nước mặn</strong> rất lớn sát biển – bơi như ở biển nhưng không lo sóng và sứa.</li>\n  <li><strong>Bãi biển riêng</strong> với rạn đá và nước khá trong, có thể lặn ống thở gần bờ khi biển êm.</li>\n  <li><strong>Villa có hồ bơi riêng</strong> cho cặp đôi hoặc gia đình cần không gian kín đáo.</li>\n  <li><strong>Spa</strong> với các liệu trình thư giãn, phù hợp sau ngày dài di chuyển.</li>\n</ul>\n\n<h2>Chọn hạng phòng nào?</h2>\n<table>\n  <thead><tr><th>Nhu cầu</th><th>Gợi ý</th></tr></thead>\n  <tbody>\n    <tr><td>Cặp đôi, kỳ nghỉ ngắn</td><td>Phòng hướng biển để ngắm bình minh từ ban công</td></tr>\n    <tr><td>Trăng mật, kỷ niệm</td><td>Villa hồ bơi riêng, yêu cầu trang trí trước</td></tr>\n    <tr><td>Gia đình có trẻ nhỏ</td><td>Villa nhiều phòng ngủ, hỏi thêm về giường phụ</td></tr>\n  </tbody>\n</table>\n\n<h2>Di chuyển</h2>\n<p>Từ sân bay Cam Ranh mất khoảng 45–60 phút. Vào trung tâm Nha Trang, resort thường có xe đưa đón theo lịch; ngoài khung giờ đó, gọi taxi hoặc xe công nghệ khá dễ. Các điểm như Hòn Chồng, Tháp Bà nằm trên đường vào thành phố, rất tiện ghé.</p>\n\n<h2>Ăn uống</h2>\n<p>Bữa sáng tự chọn với lựa chọn Á – Âu. Nhà hàng trong resort có view biển đẹp vào buổi tối, giá ở mức khách sạn cao cấp. Nếu muốn tiết kiệm, khu vực Bắc Nha Trang có nhiều quán hải sản bình dân cách vài km.</p>\n\n<h2>Ai nên chọn Amiana?</h2>\n<p>Phù hợp với người muốn nghỉ dưỡng yên tĩnh nhưng vẫn gần thành phố. Nếu mục tiêu chính là đi chơi đêm, mua sắm ở trung tâm thì ở khách sạn trên Trần Phú sẽ tiện hơn.</p>\n\n<h2>Mẹo đặt phòng</h2>\n<ul>\n  <li>Giá thay đổi mạnh theo mùa; mùa thấp điểm (thường tháng 9 – 12) dễ có ưu đãi.</li>\n  <li>So sánh gói có ăn sáng, đưa đón sân bay hay ưu đãi spa trước khi chốt.</li>\n  <li>Đặt sớm nếu đi dịp lễ, Tết hoặc hè.</li>\n</ul>",
+    "meta": {
+     "address": "Phạm Văn Đồng, Bắc Nha Trang, Khánh Hòa",
+     "price": "Từ 3.000.000 ₫/đêm",
+     "hours": "Nhận phòng 14:00 · Trả phòng 12:00",
+     "badge": "Resort ven vịnh",
+     "note": "Bãi biển riêng",
+     "place_name": "Amiana Resort Nha Trang"
+    }
+   },
+   "en": {
+    "slug": "amiana-resort-nha-trang-saltwater-pool-review",
+    "title": "Amiana Resort Nha Trang: Worth It for the Saltwater Pool and Private Bay?",
+    "excerpt": "A resort tucked into a small bay north of the city, known for its huge saltwater pool and private-pool villas. Who it suits and how to book well.",
+    "content": "<p>Amiana sits on the Pham Van Dong coastal road in North Nha Trang, about 15 minutes' drive from the centre. The resort wraps around its own small bay, so it feels far more secluded than the hotels on Tran Phu street.</p>\n\n<h2>Highlights</h2>\n<ul>\n  <li><strong>A very large saltwater pool</strong> right by the sea – like swimming in the ocean without waves or jellyfish.</li>\n  <li><strong>A private beach</strong> with rocky reefs and fairly clear water; snorkeling near shore is possible on calm days.</li>\n  <li><strong>Private-pool villas</strong> for couples or families who want privacy.</li>\n  <li><strong>A spa</strong> with relaxing treatments after a long day of travel.</li>\n</ul>\n\n<h2>Which room type?</h2>\n<table>\n  <thead><tr><th>Need</th><th>Suggestion</th></tr></thead>\n  <tbody>\n    <tr><td>Couples, short break</td><td>Sea-view room to watch the sunrise from the balcony</td></tr>\n    <tr><td>Honeymoon, anniversary</td><td>Private-pool villa; request decoration in advance</td></tr>\n    <tr><td>Families with young children</td><td>Multi-bedroom villa; ask about extra beds</td></tr>\n  </tbody>\n</table>\n\n<h2>Getting around</h2>\n<p>Cam Ranh airport is 45 – 60 minutes away. The resort usually runs scheduled shuttles into Nha Trang; outside those times, taxis and ride-hailing are easy. Hon Chong and Po Nagar are on the way into town and easy to stop at.</p>\n\n<h2>Dining</h2>\n<p>Breakfast is a buffet with Asian and Western choices. The resort restaurant has lovely sea views in the evening, at upscale-hotel prices. To save money, North Nha Trang has many casual seafood spots a few kilometres away.</p>\n\n<h2>Who should choose Amiana?</h2>\n<p>Ideal for a quiet resort stay that's still close to the city. If your main goals are nightlife and shopping in the centre, a hotel on Tran Phu will be more convenient.</p>\n\n<h2>Booking tips</h2>\n<ul>\n  <li>Rates vary a lot by season; the low season (usually September – December) often has deals.</li>\n  <li>Compare packages with breakfast, airport transfers or spa credits before booking.</li>\n  <li>Book early for public holidays, Tet and summer.</li>\n</ul>",
+    "meta": {
+     "address": "Phạm Văn Đồng, Bắc Nha Trang, Khánh Hòa",
+     "price": "From 3,000,000 VND/night",
+     "hours": "Check-in 14:00 · Check-out 12:00",
+     "badge": "Bayside resort",
+     "note": "Private beach",
+     "place_name": "Amiana Resort Nha Trang"
+    }
+   }
+  },
+  {
+   "key": "fusion-resort-cam-ranh-villa-spa-tron-goi",
+   "date": "2026-10-15 08:00:00",
+   "category": "luu-tru",
+   "region": "cam-lam",
+   "tags": [
+    "nghi-duong",
+    "ven-bien",
+    "hoang-hon"
+   ],
+   "image": "nature",
+   "meta": {
+    "rating": 4.6,
+    "review_count": 2197,
+    "price_level": "cao-cap"
+   },
+   "vi": {
+    "slug": "fusion-resort-cam-ranh-villa-spa-tron-goi",
+    "title": "Fusion Resort Cam Ranh: Nghỉ Villa Hồ Bơi Riêng Và Spa Trọn Gói Bên Bãi Dài",
+    "excerpt": "Toàn bộ là villa có hồ bơi riêng, cách sân bay Cam Ranh chỉ khoảng 15 phút. Điều gì khiến Fusion khác các resort cùng phân khúc trên Bãi Dài?",
+    "content": "<p>Bãi Dài là dải bờ biển hiếm hoi ở Khánh Hòa còn rộng và vắng, chạy dọc đại lộ Nguyễn Tất Thành ngay gần sân bay Cam Ranh. Fusion Resort Cam Ranh nằm trên cung đường này, với ý tưởng xuyên suốt: <strong>mọi khách đều ở villa có hồ bơi riêng</strong>.</p>\n\n<h2>Khác biệt lớn nhất: spa trong gói nghỉ</h2>\n<p>Thương hiệu Fusion nổi tiếng với chính sách đưa liệu trình spa vào gói lưu trú. Tùy gói và thời điểm, khách có thể được sử dụng một số liệu trình mỗi ngày mà không trả thêm. Hãy đọc kỹ điều kiện của gói bạn đặt để biết số liệu trình, thời lượng và cách đặt lịch.</p>\n\n<h2>Villa trông như thế nào?</h2>\n<ul>\n  <li>Thiết kế hiện đại, tông trắng – gỗ sáng, nhiều cửa kính mở ra sân vườn.</li>\n  <li>Hồ bơi riêng đủ rộng để bơi thư giãn, có ghế nằm và khu vực ăn ngoài trời.</li>\n  <li>Một số villa nhiều phòng ngủ phù hợp gia đình hoặc nhóm bạn.</li>\n</ul>\n\n<h2>Bữa sáng \"mọi lúc, mọi nơi\"</h2>\n<p>Fusion áp dụng phong cách bữa sáng linh hoạt: bạn có thể ăn ở nhà hàng hoặc gọi phục vụ tại villa trong một khung giờ rộng hơn thông thường. Đây là điểm cộng lớn với những ai thích ngủ muộn khi đi nghỉ.</p>\n\n<h2>Vị trí: gần sân bay, xa trung tâm</h2>\n<p>Từ sân bay Cam Ranh chỉ khoảng 15 phút xe, rất tiện cho chuyến đi ngắn ngày. Ngược lại, vào trung tâm Nha Trang mất khoảng 40–50 phút. Nếu muốn khám phá thành phố nhiều, hãy cân nhắc chia lịch trình: vài đêm ở Bãi Dài, vài đêm ở trung tâm.</p>\n\n<h2>Biển Bãi Dài</h2>\n<p>Biển rộng, cát vàng, ít người. Lưu ý sóng ở Bãi Dài có lúc khá mạnh, nhất là mùa gió; hãy tắm ở khu vực có cứu hộ và tuân theo cờ báo. Buổi chiều, bờ biển hướng về phía đất liền nên bạn có thể ngắm hoàng hôn nhuộm vàng dãy núi phía sau.</p>\n\n<h2>Phù hợp với ai?</h2>\n<p>Cặp đôi cần sự riêng tư, người muốn \"nghỉ thật sự\" với spa và hồ bơi riêng. Không phù hợp nếu bạn muốn tiện đi phố hoặc tìm resort nhiều hoạt động náo nhiệt cho trẻ em.</p>",
+    "meta": {
+     "address": "Lô D10B, Nguyễn Tất Thành, Bãi Dài, Cam Lâm, Khánh Hòa",
+     "price": "Từ 5.000.000 ₫/đêm",
+     "hours": "Nhận phòng 14:00 · Trả phòng 12:00",
+     "badge": "Villa hồ bơi riêng",
+     "note": "Spa trong gói nghỉ",
+     "place_name": "Fusion Resort Cam Ranh"
+    }
+   },
+   "en": {
+    "slug": "fusion-resort-cam-ranh-pool-villas-spa-inclusive",
+    "title": "Fusion Resort Cam Ranh: Private Pool Villas and Spa-Inclusive Stays on Long Beach",
+    "excerpt": "Every guest stays in a pool villa, about 15 minutes from Cam Ranh airport. What sets Fusion apart from other resorts in its class on Long Beach?",
+    "content": "<p>Long Beach (Bai Dai) is one of the few stretches of Khanh Hoa coast that is still wide and empty, running along Nguyen Tat Thanh avenue right by Cam Ranh airport. Fusion Resort Cam Ranh sits on this road with one guiding idea: <strong>every guest stays in a villa with its own pool</strong>.</p>\n\n<h2>The big difference: spa included</h2>\n<p>The Fusion brand is known for including spa treatments in the room rate. Depending on the package and season, guests may enjoy a number of treatments each day at no extra charge. Read your package terms carefully to know how many treatments, how long they last and how to book them.</p>\n\n<h2>What are the villas like?</h2>\n<ul>\n  <li>Modern design in white and pale wood, with glass doors opening onto a garden.</li>\n  <li>A private pool large enough for a relaxing swim, with loungers and an outdoor dining area.</li>\n  <li>Some multi-bedroom villas suit families or groups of friends.</li>\n</ul>\n\n<h2>Breakfast \"anytime, anywhere\"</h2>\n<p>Fusion offers flexible breakfast: eat in the restaurant or have it served in your villa within a longer-than-usual window – a big plus for anyone who likes to sleep in on holiday.</p>\n\n<h2>Location: close to the airport, far from the centre</h2>\n<p>The airport is only about 15 minutes away, which is great for short trips. Central Nha Trang, however, is 40 – 50 minutes away. If you want to explore the city a lot, consider splitting your stay: a few nights on Long Beach, a few in the centre.</p>\n\n<h2>The beach</h2>\n<p>The beach is broad, golden and quiet. Note that waves on Long Beach can be strong, especially in the windy season; swim where lifeguards are on duty and follow the flags. In the late afternoon you can watch the sun paint the mountains behind the coast gold.</p>\n\n<h2>Who is it for?</h2>\n<p>Couples who value privacy and anyone wanting a \"real rest\" with spa time and a private pool. Less suited if you want easy access to the city or a resort packed with kids' activities.</p>",
+    "meta": {
+     "address": "Lô D10B, Nguyễn Tất Thành, Bãi Dài, Cam Lâm, Khánh Hòa",
+     "price": "From 5,000,000 VND/night",
+     "hours": "Check-in 14:00 · Check-out 12:00",
+     "badge": "Private pool villas",
+     "note": "Spa included in packages",
+     "place_name": "Fusion Resort Cam Ranh"
+    }
+   }
+  },
+  {
+   "key": "the-anam-cam-ranh-resort-phong-cach-dong-duong",
+   "date": "2026-10-16 08:00:00",
+   "category": "luu-tru",
+   "region": "cam-lam",
+   "tags": [
+    "nghi-duong",
+    "ven-bien",
+    "check-in"
+   ],
+   "image": "cafe",
+   "meta": {
+    "rating": 4.7,
+    "review_count": 3638,
+    "price_level": "cao-cap"
+   },
+   "vi": {
+    "slug": "the-anam-cam-ranh-resort-phong-cach-dong-duong",
+    "title": "The Anam Cam Ranh: Kỳ Nghỉ Hoài Cổ Trong Resort Phong Cách Đông Dương Bên Bãi Dài",
+    "excerpt": "Mái ngói, gạch bông, đèn lồng và những hành lang trắng gợi nhớ Đông Dương thập niên 1930 – The Anam là lựa chọn của những ai yêu nét cổ điển.",
+    "content": "<p>Nếu đa số resort ở Bãi Dài theo đuổi phong cách hiện đại tối giản, The Anam lại chọn hướng đi riêng: tái hiện <strong>không khí Đông Dương thuộc địa</strong> với mái ngói, gạch bông, cửa chớp gỗ và những khu vườn nhiệt đới. Chính sự khác biệt này giúp resort luôn nằm trong danh sách được đánh giá cao ở Cam Ranh.</p>\n\n<h2>Không gian khiến bạn muốn chậm lại</h2>\n<p>Lối đi lát gạch nối các khối nhà thấp tầng, xen giữa là hồ bơi và vườn cây. Nội thất phòng dùng gỗ tối màu, quạt trần, đèn bàn kiểu cổ. Đây là nơi chụp ảnh \"vintage\" rất đẹp, nhất là vào buổi sáng sớm hoặc chiều muộn.</p>\n\n<h2>Các hạng lưu trú</h2>\n<ul>\n  <li><strong>Phòng khách sạn</strong> trong các tòa thấp tầng – lựa chọn hợp lý về chi phí.</li>\n  <li><strong>Villa có hồ bơi riêng</strong> – phù hợp gia đình hoặc cặp đôi muốn riêng tư.</li>\n</ul>\n<p>Hãy xem kỹ vị trí phòng: những phòng gần biển nghe tiếng sóng rõ hơn, phòng nhìn vườn thì yên tĩnh hơn.</p>\n\n<h2>Tiện ích nổi bật</h2>\n<ul>\n  <li>Nhiều hồ bơi, trong đó có hồ bơi gần biển.</li>\n  <li>Nhà hàng phục vụ món Việt và món Âu, không gian phong cách Đông Dương.</li>\n  <li>Spa, phòng tập, các lớp hoạt động nhẹ nhàng theo lịch.</li>\n  <li>Bãi biển trước resort với ghế nằm và dịch vụ đồ uống.</li>\n</ul>\n\n<h2>Vị trí</h2>\n<p>Resort cách sân bay Cam Ranh chỉ khoảng 15 phút, rất thích hợp cho kỳ nghỉ ngắn hoặc đêm đầu/cuối của chuyến đi. Vào Nha Trang khoảng 40 phút; resort thường có xe đưa đón theo lịch.</p>\n\n<h2>Có điểm gì cần cân nhắc?</h2>\n<p>Khuôn viên rộng nên đi bộ giữa các khu khá xa – hỏi xe điện nội bộ nếu đi cùng người lớn tuổi. Xung quanh resort ít hàng quán, nên phần lớn bữa ăn sẽ diễn ra trong khu nghỉ dưỡng.</p>\n\n<blockquote>Gợi ý: đặt bữa tối dưới hiên nhà hàng khi trời mát, gọi vài món Việt truyền thống để trọn vẹn \"không khí Đông Dương\" mà resort xây dựng.</blockquote>",
+    "meta": {
+     "address": "Nguyễn Tất Thành, Bãi Dài, Cam Lâm, Khánh Hòa",
+     "price": "Từ 4.000.000 ₫/đêm",
+     "hours": "Nhận phòng 14:00 · Trả phòng 12:00",
+     "badge": "Kiến trúc Đông Dương",
+     "note": "Gần sân bay Cam Ranh",
+     "place_name": "The Anam Cam Ranh"
+    }
+   },
+   "en": {
+    "slug": "the-anam-cam-ranh-indochine-resort",
+    "title": "The Anam Cam Ranh: A Nostalgic Stay at an Indochine-Style Resort on Long Beach",
+    "excerpt": "Tiled roofs, patterned floor tiles, lanterns and white colonnades that recall 1930s Indochina – The Anam is the pick for lovers of classic style.",
+    "content": "<p>While most resorts on Long Beach go for modern minimalism, The Anam takes its own path: recreating <strong>the atmosphere of colonial-era Indochina</strong> with tiled roofs, patterned cement tiles, wooden shutters and tropical gardens. That difference keeps it among the best-rated resorts in Cam Ranh.</p>\n\n<h2>A place that makes you slow down</h2>\n<p>Tiled walkways link low-rise buildings, with pools and gardens in between. Rooms feature dark wood, ceiling fans and vintage-style lamps. It's a wonderful setting for \"vintage\" photos, especially early in the morning or late in the afternoon.</p>\n\n<h2>Room types</h2>\n<ul>\n  <li><strong>Hotel rooms</strong> in the low-rise wings – the value choice.</li>\n  <li><strong>Private-pool villas</strong> – for families or couples who want privacy.</li>\n</ul>\n<p>Check the location of your room: those near the sea hear the waves; garden-facing ones are quieter.</p>\n\n<h2>Key facilities</h2>\n<ul>\n  <li>Several pools, including one close to the beach.</li>\n  <li>Restaurants serving Vietnamese and Western food in an Indochine setting.</li>\n  <li>A spa, gym and a schedule of gentle activities.</li>\n  <li>A beach in front of the resort with loungers and drinks service.</li>\n</ul>\n\n<h2>Location</h2>\n<p>The resort is only about 15 minutes from Cam Ranh airport – perfect for a short break or the first and last nights of a trip. Nha Trang is around 40 minutes away; the resort usually runs scheduled shuttles.</p>\n\n<h2>Anything to consider?</h2>\n<p>The grounds are large, so walking between areas can take a while – ask for the internal buggy if travelling with older relatives. There are few restaurants outside the resort, so most meals will be on site.</p>\n\n<blockquote>Suggestion: book dinner on the restaurant veranda when the evening cools and order a few traditional Vietnamese dishes to complete the \"Indochine\" mood the resort creates.</blockquote>",
+    "meta": {
+     "address": "Nguyễn Tất Thành, Bãi Dài, Cam Lâm, Khánh Hòa",
+     "price": "From 4,000,000 VND/night",
+     "hours": "Check-in 14:00 · Check-out 12:00",
+     "badge": "Indochine architecture",
+     "note": "Close to Cam Ranh airport",
+     "place_name": "The Anam Cam Ranh"
+    }
+   }
+  },
+  {
+   "key": "vinwonders-nha-trang-ke-hoach-mot-ngay",
+   "date": "2026-10-17 08:00:00",
+   "category": "giai-tri",
+   "region": "nha-trang",
+   "tags": [
+    "gia-dinh",
+    "check-in"
+   ],
+   "image": "bay",
+   "meta": {
+    "rating": 4.6,
+    "review_count": 17595,
+    "price_level": "cao-cap"
+   },
+   "vi": {
+    "slug": "vinwonders-nha-trang-ke-hoach-mot-ngay",
+    "title": "VinWonders Nha Trang: Kế Hoạch Một Ngày Chơi Hết Các Khu Trên Đảo Hòn Tre",
+    "excerpt": "Công viên nước, thủy cung, trò chơi cảm giác mạnh và show diễn buổi tối – gợi ý thứ tự chơi để tận dụng trọn vé một ngày ở VinWonders.",
+    "content": "<p>Nằm trên đảo Hòn Tre ngay trước vịnh Nha Trang, VinWonders là khu vui chơi lớn nhất tỉnh. Vé vào cổng thường đã bao gồm phần lớn trò chơi, nên chìa khóa để \"đáng tiền\" là sắp xếp thứ tự hợp lý.</p>\n\n<h2>Ra đảo bằng cách nào?</h2>\n<p>Khách di chuyển ra đảo bằng tàu cao tốc từ bến cảng phía nam thành phố, mất khoảng 10–15 phút. Phương thức di chuyển và bến đón có thể thay đổi theo từng giai đoạn, vì vậy hãy kiểm tra thông tin mới nhất trên kênh chính thức trước khi đi.</p>\n\n<h2>Thứ tự chơi gợi ý</h2>\n<table>\n  <thead><tr><th>Khung giờ</th><th>Khu vực</th><th>Lý do</th></tr></thead>\n  <tbody>\n    <tr><td>Sáng sớm</td><td>Trò chơi cảm giác mạnh ngoài trời</td><td>Hàng chờ còn ngắn, trời mát</td></tr>\n    <tr><td>Gần trưa</td><td>Thủy cung, khu trong nhà</td><td>Tránh nắng gắt</td></tr>\n    <tr><td>Đầu chiều</td><td>Công viên nước</td><td>Nắng ấm, nước dễ chịu</td></tr>\n    <tr><td>Chiều muộn</td><td>Vườn, khu dạo bộ, chụp ảnh</td><td>Ánh sáng đẹp</td></tr>\n    <tr><td>Tối</td><td>Show diễn nhạc nước – ánh sáng</td><td>Kết thúc ngày chơi</td></tr>\n  </tbody>\n</table>\n\n<h2>Dành cho gia đình có trẻ nhỏ</h2>\n<ul>\n  <li>Kiểm tra quy định chiều cao của từng trò trước khi xếp hàng.</li>\n  <li>Thủy cung và khu trò chơi thiếu nhi là lựa chọn an toàn cho bé dưới 1 m.</li>\n  <li>Mang theo đồ bơi, khăn và một bộ đồ thay; tủ đồ có thu phí.</li>\n</ul>\n\n<h2>Chi phí cần biết</h2>\n<p>Giá vé người lớn tham khảo khoảng 900.000 ₫, trẻ em và người cao tuổi có giá riêng; thường có ưu đãi khi mua trực tuyến hoặc mua combo với khách sạn. Đồ ăn trong khu vui chơi đắt hơn bên ngoài, nhưng thường không được mang đồ ăn từ ngoài vào – hãy đọc quy định trên vé.</p>\n\n<h2>Mẹo để không mệt</h2>\n<ul>\n  <li>Đi vào ngày thường, tránh cuối tuần và dịp lễ.</li>\n  <li>Tải bản đồ công viên và lịch show trước.</li>\n  <li>Kem chống nắng, nón, nước uống là \"trang bị\" bắt buộc.</li>\n  <li>Xem giờ chuyến tàu cuối về đất liền để không bị lỡ.</li>\n</ul>",
+    "meta": {
+     "address": "Đảo Hòn Tre, Nha Trang, Khánh Hòa",
+     "price": "Khoảng 900.000 ₫/người lớn",
+     "hours": "Khoảng 08:30 - 20:00 (theo mùa)",
+     "badge": "Công viên chủ đề",
+     "place_name": "VinWonders Nha Trang"
+    }
+   },
+   "en": {
+    "slug": "vinwonders-nha-trang-one-day-plan",
+    "title": "VinWonders Nha Trang: A One-Day Plan to Cover Every Zone on Hon Tre Island",
+    "excerpt": "Water park, aquarium, thrill rides and an evening show – a suggested order to get the most out of a one-day ticket at VinWonders.",
+    "content": "<p>On Hon Tre island just off Nha Trang Bay, VinWonders is the province's biggest amusement park. The entry ticket usually covers most rides, so the key to good value is planning the order.</p>\n\n<h2>Getting to the island</h2>\n<p>Visitors cross by speedboat from the port in the south of the city, a 10 – 15 minute ride. Transport arrangements and departure piers can change, so check the latest information on official channels before you go.</p>\n\n<h2>Suggested order</h2>\n<table>\n  <thead><tr><th>Time</th><th>Zone</th><th>Why</th></tr></thead>\n  <tbody>\n    <tr><td>Early morning</td><td>Outdoor thrill rides</td><td>Short queues, cool air</td></tr>\n    <tr><td>Late morning</td><td>Aquarium, indoor zones</td><td>Avoid the harsh sun</td></tr>\n    <tr><td>Early afternoon</td><td>Water park</td><td>Warm sun, pleasant water</td></tr>\n    <tr><td>Late afternoon</td><td>Gardens, promenades, photos</td><td>Beautiful light</td></tr>\n    <tr><td>Evening</td><td>Water, music and light show</td><td>End the day</td></tr>\n  </tbody>\n</table>\n\n<h2>For families with young children</h2>\n<ul>\n  <li>Check each ride's height requirements before queuing.</li>\n  <li>The aquarium and kids' zone are safe choices for children under 1 m.</li>\n  <li>Bring swimwear, a towel and a change of clothes; lockers cost extra.</li>\n</ul>\n\n<h2>Costs to know</h2>\n<p>Adult tickets are around 900,000 VND, with separate prices for children and seniors; online purchases or hotel combos often include discounts. Food inside the park costs more than outside, and outside food is usually not allowed – check the rules on your ticket.</p>\n\n<h2>Tips to avoid burnout</h2>\n<ul>\n  <li>Go on a weekday; avoid weekends and holidays.</li>\n  <li>Download the park map and show schedule in advance.</li>\n  <li>Sunscreen, a hat and water are essential kit.</li>\n  <li>Check the time of the last boat back to the mainland so you don't miss it.</li>\n</ul>",
+    "meta": {
+     "address": "Đảo Hòn Tre, Nha Trang, Khánh Hòa",
+     "price": "About 900,000 VND/adult",
+     "hours": "About 08:30 – 20:00 (seasonal)",
+     "badge": "Theme park",
+     "note": "",
+     "place_name": "VinWonders Nha Trang"
+    }
+   }
+  },
+  {
+   "key": "tam-bun-i-resort-chon-goi-phu-hop",
+   "date": "2026-10-18 08:00:00",
+   "category": "giai-tri",
+   "region": "nha-trang",
+   "tags": [
+    "gia-dinh",
+    "nghi-duong"
+   ],
+   "image": "nature",
+   "meta": {
+    "rating": 4.4,
+    "review_count": 13032,
+    "price_level": "trung-cap"
+   },
+   "vi": {
+    "slug": "tam-bun-i-resort-chon-goi-phu-hop",
+    "title": "Tắm Bùn Khoáng Nóng I-Resort: Chọn Gói Nào, Đi Giờ Nào Để Thư Giãn Trọn Vẹn?",
+    "excerpt": "Bồn bùn khoáng, hồ nước nóng và thác nước giữa vườn cây – hướng dẫn chọn gói tắm bùn, thời điểm và những lưu ý sức khỏe trước khi ngâm.",
+    "content": "<p>Tắm bùn khoáng là trải nghiệm gần như \"bắt buộc\" khi đến Nha Trang, và I-Resort ở phía tây thành phố là một trong những khu được nhiều người lựa chọn nhờ khuôn viên rộng, thiết kế đá và gỗ hòa vào thiên nhiên.</p>\n\n<h2>Quy trình một buổi tắm bùn</h2>\n<ol>\n  <li><strong>Tắm tráng</strong> nước ngọt.</li>\n  <li><strong>Ngâm bùn khoáng</strong> khoảng 15–20 phút; bùn ấm, mịn, giúp da mềm.</li>\n  <li><strong>Phơi bùn</strong> vài phút cho khô rồi tắm sạch.</li>\n  <li><strong>Ngâm nước khoáng nóng</strong> trong bồn riêng.</li>\n  <li><strong>Thư giãn ở hồ khoáng, thác nước</strong> trong khuôn viên chung.</li>\n</ol>\n\n<h2>Chọn gói nào?</h2>\n<table>\n  <thead><tr><th>Gói</th><th>Phù hợp</th></tr></thead>\n  <tbody>\n    <tr><td>Chỉ vào cổng, dùng hồ khoáng chung</td><td>Người muốn ngâm nước nóng, bơi thư giãn</td></tr>\n    <tr><td>Tắm bùn bồn chung</td><td>Nhóm bạn, chi phí hợp lý</td></tr>\n    <tr><td>Tắm bùn bồn riêng/VIP</td><td>Cặp đôi, gia đình muốn riêng tư</td></tr>\n    <tr><td>Combo kèm massage, ăn trưa</td><td>Muốn dành trọn nửa ngày</td></tr>\n  </tbody>\n</table>\n<p>Giá tham khảo cho gói tắm bùn từ khoảng 300.000 ₫/người; bảng giá thay đổi theo thời điểm nên kiểm tra trước khi đi.</p>\n\n<h2>Đi giờ nào?</h2>\n<p>Buổi sáng sớm vắng khách và mát hơn. Khoảng 10 – 15 giờ là lúc các đoàn tour đến đông nhất. Nếu đi buổi chiều, hãy đến trước 15 giờ để còn đủ thời gian ngâm khoáng.</p>\n\n<h2>Lưu ý sức khỏe</h2>\n<ul>\n  <li>Không ngâm khoáng nóng khi vừa ăn no hoặc đã uống rượu bia.</li>\n  <li>Phụ nữ mang thai, người có bệnh tim mạch, huyết áp nên hỏi ý kiến bác sĩ.</li>\n  <li>Uống đủ nước, mỗi lần ngâm không quá lâu.</li>\n  <li>Tháo trang sức bạc trước khi ngâm vì khoáng chất có thể làm xỉn màu.</li>\n</ul>\n\n<h2>Mang theo gì?</h2>\n<p>Đồ bơi tối màu (bùn có thể bám), dép, kem dưỡng ẩm sau khi tắm. Khăn và tủ đồ thường đã có trong gói – hỏi lại khi mua vé.</p>",
+    "meta": {
+     "address": "Thôn Xuân Ngọc, Tây Nha Trang, Khánh Hòa",
+     "price": "Gói tắm bùn từ 300.000 ₫/người",
+     "hours": "Khoảng 07:00 - 17:30 hằng ngày",
+     "badge": "Tắm bùn khoáng",
+     "note": "Có xe đưa đón theo lịch",
+     "place_name": "Suối khoáng nóng I-Resort"
+    }
+   },
+   "en": {
+    "slug": "i-resort-mud-bath-choosing-a-package",
+    "title": "I-Resort Hot Spring Mud Baths: Which Package and What Time for the Most Relaxing Visit?",
+    "excerpt": "Mineral mud tubs, hot pools and waterfalls among gardens – how to choose a mud-bath package, when to go and health notes before you soak.",
+    "content": "<p>A mineral mud bath is almost a \"must\" in Nha Trang, and I-Resort, west of the city, is one of the most popular choices thanks to its spacious grounds and stone-and-wood design that blends into nature.</p>\n\n<h2>How a mud-bath session works</h2>\n<ol>\n  <li><strong>Rinse</strong> with fresh water.</li>\n  <li><strong>Soak in mineral mud</strong> for about 15 – 20 minutes; the mud is warm and silky and softens the skin.</li>\n  <li><strong>Let the mud dry</strong> for a few minutes, then shower off.</li>\n  <li><strong>Soak in hot mineral water</strong> in a private tub.</li>\n  <li><strong>Relax in the mineral pools and waterfall</strong> in the shared grounds.</li>\n</ol>\n\n<h2>Which package?</h2>\n<table>\n  <thead><tr><th>Package</th><th>Best for</th></tr></thead>\n  <tbody>\n    <tr><td>Entry only, shared mineral pools</td><td>Those who just want a hot soak and a swim</td></tr>\n    <tr><td>Shared mud tub</td><td>Groups of friends on a budget</td></tr>\n    <tr><td>Private/VIP mud tub</td><td>Couples and families who want privacy</td></tr>\n    <tr><td>Combo with massage and lunch</td><td>Making a half-day of it</td></tr>\n  </tbody>\n</table>\n<p>Mud-bath packages start from around 300,000 VND per person; prices change by season, so check before you go.</p>\n\n<h2>When to go</h2>\n<p>Early mornings are quieter and cooler. Around 10 a.m. – 3 p.m. is when tour groups arrive. If you go in the afternoon, arrive before 3 p.m. to leave enough time for the mineral pools.</p>\n\n<h2>Health notes</h2>\n<ul>\n  <li>Don't soak in hot water right after a big meal or after drinking alcohol.</li>\n  <li>Pregnant women and people with heart or blood-pressure conditions should consult a doctor first.</li>\n  <li>Drink enough water and don't stay in too long each time.</li>\n  <li>Remove silver jewellery – minerals can tarnish it.</li>\n</ul>\n\n<h2>What to bring</h2>\n<p>Dark swimwear (mud can stain), sandals and moisturiser for afterwards. Towels and lockers are usually included – confirm when you buy your ticket.</p>",
+    "meta": {
+     "address": "Thôn Xuân Ngọc, Tây Nha Trang, Khánh Hòa",
+     "price": "Mud-bath packages from 300,000 VND/person",
+     "hours": "About 07:00 – 17:30 daily",
+     "badge": "Mineral mud baths",
+     "note": "Scheduled shuttle available",
+     "place_name": "I-Resort Hot Springs"
+    }
+   }
+  },
+  {
+   "key": "sailing-club-nha-trang-ngay-va-dem",
+   "date": "2026-10-19 08:00:00",
+   "category": "giai-tri",
+   "region": "nha-trang",
+   "tags": [
+    "ven-bien",
+    "hoang-hon"
+   ],
+   "image": "bay",
+   "meta": {
+    "rating": 4.4,
+    "review_count": 10893,
+    "price_level": "trung-cap"
+   },
+   "vi": {
+    "slug": "sailing-club-nha-trang-ngay-va-dem",
+    "title": "Sailing Club Nha Trang: Beach Club Ban Ngày, Tiệc Âm Nhạc Ban Đêm Trên Đường Trần Phú",
+    "excerpt": "Một địa điểm, hai bộ mặt: ghế nằm và cocktail bên bãi cát ban ngày, sàn nhảy sôi động khi đêm xuống. Gợi ý thời điểm, chi tiêu và quy tắc nên biết.",
+    "content": "<p>Sailing Club là cái tên quen thuộc với khách du lịch quốc tế đến Nha Trang suốt nhiều năm. Nằm ngay trên bãi cát đường Trần Phú, nơi này đổi \"tính cách\" theo giờ trong ngày, nên chọn đúng thời điểm sẽ quyết định trải nghiệm của bạn.</p>\n\n<h2>Ban ngày: nghỉ ngơi bên bãi biển</h2>\n<p>Từ sáng đến chiều, khu ghế nằm hướng biển là chỗ lý tưởng để đọc sách, tắm biển rồi gọi đồ uống. Không khí thư thái, phù hợp cả cặp đôi lẫn nhóm bạn. Một số khu ghế có thể yêu cầu chi tiêu tối thiểu – hỏi nhân viên trước khi ngồi.</p>\n\n<h2>Hoàng hôn: giờ vàng để ăn tối</h2>\n<p>Khoảng 17 – 19 giờ, ánh đèn bắt đầu lên, nhà hàng phục vụ món Á – Âu, hải sản và pizza. Đây là lúc dễ chịu nhất: chưa quá ồn, trời mát và cảnh biển chuyển màu.</p>\n\n<h2>Ban đêm: tiệc và âm nhạc</h2>\n<p>Từ khoảng 21 giờ, khu bar trở nên sôi động với DJ và nhạc sống tùy ngày. Cuối tuần, các dịp lễ đông hơn hẳn, có thể có phí vào cửa trong một số sự kiện đặc biệt.</p>\n\n<h2>Ngân sách tham khảo</h2>\n<table>\n  <thead><tr><th>Hoạt động</th><th>Mức chi / người</th></tr></thead>\n  <tbody>\n    <tr><td>Đồ uống ban ngày</td><td>100.000 – 250.000 ₫</td></tr>\n    <tr><td>Bữa tối</td><td>300.000 – 600.000 ₫</td></tr>\n    <tr><td>Cocktail buổi tối</td><td>150.000 – 250.000 ₫/ly</td></tr>\n  </tbody>\n</table>\n\n<h2>Những điều nên biết</h2>\n<ul>\n  <li>Mang giấy tờ tùy thân vì một số sự kiện kiểm tra độ tuổi.</li>\n  <li>Giữ đồ cá nhân cẩn thận khi đông người.</li>\n  <li>Đã uống rượu bia thì không lái xe, gọi taxi hoặc xe công nghệ để về.</li>\n  <li>Không xuống tắm biển vào ban đêm.</li>\n</ul>\n\n<p>Dù bạn chỉ muốn một ly nước dừa bên bãi cát hay một đêm tiệc tùng, Sailing Club là điểm hẹn dễ tìm ngay trung tâm – hãy chọn khung giờ hợp với \"nhịp\" của mình.</p>",
+    "meta": {
+     "address": "72-74 Trần Phú, Nha Trang, Khánh Hòa",
+     "price": "100.000 - 600.000 ₫/người",
+     "hours": "Mở từ sáng đến khuya",
+     "badge": "Beach club",
+     "place_name": "Sailing Club Nha Trang"
+    }
+   },
+   "en": {
+    "slug": "sailing-club-nha-trang-day-and-night",
+    "title": "Sailing Club Nha Trang: Beach Club by Day, Music and Parties by Night on Tran Phu",
+    "excerpt": "One venue, two personalities: loungers and cocktails on the sand by day, a lively dance floor after dark. When to go, what to spend and house rules.",
+    "content": "<p>Sailing Club has been a familiar name to international travellers in Nha Trang for many years. Right on the sand of Tran Phu beach, the venue changes character through the day, so choosing the right time shapes your experience.</p>\n\n<h2>By day: relaxing on the beach</h2>\n<p>From morning to afternoon, the sea-facing loungers are perfect for reading, swimming and ordering drinks. The mood is laid-back and suits couples and groups alike. Some lounger areas may have a minimum spend – ask staff before you sit down.</p>\n\n<h2>Sunset: the golden hour for dinner</h2>\n<p>Around 5 – 7 p.m., the lights come on and the restaurant serves Asian and Western dishes, seafood and pizza. This is the most pleasant time: not too loud yet, cooler air and the sea changing colour.</p>\n\n<h2>By night: parties and music</h2>\n<p>From around 9 p.m., the bar comes alive with DJs and live music depending on the night. Weekends and holidays are much busier, and some special events may charge an entry fee.</p>\n\n<h2>Budget</h2>\n<table>\n  <thead><tr><th>Activity</th><th>Spend / person</th></tr></thead>\n  <tbody>\n    <tr><td>Daytime drinks</td><td>100,000 – 250,000 VND</td></tr>\n    <tr><td>Dinner</td><td>300,000 – 600,000 VND</td></tr>\n    <tr><td>Evening cocktails</td><td>150,000 – 250,000 VND/glass</td></tr>\n  </tbody>\n</table>\n\n<h2>Good to know</h2>\n<ul>\n  <li>Bring ID; some events check ages.</li>\n  <li>Keep an eye on your belongings when it's crowded.</li>\n  <li>If you've been drinking, don't ride or drive – take a taxi or ride-hailing car.</li>\n  <li>Don't swim at night.</li>\n</ul>\n\n<p>Whether you want a coconut by the sand or a night out, Sailing Club is an easy-to-find meeting point in the centre – pick the hours that match your rhythm.</p>",
+    "meta": {
+     "address": "72-74 Trần Phú, Nha Trang, Khánh Hòa",
+     "price": "100,000 – 600,000 VND/person",
+     "hours": "Open from morning until late",
+     "badge": "Beach club",
+     "note": "",
+     "place_name": "Sailing Club Nha Trang"
+    }
+   }
+  },
+  {
+   "key": "runam-nha-trang-ca-phe-sang-trong-tran-phu",
+   "date": "2026-10-20 08:00:00",
+   "category": "cafe",
+   "region": "nha-trang",
+   "tags": [
+    "check-in",
+    "noi-bat"
+   ],
+   "image": "cafe",
+   "meta": {
+    "rating": 4.6,
+    "review_count": 504,
+    "price_level": "binh-dan"
+   },
+   "vi": {
+    "slug": "runam-nha-trang-ca-phe-sang-trong-tran-phu",
+    "title": "RuNam Nha Trang: Thưởng Thức Cà Phê Phin Trong Không Gian Sang Trọng Trên Trần Phú",
+    "excerpt": "Chuỗi cà phê nổi tiếng với nội thất tinh tế và cà phê phin truyền thống. Gợi ý món nên gọi, chỗ ngồi đẹp và khi nào nên ghé.",
+    "content": "<p>RuNam là thương hiệu cà phê theo đuổi hình ảnh <strong>sang trọng mang hồn Việt</strong>: nội thất gỗ, đèn vàng ấm, chi tiết hoa văn tinh xảo. Chi nhánh trên đường Trần Phú giúp bạn tìm được một góc yên tĩnh ngay cạnh con đường biển nhộn nhịp nhất Nha Trang.</p>\n\n<h2>Gọi gì ở RuNam?</h2>\n<ul>\n  <li><strong>Cà phê phin truyền thống:</strong> được mang ra kèm phin nhỏ giọt, phù hợp để ngồi chậm rãi.</li>\n  <li><strong>Cà phê sữa đá</strong> – lựa chọn an toàn nếu bạn chưa quen vị đắng đậm.</li>\n  <li><strong>Trà và nước ép</strong> cho người không uống cà phê.</li>\n  <li><strong>Bánh ngọt và món ăn nhẹ</strong> – hợp cho bữa xế hoặc bữa sáng muộn.</li>\n</ul>\n\n<h2>Chỗ ngồi đẹp nhất</h2>\n<p>Các bàn gần cửa kính có ánh sáng tự nhiên, chụp ảnh đẹp vào buổi sáng. Muốn làm việc, hãy chọn góc trong, xa lối ra vào để tránh ồn. Hỏi nhân viên nếu cần chỗ có ổ cắm điện.</p>\n\n<h2>Giá có đắt không?</h2>\n<p>Mức giá khoảng 60.000 – 120.000 ₫ mỗi món, cao hơn quán cà phê bình dân nhưng tương xứng với không gian và cách phục vụ. Đây là lựa chọn tốt để tiếp khách hoặc hẹn gặp công việc.</p>\n\n<h2>Khi nào nên ghé?</h2>\n<table>\n  <thead><tr><th>Khung giờ</th><th>Phù hợp</th></tr></thead>\n  <tbody>\n    <tr><td>07:00 – 10:00</td><td>Cà phê sáng, làm việc yên tĩnh</td></tr>\n    <tr><td>14:00 – 16:00</td><td>Tránh nắng sau khi tắm biển</td></tr>\n    <tr><td>Buổi tối</td><td>Hẹn hò, trò chuyện nhẹ nhàng</td></tr>\n  </tbody>\n</table>\n\n<p>Ra khỏi quán, bạn chỉ cần băng qua đường là tới công viên bờ biển – kết hợp một ly cà phê và một vòng dạo biển là cách tận hưởng buổi sáng rất \"Nha Trang\".</p>",
+    "meta": {
+     "address": "32-34 Trần Phú, Nha Trang, Khánh Hòa",
+     "price": "60.000 - 120.000 ₫/món",
+     "hours": "Mở từ sáng đến tối",
+     "badge": "Cà phê sang trọng",
+     "place_name": "RuNam Nha Trang"
+    }
+   },
+   "en": {
+    "slug": "runam-nha-trang-upscale-coffee-tran-phu",
+    "title": "RuNam Nha Trang: Traditional Phin Coffee in an Elegant Setting on Tran Phu",
+    "excerpt": "A coffee chain known for refined interiors and traditional drip coffee. What to order, the best seats and when to visit.",
+    "content": "<p>RuNam is a coffee brand built around <strong>refined luxury with a Vietnamese soul</strong>: wooden interiors, warm lighting and finely crafted details. Its branch on Tran Phu gives you a quiet corner right beside Nha Trang's busiest seafront road.</p>\n\n<h2>What to order at RuNam</h2>\n<ul>\n  <li><strong>Traditional phin coffee:</strong> served with a small drip filter, perfect for taking your time.</li>\n  <li><strong>Iced milk coffee</strong> – a safe choice if you're not used to strong, bitter coffee.</li>\n  <li><strong>Teas and juices</strong> for non-coffee drinkers.</li>\n  <li><strong>Pastries and light meals</strong> – good for an afternoon snack or late breakfast.</li>\n</ul>\n\n<h2>The best seats</h2>\n<p>Tables by the glass front get natural light and photograph beautifully in the morning. To work, choose an inner corner away from the entrance. Ask staff if you need a seat near a power socket.</p>\n\n<h2>Is it expensive?</h2>\n<p>Items cost around 60,000 – 120,000 VND, higher than a street café but in line with the setting and service. A good choice for hosting guests or business meetings.</p>\n\n<h2>When to visit</h2>\n<table>\n  <thead><tr><th>Time</th><th>Best for</th></tr></thead>\n  <tbody>\n    <tr><td>07:00 – 10:00</td><td>Morning coffee, quiet work</td></tr>\n    <tr><td>14:00 – 16:00</td><td>Escaping the sun after the beach</td></tr>\n    <tr><td>Evening</td><td>Dates and gentle conversation</td></tr>\n  </tbody>\n</table>\n\n<p>Step outside and the seafront park is just across the road – a coffee followed by a stroll along the beach is a very \"Nha Trang\" way to spend the morning.</p>",
+    "meta": {
+     "address": "32-34 Trần Phú, Nha Trang, Khánh Hòa",
+     "price": "60,000 – 120,000 VND/item",
+     "hours": "Open from morning until evening",
+     "badge": "Elegant café",
+     "note": "",
+     "place_name": "RuNam Nha Trang"
+    }
+   }
+  },
+  {
+   "key": "cong-ca-phe-nha-trang-hoai-niem-bao-cap",
+   "date": "2026-10-21 08:00:00",
+   "category": "cafe",
+   "region": "nha-trang",
+   "tags": [
+    "check-in"
+   ],
+   "image": "cafe",
+   "meta": {
+    "rating": 4.5,
+    "review_count": 1572,
+    "price_level": "binh-dan"
+   },
+   "vi": {
+    "slug": "cong-ca-phe-nha-trang-hoai-niem-bao-cap",
+    "title": "Cộng Cà Phê Nha Trang: Ly Cốt Dừa Mát Lạnh Trong Không Gian Hoài Niệm Thời Bao Cấp",
+    "excerpt": "Màu xanh rêu, bàn ghế gỗ cũ, radio và tem phiếu – bước vào Cộng như lạc về một thời đã xa. Món nên thử và góc chụp ảnh đẹp.",
+    "content": "<p>Cộng Cà Phê là chuỗi cà phê quen mặt với giới trẻ cả nước nhờ phong cách <strong>hoài niệm thời bao cấp</strong>. Chi nhánh Nha Trang trên đường Nguyễn Chánh giữ đúng \"chất Cộng\": tường xanh rêu, đồ nội thất gỗ cũ, những món đồ xưa như radio, phích nước, áp phích cổ động.</p>\n\n<h2>Món \"phải gọi\"</h2>\n<ul>\n  <li><strong>Cà phê cốt dừa:</strong> món làm nên tên tuổi của Cộng – lớp cốt dừa đá xay béo mát hòa với cà phê đậm, rất hợp thời tiết nắng nóng Nha Trang.</li>\n  <li><strong>Sữa chua cà phê hoặc sữa chua trái cây</strong> – chua ngọt dễ uống.</li>\n  <li><strong>Bạc xỉu, cà phê muối</strong> cho người thích vị ngọt nhẹ.</li>\n</ul>\n\n<h2>Góc check-in đáng chú ý</h2>\n<p>Những ô cửa sổ gỗ, góc tường treo đồ vật cũ và bàn ghế đặt cạnh lan can là nơi chụp ảnh được ưa chuộng. Ánh sáng tự nhiên đẹp nhất vào buổi sáng; buổi tối đèn vàng tạo không khí ấm cúng hơn.</p>\n\n<h2>Làm việc được không?</h2>\n<p>Quán phù hợp ngồi trò chuyện, gặp gỡ bạn bè hơn là làm việc tập trung, vì nhạc và tiếng nói chuyện khá rộn ràng vào giờ đông. Nếu cần không gian yên tĩnh, hãy đến buổi sáng ngày thường.</p>\n\n<h2>Giá cả</h2>\n<p>Đồ uống khoảng 35.000 – 70.000 ₫, ở mức trung bình của các chuỗi cà phê. Đây là lựa chọn hợp lý để nghỉ chân giữa buổi dạo phố.</p>\n\n<h2>Gợi ý kết hợp</h2>\n<p>Từ Cộng, bạn có thể đi bộ ra biển Trần Phú hoặc dạo quanh khu phố ăn uống gần đó. Một lịch trình \"chill\" gợi ý: cà phê cốt dừa buổi chiều, ngắm biển lúc hoàng hôn, rồi ăn tối hải sản.</p>",
+    "meta": {
+     "address": "23 Nguyễn Chánh, Nha Trang, Khánh Hòa",
+     "price": "35.000 - 70.000 ₫/món",
+     "hours": "Mở từ sáng đến tối",
+     "badge": "Phong cách retro",
+     "place_name": "Cộng Cà Phê Nha Trang"
+    }
+   },
+   "en": {
+    "slug": "cong-caphe-nha-trang-retro-coconut-coffee",
+    "title": "Cong Caphe Nha Trang: Iced Coconut Coffee in a Nostalgic, Retro-Socialist Setting",
+    "excerpt": "Army green walls, worn wooden furniture, old radios and ration coupons – stepping into Cong feels like travelling back in time. What to order and where to take photos.",
+    "content": "<p>Cong Caphe is a coffee chain loved by young Vietnamese for its <strong>nostalgic \"subsidy era\" style</strong>. The Nha Trang branch on Nguyen Chanh street keeps the signature look: army-green walls, old wooden furniture and vintage objects such as radios, thermos flasks and propaganda posters.</p>\n\n<h2>Must-order drinks</h2>\n<ul>\n  <li><strong>Coconut coffee:</strong> Cong's signature – blended iced coconut cream with strong coffee, perfect for Nha Trang's heat.</li>\n  <li><strong>Coffee yoghurt or fruit yoghurt</strong> – tangy, sweet and easy to drink.</li>\n  <li><strong>Bac xiu and salted coffee</strong> for those who prefer something milder and sweeter.</li>\n</ul>\n\n<h2>Photo corners</h2>\n<p>Wooden window frames, walls hung with old objects and tables by the balcony are favourite photo spots. Natural light is best in the morning; in the evening the warm lamps feel cosier.</p>\n\n<h2>Can you work there?</h2>\n<p>It's better for chatting and meeting friends than focused work, as music and conversation get lively at busy times. For a quiet space, come on a weekday morning.</p>\n\n<h2>Prices</h2>\n<p>Drinks cost around 35,000 – 70,000 VND, average for coffee chains – a good rest stop during a walk around town.</p>\n\n<h2>Combine it with</h2>\n<p>From Cong you can walk to Tran Phu beach or explore the nearby food streets. A relaxed plan: coconut coffee in the afternoon, sunset by the sea, then a seafood dinner.</p>",
+    "meta": {
+     "address": "23 Nguyễn Chánh, Nha Trang, Khánh Hòa",
+     "price": "35,000 – 70,000 VND/item",
+     "hours": "Open from morning until evening",
+     "badge": "Retro style",
+     "note": "",
+     "place_name": "Cong Caphe Nha Trang"
+    }
+   }
+  }
+ ],
+ "pages": [
+  {
+   "key": "gioi-thieu",
+   "template": "",
+   "vi": {
+    "slug": "gioi-thieu",
+    "title": "Về Toplist Khánh Hòa",
+    "content": "<p><strong>Toplist Khánh Hòa</strong> là cẩm nang số giúp bạn chọn nơi ăn, chơi, nghỉ ngơi tại Nha Trang, Cam Ranh, Ninh Hòa, Vạn Ninh và vùng Phan Rang – Vĩnh Hy.</p>\n<h2>Chúng tôi làm gì?</h2>\n<ul>\n  <li>Giới thiệu địa điểm theo năm chuyên mục: Ẩm thực, Du lịch, Lưu trú, Giải trí và Cafe.</li>\n  <li>Tổng hợp thông tin thực tế: địa chỉ, khoảng giá, giờ mở cửa, điểm mạnh và điểm cần lưu ý.</li>\n  <li>Sắp xếp theo khu vực để bạn dễ lên lịch trình.</li>\n</ul>\n<h2>Nguyên tắc biên tập</h2>\n<p>Mỗi bài viết được biên tập độc lập. Giá và giờ mở cửa mang tính tham khảo và có thể thay đổi; chúng tôi luôn khuyến khích bạn liên hệ trực tiếp với địa điểm trước khi ghé.</p>"
+   },
+   "en": {
+    "slug": "about",
+    "title": "About Toplist Khanh Hoa",
+    "content": "<p><strong>Toplist Khanh Hoa</strong> is a digital travel guide that helps you choose where to eat, play and stay in Nha Trang, Cam Ranh, Ninh Hoa, Van Ninh and the Phan Rang – Vinh Hy area.</p>\n<h2>What we do</h2>\n<ul>\n  <li>Feature places across five categories: Food, Travel, Stays, Entertainment and Cafés.</li>\n  <li>Collect practical information: address, price range, opening hours, strengths and things to note.</li>\n  <li>Organise everything by area so you can plan your itinerary easily.</li>\n</ul>\n<h2>Editorial principles</h2>\n<p>Every article is edited independently. Prices and opening hours are for reference and may change; we always encourage you to contact the venue before visiting.</p>"
+   }
+  },
+  {
+   "key": "hop-tac-quang-ba",
+   "template": "",
+   "vi": {
+    "slug": "hop-tac-quang-ba",
+    "title": "Hợp Tác Quảng Bá & Truyền Thông",
+    "content": "<p>Nếu bạn là chủ nhà hàng, khách sạn, đơn vị lữ hành hoặc điểm du lịch tại Khánh Hòa và muốn được giới thiệu, hãy gửi thông tin cho chúng tôi qua email ở chân trang.</p>\n<h2>Thông tin cần gửi</h2>\n<ul>\n  <li>Tên, địa chỉ, số điện thoại và giờ hoạt động.</li>\n  <li>Khoảng giá dịch vụ, hình ảnh thực tế có bản quyền sử dụng.</li>\n  <li>Điểm nổi bật mà khách hàng nên biết.</li>\n</ul>\n<p>Nội dung hợp tác được đánh dấu rõ ràng để đảm bảo minh bạch với người đọc.</p>"
+   },
+   "en": {
+    "slug": "advertising-partnerships",
+    "title": "Advertising & Media Partnerships",
+    "content": "<p>If you run a restaurant, hotel, tour company or attraction in Khanh Hoa and would like to be featured, send us your details via the email in the footer.</p>\n<h2>What to send</h2>\n<ul>\n  <li>Name, address, phone number and opening hours.</li>\n  <li>Price range and real photos you have the rights to use.</li>\n  <li>Highlights your guests should know about.</li>\n</ul>\n<p>Sponsored content is clearly labelled to stay transparent with our readers.</p>"
+   }
+  },
+  {
+   "key": "quy-chuan-tham-dinh",
+   "template": "",
+   "vi": {
+    "slug": "quy-chuan-tham-dinh",
+    "title": "Quy Chuẩn Thẩm Định Điểm Đến",
+    "content": "<p>Để một địa điểm xuất hiện trên Toplist Khánh Hòa, chúng tôi xem xét các tiêu chí sau:</p>\n<ol>\n  <li><strong>Thông tin xác minh được:</strong> địa chỉ, giờ hoạt động, khoảng giá công khai.</li>\n  <li><strong>Phản hồi của khách:</strong> điểm đánh giá và số lượt đánh giá trên các nền tảng bản đồ, mạng xã hội.</li>\n  <li><strong>Chất lượng trải nghiệm:</strong> vệ sinh, an toàn, thái độ phục vụ.</li>\n  <li><strong>Tính đại diện:</strong> địa điểm phản ánh nét riêng của ẩm thực, văn hóa hoặc thiên nhiên Khánh Hòa.</li>\n</ol>\n<p>Điểm đánh giá hiển thị trên trang là con số tham khảo, được cập nhật định kỳ.</p>"
+   },
+   "en": {
+    "slug": "editorial-standards",
+    "title": "Our Review Standards",
+    "content": "<p>For a place to appear on Toplist Khanh Hoa, we consider the following criteria:</p>\n<ol>\n  <li><strong>Verifiable information:</strong> address, opening hours and public price range.</li>\n  <li><strong>Guest feedback:</strong> rating and number of reviews on map platforms and social networks.</li>\n  <li><strong>Quality of experience:</strong> cleanliness, safety and service.</li>\n  <li><strong>Representativeness:</strong> the place reflects something distinctive about Khanh Hoa's food, culture or nature.</li>\n</ol>\n<p>Ratings shown on the site are reference figures, updated periodically.</p>"
+   }
+  },
+  {
+   "key": "chinh-sach-bao-mat",
+   "template": "",
+   "vi": {
+    "slug": "chinh-sach-bao-mat",
+    "title": "Chính Sách Bảo Mật",
+    "content": "<p>Chúng tôi chỉ thu thập email khi bạn chủ động đăng ký nhận bản tin. Email được dùng để gửi nội dung du lịch và có thể hủy đăng ký bất kỳ lúc nào bằng cách liên hệ với chúng tôi.</p>\n<p>Danh sách địa điểm yêu thích được lưu ngay trên trình duyệt của bạn (localStorage) và không được gửi về máy chủ.</p>\n<p>Website có thể sử dụng dịch vụ bên thứ ba như Google Fonts và Google Maps; các dịch vụ này có chính sách quyền riêng tư riêng.</p>"
+   },
+   "en": {
+    "slug": "privacy-policy",
+    "title": "Privacy Policy",
+    "content": "<p>We only collect your email when you choose to subscribe to our newsletter. It is used to send travel content, and you can unsubscribe at any time by contacting us.</p>\n<p>Your favourites list is stored in your own browser (localStorage) and is never sent to our server.</p>\n<p>The website may use third-party services such as Google Fonts and Google Maps, which have their own privacy policies.</p>"
+   }
+  },
+  {
+   "key": "dieu-khoan-su-dung",
+   "template": "",
+   "vi": {
+    "slug": "dieu-khoan-su-dung",
+    "title": "Điều Khoản Sử Dụng",
+    "content": "<p>Nội dung trên Toplist Khánh Hòa nhằm mục đích tham khảo cho chuyến đi. Giá cả, giờ mở cửa và dịch vụ có thể thay đổi mà chúng tôi chưa kịp cập nhật.</p>\n<p>Vui lòng không sao chép nội dung, hình ảnh khi chưa được sự đồng ý. Mọi trích dẫn cần ghi rõ nguồn và dẫn liên kết về bài viết gốc.</p>"
+   },
+   "en": {
+    "slug": "terms-of-use",
+    "title": "Terms of Use",
+    "content": "<p>Content on Toplist Khanh Hoa is provided for trip-planning reference. Prices, opening hours and services may change before we can update them.</p>\n<p>Please do not copy our content or images without permission. Any quotation must credit the source and link back to the original article.</p>"
+   }
+  },
+  {
+   "key": "yeu-thich",
+   "template": "page-templates/favorites.php",
+   "vi": {
+    "slug": "yeu-thich",
+    "title": "Địa điểm yêu thích",
+    "content": ""
+   },
+   "en": {
+    "slug": "favorites",
+    "title": "Your Favourite Places",
+    "content": ""
+   }
+  }
+ ]
+}

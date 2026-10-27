@@ -1,0 +1,18 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "landingPage": "/",
+  "preferredVersions": { "php": "8.3", "wp": "latest" },
+  "steps": [
+    {
+      "step": "installPlugin",
+      "pluginData": { "resource": "wordpress.org/plugins", "slug": "polylang" },
+      "options": { "activate": true }
+    },
+    { "step": "activateTheme", "themeFolderName": "toplist-khanh-hoa" },
+    { "step": "wp-cli", "command": "wp tkh demo-import" },
+    {
+      "step": "runPHP",
+      "code": "<?php require '/wordpress/wp-load.php'; set_theme_mod( 'tkh_contact_email', 'contact@toplistkhanhhoa.com' ); wp_set_password( 'khanhhoa-local-dev', 1 ); flush_rewrite_rules();"
+    }
+  ]
+}

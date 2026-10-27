@@ -1,0 +1,18 @@
+{
+  "name": "toplist-khanh-hoa",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Theme WordPress song ngữ + dữ liệu mẫu + cấu hình deploy cho website du lịch Toplist Khánh Hòa",
+  "scripts": {
+    "build:css": "tailwindcss -i src/styles.css -o theme/toplist-khanh-hoa/assets/css/main.css --minify",
+    "build:content": "node scripts/build-content.js",
+    "build:zip": "node scripts/zip-theme.js",
+    "build": "npm run build:content && npm run build:css && npm run build:zip",
+    "dev": "npm run build && wp-playground-cli server --port=9400 --blueprint=playground/blueprint.json --mount=./theme/toplist-khanh-hoa:/wordpress/wp-content/themes/toplist-khanh-hoa"
+  },
+  "devDependencies": {
+    "@wp-playground/cli": "3.1.61",
+    "tailwindcss": "3.4.17"
+  }
+}

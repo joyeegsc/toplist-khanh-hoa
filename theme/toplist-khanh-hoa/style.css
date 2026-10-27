@@ -1,0 +1,12 @@
+/*
+Theme Name: Toplist Khánh Hòa
+Theme URI: https://toplistkhanhhoa.com/
+Description: Theme cẩm nang du lịch Khánh Hòa theo phong cách "Nha Trang Riviera & Coastal Luxe": danh bạ địa điểm (ẩm thực, du lịch, lưu trú, giải trí, cafe), lọc theo khu vực, đánh giá, mức giá và danh sách yêu thích.
+Version: 1.0.0
+Requires at least: 6.4
+Requires PHP: 7.4
+Text Domain: toplist-khanh-hoa
+License: GPL-2.0-or-later
+*/
+
+/* Styles are compiled by Tailwind into assets/css/main.css (see src/styles.css in the project). */

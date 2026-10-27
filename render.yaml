@@ -1,0 +1,29 @@
+# Render Blueprint: New → Blueprint → pick this GitHub repo. Creates one free Docker web service.
+services:
+  - type: web
+    name: toplist-khanh-hoa
+    runtime: docker
+    plan: free
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /wp-includes/images/blank.gif
+    autoDeploy: true
+    envVars:
+      - key: WP_SALT
+        generateValue: true
+      - key: WP_ADMIN_USER
+        value: admin
+      - key: WP_ADMIN_PASSWORD
+        generateValue: true
+      - key: WP_ADMIN_EMAIL
+        sync: false
+      - key: WP_CONTACT_EMAIL
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_KEY
+        sync: false
+      - key: SUPABASE_BUCKET
+        value: wordpress-backup
+      - key: BACKUP_INTERVAL
+        value: "600"
