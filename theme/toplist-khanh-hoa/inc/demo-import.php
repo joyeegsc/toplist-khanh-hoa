@@ -18,11 +18,14 @@ function tkh_demo_import() {
 		return new WP_Error( 'tkh_demo_missing', __( 'Không đọc được demo/content.json.', 'toplist-khanh-hoa' ) );
 	}
 
+	// Pretty permalinks first: Polylang derives each language's home URL (/en/ vs /?lang=en) from them.
+	update_option( 'permalink_structure', '/%postname%/' );
+	flush_rewrite_rules();
+
 	$bilingual = tkh_demo_setup_languages();
 	$langs     = $bilingual ? array( 'vi', 'en' ) : array( 'vi' );
 	$summary   = array( 'terms' => 0, 'posts' => 0, 'pages' => 0, 'languages' => $langs );
 
-	update_option( 'permalink_structure', '/%postname%/' );
 	update_option( 'timezone_string', 'Asia/Ho_Chi_Minh' );
 	update_option( 'date_format', 'd/m/Y' );
 	update_option( 'blogname', 'Toplist Khánh Hòa' );
@@ -69,6 +72,7 @@ function tkh_demo_import() {
 
 	tkh_demo_remove_wp_samples();
 	flush_rewrite_rules();
+	tkh_pll_clean_cache();
 	update_option( 'tkh_demo_imported', current_time( 'mysql' ) );
 	return $summary;
 }

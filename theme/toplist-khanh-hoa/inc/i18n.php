@@ -20,6 +20,28 @@ add_filter(
 	2
 );
 
+/**
+ * Polylang caches each language's home URL. A cache built while permalinks were still plain keeps
+ * "/?lang=en" as the English home link (the VN/EN switch then shows Vietnamese), so rebuild it
+ * whenever the permalink structure changes, and once on sites whose cache predates this fix.
+ */
+function tkh_pll_clean_cache() {
+	if ( function_exists( 'PLL' ) && isset( PLL()->model ) && method_exists( PLL()->model, 'clean_languages_cache' ) ) {
+		PLL()->model->clean_languages_cache();
+	}
+}
+add_action( 'update_option_permalink_structure', 'tkh_pll_clean_cache' );
+add_action(
+	'init',
+	function () {
+		if ( function_exists( 'PLL' ) && '1' !== get_option( 'tkh_pll_cache_rev' ) ) {
+			tkh_pll_clean_cache();
+			update_option( 'tkh_pll_cache_rev', '1' );
+		}
+	},
+	99
+);
+
 function tkh_has_pll() {
 	return function_exists( 'pll_current_language' ) && function_exists( 'pll_get_term' );
 }
