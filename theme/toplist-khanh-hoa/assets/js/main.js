@@ -78,6 +78,46 @@
     });
   });
 
+  // Article: reading progress bar, back-to-top button, active table-of-contents entry.
+  const article = document.querySelector('[data-article]');
+  if (article) {
+    const bar = document.querySelector('[data-reading-progress]');
+    const topBtn = document.querySelector('[data-back-to-top]');
+    let ticking = false;
+    const onScroll = () => {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(() => {
+        const rect = article.getBoundingClientRect();
+        const total = rect.height - window.innerHeight;
+        const progress = total > 0 ? Math.min(1, Math.max(0, -rect.top / total)) : 1;
+        if (bar) bar.style.transform = `scaleX(${progress})`;
+        if (topBtn) topBtn.dataset.show = String(window.scrollY > 600);
+        ticking = false;
+      });
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+    topBtn?.addEventListener('click', () => {
+      const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
+    });
+
+    const toc = document.querySelector('[data-toc]');
+    if (toc && 'IntersectionObserver' in window) {
+      const links = new Map([...toc.querySelectorAll('a[href^="#"]')].map((a) => [decodeURIComponent(a.hash.slice(1)), a]));
+      const setActive = (id) => links.forEach((a, key) => a.classList.toggle('is-active', key === id));
+      const observer = new IntersectionObserver((entries) => {
+        const visible = entries.filter((e) => e.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+        if (visible[0]) setActive(visible[0].target.id);
+      }, { rootMargin: '-96px 0px -65% 0px' });
+      links.forEach((_, id) => {
+        const heading = document.getElementById(id);
+        if (heading) observer.observe(heading);
+      });
+    }
+  }
+
   // Mobile slide-in menu.
   const drawer = document.getElementById('tkh-drawer');
   const opener = document.querySelector('[data-menu-open]');

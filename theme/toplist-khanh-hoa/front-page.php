@@ -41,11 +41,11 @@ $culinary = $by_category( 'am-thuc', 3 );
 $stays    = $by_category( 'luu-tru', 3 );
 
 $quick_filters = array(
-	array( '<span class="text-sunset-gold font-bold">★</span>', __( 'Đánh Giá 4.5+', 'toplist-khanh-hoa' ), array( 'rating' => '4.5' ) ),
-	array( '🔥', __( 'Phổ Biến Nhất', 'toplist-khanh-hoa' ), array( 'sort' => 'reviews' ) ),
-	array( '🏖️', __( 'Ven Biển', 'toplist-khanh-hoa' ), array( 'tag' => $tag_slug( 'ven-bien' ) ) ),
-	array( '💰', __( 'Giá Bình Dân', 'toplist-khanh-hoa' ), array( 'price_level' => 'binh-dan' ) ),
-	array( '🌅', __( 'View Hoàng Hôn Lãng Mạn', 'toplist-khanh-hoa' ), array( 'tag' => $tag_slug( 'hoang-hon' ) ) ),
+	array( 'star', __( 'Đánh Giá 4.5+', 'toplist-khanh-hoa' ), array( 'rating' => '4.5' ) ),
+	array( 'local_fire_department', __( 'Phổ Biến Nhất', 'toplist-khanh-hoa' ), array() ),
+	array( 'beach_access', __( 'Ven Biển', 'toplist-khanh-hoa' ), array( 'tag' => $tag_slug( 'ven-bien' ) ) ),
+	array( 'savings', __( 'Giá Bình Dân', 'toplist-khanh-hoa' ), array( 'price_level' => 'binh-dan' ) ),
+	array( 'wb_twilight', __( 'View Hoàng Hôn Lãng Mạn', 'toplist-khanh-hoa' ), array( 'tag' => $tag_slug( 'hoang-hon' ) ) ),
 );
 $area_keywords    = 'en' === tkh_lang() ? array( 'Tran Phu', 'Hon Tre', 'Long Beach', 'Ba Ngoi', 'Van Phong', 'Vinh Hy' ) : array( 'Trần Phú', 'Hòn Tre', 'Bãi Dài', 'Ba Ngòi', 'Vân Phong', 'Vĩnh Hy' );
 $newsletter_state = isset( $_GET['dang-ky'] ) ? sanitize_key( wp_unslash( $_GET['dang-ky'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification -- display-only flag.
@@ -106,7 +106,7 @@ $newsletter_state = isset( $_GET['dang-ky'] ) ? sanitize_key( wp_unslash( $_GET[
 				<div class="flex flex-wrap items-center gap-2 mt-3 pt-3 border-t border-slate-border/50 text-left">
 					<span class="font-label-sm text-label-sm text-slate-muted uppercase tracking-wider pl-1 shrink-0"><?php esc_html_e( 'Gợi Ý Nhanh:', 'toplist-khanh-hoa' ); ?></span>
 					<?php foreach ( $quick_filters as $qf ) : ?>
-						<a class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-surface-mist hover:bg-primary-fixed text-on-surface font-body-sm text-body-sm transition-colors" href="<?php echo esc_url( tkh_search_url( $qf[2] ) ); ?>"><?php echo wp_kses_post( $qf[0] ); ?> <?php echo esc_html( $qf[1] ); ?></a>
+						<a class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-surface-mist hover:bg-primary-fixed text-on-surface font-body-sm text-body-sm transition-colors" href="<?php echo esc_url( tkh_search_url( $qf[2] ) ); ?>"><span class="material-symbols-outlined icon-fill text-[16px] text-sunset-gold" aria-hidden="true"><?php echo esc_html( $qf[0] ); ?></span><?php echo esc_html( $qf[1] ); ?></a>
 					<?php endforeach; ?>
 				</div>
 			</div>

@@ -21,9 +21,12 @@
   .no-scrollbar { scrollbar-width: none; }
   .no-scrollbar::-webkit-scrollbar { display: none; }
 
+  /* The control fills the whole 44px box so the entire field is the tap target. */
   .field {
-    @apply relative flex items-center bg-surface-porcelain rounded-xl px-3.5 py-2.5 transition-colors hover:bg-surface-mist focus-within:ring-2 focus-within:ring-primary-container/40;
+    @apply relative flex items-center bg-surface-porcelain rounded-xl px-3.5 min-h-11 transition-colors hover:bg-surface-mist focus-within:ring-2 focus-within:ring-primary-container/40;
   }
+  .field > input,
+  .field > select { @apply h-11 min-w-0; }
 
   .chip {
     @apply inline-flex items-center gap-1 px-3.5 py-1.5 rounded-full border border-slate-border bg-surface-mist text-on-surface font-label-lg text-label-lg whitespace-nowrap transition-colors hover:bg-primary-fixed;
@@ -38,19 +41,29 @@
   .fav-btn.is-fav .fav-on { display: inline; }
   .fav-btn.is-fav .fav-off { display: none; }
 
-  /* Long-form post body (the_content) */
-  .entry-content { @apply font-body-lg text-body-lg text-on-surface-variant; }
-  .entry-content > * + * { @apply mt-4; }
-  .entry-content h2 { @apply font-headline-md text-[24px] leading-8 font-bold text-on-surface mt-10 mb-2 tracking-tight; }
-  .entry-content h3 { @apply font-headline-md text-headline-md text-on-surface mt-7 mb-1; }
+  /* Long-form post body (the_content): ~70ch measure, 1.75 line height, clear section rhythm. */
+  .entry-content { @apply font-body-lg text-body-lg text-on-surface-variant leading-[1.8] max-w-[72ch]; }
+  .entry-content > * + * { @apply mt-5; }
+  .entry-content > p:first-child { @apply text-[18px] leading-8 text-on-surface; }
+  .entry-content h2 { @apply relative font-headline-md text-[22px] md:text-[26px] leading-tight font-bold text-on-surface mt-12 mb-3 pl-4 tracking-tight; }
+  .entry-content h2::before { content: ''; @apply absolute left-0 top-1 bottom-1 w-1 rounded-full bg-gradient-to-b from-primary-container to-sunset-gold; }
+  .entry-content h3 { @apply font-headline-md text-headline-md text-on-surface mt-8 mb-1; }
   .entry-content a { @apply text-primary-container underline underline-offset-2 hover:text-primary; }
   .entry-content strong { @apply text-on-surface font-semibold; }
-  .entry-content ul { @apply list-disc pl-6 space-y-1.5 marker:text-primary-container; }
-  .entry-content ol { @apply list-decimal pl-6 space-y-1.5 marker:text-primary-container marker:font-bold; }
-  .entry-content blockquote { @apply border-l-4 border-sunset-gold bg-secondary-fixed/40 rounded-r-xl px-5 py-4 text-on-surface not-italic; }
-  .entry-content table { @apply w-full text-left font-body-md text-body-md border border-slate-border rounded-xl overflow-hidden border-separate border-spacing-0; }
-  .entry-content th { @apply bg-surface-mist text-on-surface font-semibold px-4 py-2.5; }
-  .entry-content td { @apply px-4 py-2.5 border-t border-slate-border; }
+  .entry-content ul { @apply list-disc pl-6 space-y-2 marker:text-primary-container; }
+  .entry-content ol { @apply list-decimal pl-6 space-y-2 marker:text-primary-container marker:font-bold; }
+  .entry-content li { @apply pl-1; }
+  .entry-content blockquote { @apply relative border border-secondary-fixed-dim bg-secondary-fixed/40 rounded-2xl pl-14 pr-5 py-4 text-on-surface not-italic; }
+  .entry-content blockquote::before { content: 'lightbulb'; font-family: 'Material Symbols Outlined'; font-variation-settings: 'FILL' 1; @apply absolute left-4 top-4 text-[24px] leading-none text-sunset-gold; }
+  /* Tables scroll sideways on narrow screens instead of breaking the layout. */
+  .entry-content table { @apply block md:table w-full overflow-x-auto text-left font-body-md text-body-md border border-slate-border rounded-xl border-separate border-spacing-0; }
+  .entry-content th { @apply bg-surface-mist text-on-surface font-semibold px-4 py-2.5 whitespace-nowrap; }
+  .entry-content td { @apply px-4 py-2.5 border-t border-slate-border min-w-[9rem]; }
+  .entry-content tr:nth-child(even) td { @apply bg-surface-porcelain; }
+
+  .toc-link.is-active { @apply text-primary-container border-primary-container font-semibold bg-primary-fixed/40 rounded-r-lg; }
+
+  :focus-visible { @apply outline-none ring-2 ring-primary-container ring-offset-2; }
   .entry-content img { @apply rounded-2xl; }
   .entry-content figcaption { @apply font-body-sm text-body-sm text-slate-muted text-center mt-2; }
 }

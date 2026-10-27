@@ -25,11 +25,13 @@ function tkh_nav_categories() {
  */
 function tkh_icon_names() {
 	return array(
-		'arrow_forward', 'attractions', 'beach_access', 'call', 'category', 'check', 'chevron_left', 'chevron_right',
-		'close', 'edit_note', 'expand_more', 'explore', 'favorite', 'flight_takeoff', 'hotel',
-		'landscape', 'link', 'local_cafe', 'location_on', 'mail', 'map', 'menu', 'near_me', 'payments', 'pin_drop',
-		'restaurant', 'restaurant_menu', 'rss_feed', 'sailing', 'schedule', 'search', 'sell', 'share', 'star',
-		'temple_buddhist', 'timer', 'toc', 'travel_explore', 'update', 'verified', 'verified_user', 'villa',
+		'arrow_back', 'arrow_forward', 'arrow_upward', 'attractions', 'beach_access', 'call', 'category', 'check',
+		'chevron_left', 'chevron_right', 'close', 'edit_note', 'expand_more', 'explore', 'favorite', 'filter_alt_off',
+		'flight_takeoff', 'hotel', 'landscape', 'lightbulb', 'link', 'local_cafe', 'local_fire_department',
+		'location_on', 'mail', 'map', 'menu', 'near_me', 'payments', 'pin_drop', 'restaurant', 'restaurant_menu',
+		'reviews', 'rss_feed', 'sailing', 'savings', 'schedule', 'search', 'sell', 'share', 'sort', 'star',
+		'temple_buddhist', 'timer', 'toc', 'travel_explore', 'trending_up', 'tune', 'update', 'verified',
+		'verified_user', 'villa', 'wb_twilight',
 	);
 }
 

@@ -14,6 +14,7 @@ $args = array(
 	'title'   => wp_strip_all_tags( get_the_archive_title() ),
 	'desc'    => '',
 	'crumbs'  => array( array( wp_strip_all_tags( get_the_archive_title() ), null ) ),
+	'term'    => $term,
 );
 
 if ( $term ) {

@@ -19,7 +19,6 @@ get_template_part(
 		'title'       => '' !== $q ? sprintf( __( 'Kết quả cho “%s”', 'toplist-khanh-hoa' ), $q ) : __( 'Tìm địa điểm ở Khánh Hòa', 'toplist-khanh-hoa' ),
 		'desc'        => __( 'Lọc theo danh mục, khu vực, điểm đánh giá và mức giá để chọn nơi phù hợp cho chuyến đi.', 'toplist-khanh-hoa' ),
 		'crumbs'      => array( array( __( 'Tìm kiếm', 'toplist-khanh-hoa' ), null ) ),
-		'show_search' => true,
 	)
 );
 

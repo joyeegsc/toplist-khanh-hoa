@@ -14,5 +14,7 @@ if (!existsSync(path.join(root, 'theme', 'toplist-khanh-hoa', 'assets', 'css', '
 
 mkdirSync(path.dirname(out), { recursive: true });
 rmSync(out, { force: true });
-execFileSync('tar', ['-a', '-c', '-f', out, '-C', path.join(root, 'theme'), 'toplist-khanh-hoa'], { stdio: 'inherit' });
+// On Windows, Git Bash puts GNU tar (no zip support) first on PATH; use the system bsdtar instead.
+const tar = process.platform === 'win32' ? path.join(process.env.SystemRoot || 'C:\\Windows', 'System32', 'tar.exe') : 'tar';
+execFileSync(tar, ['-a', '-c', '-f', out, '-C', path.join(root, 'theme'), 'toplist-khanh-hoa'], { stdio: 'inherit' });
 console.log(`Theme zip → ${path.relative(root, out)}`);

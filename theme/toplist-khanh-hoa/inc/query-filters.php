@@ -15,9 +15,9 @@ add_filter(
 
 function tkh_sort_options() {
 	return array(
-		''        => __( 'Mới cập nhật', 'toplist-khanh-hoa' ),
-		'rating'  => __( 'Đánh giá cao nhất', 'toplist-khanh-hoa' ),
-		'reviews' => __( 'Nhiều lượt đánh giá', 'toplist-khanh-hoa' ),
+		''       => __( 'Phổ biến nhất', 'toplist-khanh-hoa' ),
+		'rating' => __( 'Đánh giá cao nhất', 'toplist-khanh-hoa' ),
+		'newest' => __( 'Mới cập nhật', 'toplist-khanh-hoa' ),
 	);
 }
 
@@ -88,16 +88,52 @@ add_action(
 			$query->set( 'meta_query', $meta_query );
 		}
 
+		// Default order is "most popular" (review count); "reviews" is kept for older links.
 		$sort = (string) $query->get( 'sort' );
 		if ( 'rating' === $sort ) {
 			$query->set( 'meta_key', '_tkh_rating' );
 			$query->set( 'orderby', array( 'meta_value_num' => 'DESC', 'date' => 'DESC' ) );
-		} elseif ( 'reviews' === $sort ) {
+		} elseif ( 'newest' !== $sort && ! ( $query->is_search() && '' !== $query->get( 's' ) && '' === $sort ) ) {
 			$query->set( 'meta_key', '_tkh_review_count' );
 			$query->set( 'orderby', array( 'meta_value_num' => 'DESC', 'date' => 'DESC' ) );
 		}
 	}
 );
+
+/**
+ * Active filters as removable chips: [label, url without that filter].
+ * The page's own taxonomy (e.g. the category of a category archive) is not a filter.
+ */
+function tkh_active_filters() {
+	$filters = tkh_current_filters();
+	$base    = tkh_archive_base();
+	$items   = array();
+	$remove  = function ( $key ) {
+		$url = preg_replace( '#/page/\d+/?#', '/', remove_query_arg( array( $key, 'paged' ) ) );
+		return 's' === $key ? add_query_arg( 's', '', $url ) : $url;
+	};
+	if ( '' !== $filters['s'] ) {
+		$items[] = array( '“' . $filters['s'] . '”', $remove( 's' ) );
+	}
+	$terms = array( 'category_name' => 'category', 'khu_vuc' => 'khu_vuc', 'tag' => 'post_tag' );
+	foreach ( $terms as $key => $taxonomy ) {
+		if ( '' !== $filters[ $key ] && $taxonomy !== $base ) {
+			$term    = get_term_by( 'slug', basename( $filters[ $key ] ), $taxonomy );
+			$items[] = array( $term ? $term->name : $filters[ $key ], $remove( $key ) );
+		}
+	}
+	$labels = array(
+		'rating'      => tkh_rating_options(),
+		'price_level' => tkh_price_levels(),
+		'sort'        => tkh_sort_options(),
+	);
+	foreach ( $labels as $key => $options ) {
+		if ( '' !== $filters[ $key ] && isset( $options[ $filters[ $key ] ] ) ) {
+			$items[] = array( $options[ $filters[ $key ] ], $remove( $key ) );
+		}
+	}
+	return $items;
+}
 
 /**
  * Current listing filter values, read from the main query.
@@ -121,6 +157,10 @@ function tkh_current_filters() {
  */
 function tkh_archive_base() {
 	global $wp;
+	// A search narrowed by ?category_name= also sets is_category(); it is still the search page.
+	if ( is_search() ) {
+		return '';
+	}
 	$request = (string) $wp->request;
 	if ( tkh_has_pll() ) {
 		// Strip the language directory (e.g. "en/") that Polylang prefixes to URLs.

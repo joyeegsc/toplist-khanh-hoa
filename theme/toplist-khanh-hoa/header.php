@@ -46,9 +46,9 @@ $languages                = tkh_languages();
 					<?php foreach ( $languages as $i => $lang ) : ?>
 						<?php if ( $i ) : ?><span class="text-outline-variant font-label-sm text-label-sm px-0.5" aria-hidden="true">|</span><?php endif; ?>
 						<?php if ( $lang['current'] ) : ?>
-							<span class="px-2.5 py-1 rounded-full bg-surface-container-lowest shadow-[0_1px_3px_rgba(23,35,58,0.08)] font-label-sm text-label-sm text-deep-ocean" aria-current="true" title="<?php echo esc_attr( $lang['name'] ); ?>"><?php echo esc_html( $lang['label'] ); ?></span>
+							<span class="px-3 py-2 rounded-full bg-surface-container-lowest shadow-[0_1px_3px_rgba(23,35,58,0.08)] font-label-sm text-label-sm text-deep-ocean" aria-current="true" title="<?php echo esc_attr( $lang['name'] ); ?>"><?php echo esc_html( $lang['label'] ); ?></span>
 						<?php else : ?>
-							<a class="px-2.5 py-1 rounded-full font-label-sm text-label-sm text-slate-muted hover:text-on-surface transition-all" href="<?php echo esc_url( $lang['url'] ); ?>" hreflang="<?php echo esc_attr( $lang['slug'] ); ?>" lang="<?php echo esc_attr( $lang['slug'] ); ?>" title="<?php echo esc_attr( $lang['name'] ); ?>"><?php echo esc_html( $lang['label'] ); ?></a>
+							<a class="px-3 py-2 rounded-full font-label-sm text-label-sm text-slate-muted hover:text-on-surface transition-all" href="<?php echo esc_url( $lang['url'] ); ?>" hreflang="<?php echo esc_attr( $lang['slug'] ); ?>" lang="<?php echo esc_attr( $lang['slug'] ); ?>" title="<?php echo esc_attr( $lang['name'] ); ?>"><?php echo esc_html( $lang['label'] ); ?></a>
 						<?php endif; ?>
 					<?php endforeach; ?>
 				</nav>

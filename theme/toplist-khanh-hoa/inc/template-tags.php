@@ -216,3 +216,69 @@ function tkh_price_level_label( $level ) {
 	$levels = tkh_price_levels();
 	return isset( $levels[ $level ] ) ? $levels[ $level ] : '';
 }
+
+/**
+ * Price tier as ₫ / ₫₫ / ₫₫₫ with a screen-reader label.
+ */
+function tkh_price_level_badge( $post_id = null ) {
+	$level = tkh_meta( 'price_level', $post_id );
+	$marks = array( 'binh-dan' => 1, 'trung-cap' => 2, 'cao-cap' => 3 );
+	if ( ! isset( $marks[ $level ] ) ) {
+		return '';
+	}
+	$on  = str_repeat( '₫', $marks[ $level ] );
+	$off = str_repeat( '₫', 3 - $marks[ $level ] );
+	return sprintf(
+		'<span class="font-label-md text-label-md tracking-wider" title="%1$s"><span class="text-secondary" aria-hidden="true">%2$s</span><span class="text-outline-variant" aria-hidden="true">%3$s</span><span class="sr-only">%1$s</span></span>',
+		esc_attr( tkh_price_level_label( $level ) ),
+		$on,
+		$off
+	);
+}
+
+/**
+ * Figures for an archive term: places, average rating, total reviews, areas and a cover image
+ * (from its most-reviewed place). Cached per request.
+ */
+function tkh_term_stats( WP_Term $term ) {
+	static $cache = array();
+	if ( isset( $cache[ $term->term_id ] ) ) {
+		return $cache[ $term->term_id ];
+	}
+	$ids = get_posts(
+		array(
+			'fields'         => 'ids',
+			'posts_per_page' => -1,
+			'tax_query'      => array( array( 'taxonomy' => $term->taxonomy, 'terms' => $term->term_id ) ),
+		)
+	);
+	$ratings = array();
+	$reviews = 0;
+	$areas   = array();
+	$top     = 0;
+	$top_n   = -1;
+	foreach ( $ids as $id ) {
+		$rating = tkh_meta( 'rating', $id );
+		if ( '' !== $rating ) {
+			$ratings[] = (float) $rating;
+		}
+		$count    = (int) tkh_meta( 'review_count', $id );
+		$reviews += $count;
+		if ( $count > $top_n ) {
+			$top_n = $count;
+			$top   = $id;
+		}
+		$region = tkh_post_region( $id );
+		if ( $region ) {
+			$areas[ $region->term_id ] = true;
+		}
+	}
+	$cache[ $term->term_id ] = array(
+		'count'   => count( $ids ),
+		'avg'     => $ratings ? round( array_sum( $ratings ) / count( $ratings ), 1 ) : 0,
+		'reviews' => $reviews,
+		'areas'   => count( $areas ),
+		'image'   => $top ? tkh_image_url( 'tkh-hero', $top ) : tkh_fallback_images()['bay'],
+	);
+	return $cache[ $term->term_id ];
+}
