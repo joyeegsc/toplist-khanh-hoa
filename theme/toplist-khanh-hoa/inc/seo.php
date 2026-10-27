@@ -104,6 +104,9 @@ function tkh_document_title_parts( $parts ) {
 		$parts['tagline'] = get_bloginfo( 'description' );
 	} elseif ( is_archive() && tkh_archive_term() ) {
 		$parts['title'] = tkh_archive_heading( tkh_archive_term() );
+	} elseif ( is_404() ) {
+		// Translated by the theme so the title is right even without WordPress core language packs.
+		$parts['title'] = __( 'Không tìm thấy trang', 'toplist-khanh-hoa' );
 	} elseif ( is_search() ) {
 		$q              = get_search_query( false );
 		$parts['title'] = '' !== $q ? sprintf( /* translators: %s: search keywords */ __( 'Kết quả cho “%s”', 'toplist-khanh-hoa' ), $q ) : __( 'Tìm địa điểm ở Khánh Hòa', 'toplist-khanh-hoa' );
