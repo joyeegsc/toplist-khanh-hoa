@@ -20,6 +20,7 @@ dữ liệu mẫu đầy đủ, lọc và tìm kiếm. Chạy live miễn phí t
 - **Bài viết:** mục lục tự động, thời gian đọc, khung thông tin nhanh, bản đồ Google nhúng, nút chỉ đường, chia sẻ, lưu yêu thích, bài liên quan.
 - **Yêu thích:** lưu trên trình duyệt (localStorage), có trang riêng.
 - **Bản tin:** lưu email, xem ở *Công cụ → Đăng ký nhận tin*.
+- **Trợ lý du lịch (chatbot):** trả lời song ngữ dựa trên các bài của site, dùng chuỗi AI miễn phí (Gemini → Groq → OpenRouter → OrcaRouter); hết lượt thì gợi ý bài phù hợp. Xem [docs/chatbot.md](docs/chatbot.md).
 - **Di động:** thanh điều hướng đáy màn hình, menu trượt, chuyển ngôn ngữ.
 
 ## SEO trong theme

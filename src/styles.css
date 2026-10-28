@@ -61,6 +61,12 @@
   .entry-content td { @apply px-4 py-2.5 border-t border-slate-border min-w-[9rem]; }
   .entry-content tr:nth-child(even) td { @apply bg-surface-porcelain; }
 
+  /* Chat answers: rendered from the server's allowlisted HTML. */
+  .tkh-chat-bubble p + p { @apply mt-2; }
+  .tkh-chat-bubble ul { @apply list-disc pl-5 space-y-1 marker:text-primary-container; }
+  .tkh-chat-bubble a { @apply text-primary-container font-semibold underline underline-offset-2 hover:text-primary; }
+  .tkh-chat-bubble strong { @apply font-semibold; }
+
   .toc-link.is-active { @apply text-primary-container border-primary-container font-semibold bg-primary-fixed/40 rounded-r-lg; }
 
   :focus-visible { @apply outline-none ring-2 ring-primary-container ring-offset-2; }

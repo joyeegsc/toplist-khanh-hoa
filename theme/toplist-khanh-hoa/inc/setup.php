@@ -25,8 +25,8 @@ function tkh_nav_categories() {
  */
 function tkh_icon_names() {
 	return array(
-		'arrow_back', 'arrow_forward', 'arrow_upward', 'attractions', 'beach_access', 'call', 'category', 'check',
-		'chevron_left', 'chevron_right', 'close', 'edit_note', 'expand_more', 'explore', 'favorite', 'filter_alt_off',
+		'arrow_back', 'arrow_forward', 'arrow_upward', 'attractions', 'auto_awesome', 'beach_access', 'call', 'category', 'check',
+		'chevron_left', 'chevron_right', 'close', 'edit_note', 'expand_more', 'explore', 'favorite', 'filter_alt_off', 'forum', 'send',
 		'flight_takeoff', 'hotel', 'landscape', 'lightbulb', 'link', 'local_cafe', 'local_fire_department',
 		'location_on', 'mail', 'map', 'menu', 'near_me', 'payments', 'pin_drop', 'restaurant', 'restaurant_menu',
 		'reviews', 'rss_feed', 'sailing', 'savings', 'schedule', 'search', 'sell', 'share', 'sort', 'star',
@@ -90,6 +90,28 @@ add_action(
 		wp_enqueue_style( 'tkh-icons', 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=' . implode( ',', $icons ) . '&display=block', array(), null );
 		wp_enqueue_style( 'tkh-main', TKH_URI . '/assets/css/main.css', array(), file_exists( $css ) ? filemtime( $css ) : null );
 		wp_enqueue_script( 'tkh-main', TKH_URI . '/assets/js/main.js', array(), file_exists( $js ) ? filemtime( $js ) : null, array( 'strategy' => 'defer', 'in_footer' => true ) );
+		$chat = TKH_DIR . '/assets/js/chat.js';
+		wp_enqueue_script( 'tkh-chat', TKH_URI . '/assets/js/chat.js', array(), file_exists( $chat ) ? filemtime( $chat ) : null, array( 'strategy' => 'defer', 'in_footer' => true ) );
+		wp_localize_script(
+			'tkh-chat',
+			'tkhChat',
+			array(
+				'endpoint'    => rest_url( 'tkh/v1/chat' ),
+				'lang'        => tkh_lang(),
+				'suggestions' => array(
+					__( 'Ăn hải sản ngon ở đâu tại Nha Trang?', 'toplist-khanh-hoa' ),
+					__( 'Lịch trình 2 ngày đi đảo Bình Ba', 'toplist-khanh-hoa' ),
+					__( 'Resort nào gần sân bay Cam Ranh?', 'toplist-khanh-hoa' ),
+					__( 'Đi đâu vui cho gia đình có trẻ nhỏ?', 'toplist-khanh-hoa' ),
+				),
+				'i18n'        => array(
+					'welcome'  => esc_html__( 'Xin chào! Mình là trợ lý du lịch Khánh Hòa. Bạn muốn ăn gì, chơi đâu hay nghỉ ở đâu? Mình sẽ gợi ý kèm bài review trên site.', 'toplist-khanh-hoa' ),
+					'sources'  => __( 'Bài viết liên quan', 'toplist-khanh-hoa' ),
+					'thinking' => __( 'Đang tìm câu trả lời…', 'toplist-khanh-hoa' ),
+					'error'    => esc_html__( 'Xin lỗi, trợ lý đang bận. Bạn thử lại sau ít phút hoặc dùng ô tìm kiếm của site nhé.', 'toplist-khanh-hoa' ),
+				),
+			)
+		);
 		wp_localize_script(
 			'tkh-main',
 			'tkhI18n',
@@ -114,6 +136,9 @@ add_filter(
 	10,
 	2
 );
+
+// Travel assistant widget on every front-end page.
+add_action( 'wp_footer', fn() => get_template_part( 'parts/chatbot' ), 5 );
 
 // Theme favicon until a Site Icon is set in the Customizer.
 add_action(

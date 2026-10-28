@@ -50,6 +50,8 @@ export default [
     content: `
 <p>Chúng tôi chỉ thu thập email khi bạn chủ động đăng ký nhận bản tin. Email được dùng để gửi nội dung du lịch và có thể hủy đăng ký bất kỳ lúc nào bằng cách liên hệ với chúng tôi.</p>
 <p>Danh sách địa điểm yêu thích được lưu ngay trên trình duyệt của bạn (localStorage) và không được gửi về máy chủ.</p>
+<h2>Trợ lý du lịch (chatbot)</h2>
+<p>Câu hỏi bạn gửi cho trợ lý được chuyển tới một trong các dịch vụ AI miễn phí (Google Gemini, Groq, OpenRouter, OrcaRouter) để soạn câu trả lời. Ở gói miễn phí, các dịch vụ này có thể dùng nội dung câu hỏi để cải thiện sản phẩm của họ, vì vậy vui lòng không nhập thông tin cá nhân. Chúng tôi không lưu nội dung cuộc trò chuyện; lịch sử chat chỉ nằm trong tab trình duyệt của bạn và mất khi đóng tab.</p>
 <p>Website có thể sử dụng dịch vụ bên thứ ba như Google Fonts và Google Maps; các dịch vụ này có chính sách quyền riêng tư riêng.</p>
 `,
   },

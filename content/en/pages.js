@@ -50,6 +50,8 @@ export default {
     content: `
 <p>We only collect your email when you choose to subscribe to our newsletter. It is used to send travel content, and you can unsubscribe at any time by contacting us.</p>
 <p>Your favourites list is stored in your own browser (localStorage) and is never sent to our server.</p>
+<h2>Travel assistant (chatbot)</h2>
+<p>Questions you send to the assistant are passed to one of several free AI services (Google Gemini, Groq, OpenRouter, OrcaRouter) to write the answer. On their free tiers these services may use the content to improve their products, so please don't share personal information. We don't store conversations; the chat history lives only in your browser tab and is cleared when you close it.</p>
 <p>The website may use third-party services such as Google Fonts and Google Maps, which have their own privacy policies.</p>
 `,
   },

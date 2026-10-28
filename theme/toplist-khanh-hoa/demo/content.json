@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T16:26:27.079Z",
+ "generated": "2026-10-28T04:45:07.190Z",
  "categories": [
   {
    "key": "am-thuc",
@@ -1203,12 +1203,12 @@
    "vi": {
     "slug": "chinh-sach-bao-mat",
     "title": "Chính Sách Bảo Mật",
-    "content": "<p>Chúng tôi chỉ thu thập email khi bạn chủ động đăng ký nhận bản tin. Email được dùng để gửi nội dung du lịch và có thể hủy đăng ký bất kỳ lúc nào bằng cách liên hệ với chúng tôi.</p>\n<p>Danh sách địa điểm yêu thích được lưu ngay trên trình duyệt của bạn (localStorage) và không được gửi về máy chủ.</p>\n<p>Website có thể sử dụng dịch vụ bên thứ ba như Google Fonts và Google Maps; các dịch vụ này có chính sách quyền riêng tư riêng.</p>"
+    "content": "<p>Chúng tôi chỉ thu thập email khi bạn chủ động đăng ký nhận bản tin. Email được dùng để gửi nội dung du lịch và có thể hủy đăng ký bất kỳ lúc nào bằng cách liên hệ với chúng tôi.</p>\n<p>Danh sách địa điểm yêu thích được lưu ngay trên trình duyệt của bạn (localStorage) và không được gửi về máy chủ.</p>\n<h2>Trợ lý du lịch (chatbot)</h2>\n<p>Câu hỏi bạn gửi cho trợ lý được chuyển tới một trong các dịch vụ AI miễn phí (Google Gemini, Groq, OpenRouter, OrcaRouter) để soạn câu trả lời. Ở gói miễn phí, các dịch vụ này có thể dùng nội dung câu hỏi để cải thiện sản phẩm của họ, vì vậy vui lòng không nhập thông tin cá nhân. Chúng tôi không lưu nội dung cuộc trò chuyện; lịch sử chat chỉ nằm trong tab trình duyệt của bạn và mất khi đóng tab.</p>\n<p>Website có thể sử dụng dịch vụ bên thứ ba như Google Fonts và Google Maps; các dịch vụ này có chính sách quyền riêng tư riêng.</p>"
    },
    "en": {
     "slug": "privacy-policy",
     "title": "Privacy Policy",
-    "content": "<p>We only collect your email when you choose to subscribe to our newsletter. It is used to send travel content, and you can unsubscribe at any time by contacting us.</p>\n<p>Your favourites list is stored in your own browser (localStorage) and is never sent to our server.</p>\n<p>The website may use third-party services such as Google Fonts and Google Maps, which have their own privacy policies.</p>"
+    "content": "<p>We only collect your email when you choose to subscribe to our newsletter. It is used to send travel content, and you can unsubscribe at any time by contacting us.</p>\n<p>Your favourites list is stored in your own browser (localStorage) and is never sent to our server.</p>\n<h2>Travel assistant (chatbot)</h2>\n<p>Questions you send to the assistant are passed to one of several free AI services (Google Gemini, Groq, OpenRouter, OrcaRouter) to write the answer. On their free tiers these services may use the content to improve their products, so please don't share personal information. We don't store conversations; the chat history lives only in your browser tab and is cleared when you close it.</p>\n<p>The website may use third-party services such as Google Fonts and Google Maps, which have their own privacy policies.</p>"
    }
   },
   {

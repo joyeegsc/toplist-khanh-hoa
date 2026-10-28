@@ -255,7 +255,7 @@ while ( have_posts() ) :
 		</section>
 	<?php endforeach; ?>
 
-	<button type="button" class="fixed right-4 bottom-24 lg:bottom-6 z-40 w-11 h-11 rounded-full bg-deep-ocean text-on-primary shadow-lg flex items-center justify-center cursor-pointer opacity-0 translate-y-3 pointer-events-none transition-all duration-200 motion-reduce:transition-none data-[show=true]:opacity-100 data-[show=true]:translate-y-0 data-[show=true]:pointer-events-auto" data-back-to-top aria-label="<?php esc_attr_e( 'Lên đầu trang', 'toplist-khanh-hoa' ); ?>"><span class="material-symbols-outlined" aria-hidden="true">arrow_upward</span></button>
+	<button type="button" class="fixed left-4 bottom-24 lg:left-6 lg:bottom-6 z-40 w-11 h-11 rounded-full bg-deep-ocean text-on-primary shadow-lg flex items-center justify-center cursor-pointer opacity-0 translate-y-3 pointer-events-none transition-all duration-200 motion-reduce:transition-none data-[show=true]:opacity-100 data-[show=true]:translate-y-0 data-[show=true]:pointer-events-auto" data-back-to-top aria-label="<?php esc_attr_e( 'Lên đầu trang', 'toplist-khanh-hoa' ); ?>"><span class="material-symbols-outlined" aria-hidden="true">arrow_upward</span></button>
 	<?php
 endwhile;
 

@@ -17,3 +17,4 @@ require TKH_DIR . '/inc/template-tags.php';
 require TKH_DIR . '/inc/article-tools.php';
 require TKH_DIR . '/inc/seo.php';
 require TKH_DIR . '/inc/demo-import.php';
+require TKH_DIR . '/inc/chatbot.php';

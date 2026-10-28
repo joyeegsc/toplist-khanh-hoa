@@ -27,3 +27,13 @@ services:
         value: wordpress-backup
       - key: BACKUP_INTERVAL
         value: "600"
+      # Travel assistant: free AI keys, tried in this order. Any subset works; with none the
+      # assistant answers with matching articles only. See docs/chatbot.md.
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
+      - key: OPENROUTER_API_KEY
+        sync: false
+      - key: ORCAROUTER_API_KEY
+        sync: false
