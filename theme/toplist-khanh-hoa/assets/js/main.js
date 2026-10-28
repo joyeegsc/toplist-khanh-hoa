@@ -126,7 +126,9 @@
     drawer.hidden = !open;
     document.body.classList.toggle('overflow-hidden', open);
     opener?.setAttribute('aria-expanded', String(open));
-    if (open) drawer.querySelector('input')?.focus();
+    // Focus the close button, not the search box: focusing an input pops the
+    // phone keyboard over the menu the visitor just opened.
+    if (open) drawer.querySelector('[role="dialog"] [data-menu-close]')?.focus();
     else opener?.focus();
   };
   opener?.addEventListener('click', () => setDrawer(true));

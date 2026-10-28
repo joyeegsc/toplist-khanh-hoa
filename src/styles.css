@@ -70,6 +70,8 @@
   .toc-link.is-active { @apply text-primary-container border-primary-container font-semibold bg-primary-fixed/40 rounded-r-lg; }
 
   :focus-visible { @apply outline-none ring-2 ring-primary-container ring-offset-2; }
+  /* Inside a .field the wrapper draws the focus ring; a second ring on the bare control looks like a stray box. */
+  .field > :focus-visible { @apply ring-0 ring-offset-0; }
   .entry-content img { @apply rounded-2xl; }
   .entry-content figcaption { @apply font-body-sm text-body-sm text-slate-muted text-center mt-2; }
 }
