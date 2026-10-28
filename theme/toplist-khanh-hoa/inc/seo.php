@@ -142,7 +142,7 @@ function tkh_seo_description() {
 	} else {
 		$text = get_bloginfo( 'description' );
 	}
-	$text = trim( preg_replace( '/\s+/', ' ', (string) $text ) );
+	$text = trim( preg_replace( '/\s+/u', ' ', (string) $text ) );
 	if ( '' === $text ) {
 		$text = get_bloginfo( 'description' );
 	}

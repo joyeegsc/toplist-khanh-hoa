@@ -109,7 +109,7 @@ function tkh_chat_words( $text ) {
  * Searchable index of published places in one language (rebuilt when posts change).
  */
 function tkh_chat_index( $lang ) {
-	$key   = 'tkh_chat_index_v2_' . $lang;
+	$key   = 'tkh_chat_index_v3_' . $lang;
 	$index = get_transient( $key );
 	if ( is_array( $index ) ) {
 		return $index;
@@ -123,7 +123,7 @@ function tkh_chat_index( $lang ) {
 		$cat    = tkh_post_category( $post->ID );
 		$region = tkh_post_region( $post->ID );
 		$tags   = wp_get_post_terms( $post->ID, 'post_tag', array( 'fields' => 'names' ) );
-		$body   = trim( preg_replace( '/\s+/', ' ', wp_strip_all_tags( strip_shortcodes( $post->post_content ) ) ) );
+		$body   = trim( preg_replace( '/\s+/u', ' ', wp_strip_all_tags( strip_shortcodes( $post->post_content ) ) ) );
 		$index[] = array(
 			'id'       => $post->ID,
 			'title'    => get_the_title( $post ),
@@ -152,8 +152,8 @@ function tkh_chat_index( $lang ) {
 add_action(
 	'save_post_post',
 	function () {
-		delete_transient( 'tkh_chat_index_v2_vi' );
-		delete_transient( 'tkh_chat_index_v2_en' );
+		delete_transient( 'tkh_chat_index_v3_vi' );
+		delete_transient( 'tkh_chat_index_v3_en' );
 	}
 );
 
@@ -282,14 +282,16 @@ function tkh_chat_call_provider( array $provider, array $messages ) {
  * and [text](url) links to this site only (other links become plain text).
  */
 function tkh_chat_render( $markdown ) {
+	// Every pattern uses /u: without it \R and \s also match the single byte 0x85, which occurs
+	// inside UTF-8 Vietnamese letters (ễ = E1 BB 85) and split words such as "Nguyễn" in half.
 	$site   = wp_parse_url( home_url( '/' ), PHP_URL_HOST );
-	$lines  = preg_split( '/\R/', trim( (string) $markdown ) );
+	$lines  = preg_split( '/\R/u', trim( (string) $markdown ) );
 	$html   = '';
 	$inlist = false;
 	$inline = function ( $text ) use ( $site ) {
 		$text = esc_html( $text );
 		$text = preg_replace_callback(
-			'/\[([^\]]+)\]\(([^)\s]+)\)/',
+			'/\[([^\]]+)\]\(([^)\s]+)\)/u',
 			function ( $m ) use ( $site ) {
 				$url = html_entity_decode( $m[2] );
 				if ( wp_parse_url( $url, PHP_URL_HOST ) === $site ) {
@@ -299,7 +301,7 @@ function tkh_chat_render( $markdown ) {
 			},
 			$text
 		);
-		return preg_replace( '/\*\*(.+?)\*\*/', '<strong>$1</strong>', $text );
+		return preg_replace( '/\*\*(.+?)\*\*/u', '<strong>$1</strong>', $text );
 	};
 	foreach ( $lines as $line ) {
 		$line = trim( $line );
@@ -316,7 +318,7 @@ function tkh_chat_render( $markdown ) {
 			$inlist = false;
 		}
 		if ( '' !== $line ) {
-			$html .= '<p>' . $inline( preg_replace( '/^#+\s*/', '', $line ) ) . '</p>';
+			$html .= '<p>' . $inline( preg_replace( '/^#+\s*/u', '', $line ) ) . '</p>';
 		}
 	}
 	return $html . ( $inlist ? '</ul>' : '' );
@@ -390,7 +392,7 @@ function tkh_chat_handle( WP_REST_Request $request ) {
 		}
 	}
 
-	$cache_key = 'tkh_chat_a2_' . md5( $lang . '|' . tkh_chat_normalize( $message ) );
+	$cache_key = 'tkh_chat_a3_' . md5( $lang . '|' . tkh_chat_normalize( $message ) );
 	if ( ! $history ) {
 		$cached = get_transient( $cache_key );
 		if ( is_array( $cached ) ) {
