@@ -229,8 +229,8 @@ function tkh_chat_system_prompt( $lang, array $docs ) {
 		"\n",
 		array(
 			'You are the travel assistant of "Toplist Khánh Hòa", a guide to Khánh Hòa province, Vietnam (Nha Trang, Cam Ranh, Cam Lâm, Ninh Hòa, Vạn Ninh, Phan Rang & Vĩnh Hy).',
-			"Always answer in {$language}, friendly and concise (at most about 170 words). Use short paragraphs or '- ' bullet lists and **bold** for place names.",
-			'Base recommendations on the site articles below. When you mention a place that has an article, link it in markdown as [Place name](URL) using exactly the URL given. Never invent URLs or other links.',
+			"Always answer in {$language}, friendly and concise (at most about 170 words). Use short paragraphs or '- ' bullet lists.",
+			'Base recommendations on the site articles below. EVERY place that has an article MUST be written as a bold markdown link with exactly the URL given, e.g. **[Hải Sản Mộc Quán](https://example.com/hai-san-moc-quan/)**. Never invent URLs or add other links.',
 			'You may add widely known general facts about Khánh Hòa (weather, seasons, transport), but do not invent specific prices, phone numbers or opening hours; say prices are for reference and may change.',
 			'If the question is not about travel, food, stays or life in Khánh Hòa, politely say you can only help with Khánh Hòa travel and suggest a related question.',
 			'Do not ask for or store personal information.',
@@ -322,6 +322,34 @@ function tkh_chat_render( $markdown ) {
 	return $html . ( $inlist ? '</ul>' : '' );
 }
 
+/**
+ * Models do not always follow the linking rule. Turn a bold place name that matches a retrieved
+ * article (and is not linked yet) into a link to that article, once per article.
+ */
+function tkh_chat_link_places( $markdown, array $docs ) {
+	foreach ( $docs as $doc ) {
+		if ( false !== strpos( $markdown, $doc['url'] ) ) {
+			continue;
+		}
+		$names = array_filter( array_unique( array( tkh_chat_words( $doc['place'] ), tkh_chat_words( preg_replace( '/[:|–—].*$/u', '', $doc['title'] ) ) ) ) );
+		$markdown = preg_replace_callback(
+			'/\*\*(?!\[)([^*\n]+?)\*\*/u',
+			function ( $m ) use ( $names, $doc ) {
+				$bold = tkh_chat_words( $m[1] );
+				foreach ( $names as $name ) {
+					if ( '' !== $name && ( false !== mb_strpos( $bold, $name ) || false !== mb_strpos( $name, $bold ) ) && mb_strlen( $bold ) >= 4 ) {
+						return '**[' . $m[1] . '](' . $doc['url'] . ')**';
+					}
+				}
+				return $m[0];
+			},
+			$markdown,
+			1
+		);
+	}
+	return $markdown;
+}
+
 function tkh_chat_sources( array $docs ) {
 	return array_map(
 		fn( $d ) => array( 'title' => $d['place'] ? $d['place'] : $d['title'], 'url' => $d['url'], 'image' => $d['image'], 'rating' => $d['rating'], 'meta' => trim( $d['region'] . ' · ' . $d['price'], ' ·' ) ),
@@ -356,7 +384,7 @@ function tkh_chat_handle( WP_REST_Request $request ) {
 		}
 	}
 
-	$cache_key = 'tkh_chat_a_' . md5( $lang . '|' . tkh_chat_normalize( $message ) );
+	$cache_key = 'tkh_chat_a2_' . md5( $lang . '|' . tkh_chat_normalize( $message ) );
 	if ( ! $history ) {
 		$cached = get_transient( $cache_key );
 		if ( is_array( $cached ) ) {
@@ -383,6 +411,7 @@ function tkh_chat_handle( WP_REST_Request $request ) {
 	foreach ( tkh_chat_providers() as $provider ) {
 		$answer = tkh_chat_call_provider( $provider, $messages );
 		if ( ! is_wp_error( $answer ) ) {
+			$answer = tkh_chat_link_places( $answer, $docs );
 			$result = array( 'mode' => 'ai', 'provider' => $provider['label'], 'html' => tkh_chat_render( $answer ), 'text' => $answer, 'sources' => tkh_chat_sources( $docs ) );
 			if ( ! $history ) {
 				set_transient( $cache_key, $result, TKH_CHAT_CACHE_HOURS * HOUR_IN_SECONDS );
