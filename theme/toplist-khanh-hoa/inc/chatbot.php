@@ -329,6 +329,12 @@ function tkh_chat_render( $markdown ) {
 function tkh_chat_link_places( $markdown, array $docs ) {
 	foreach ( $docs as $doc ) {
 		if ( false !== strpos( $markdown, $doc['url'] ) ) {
+			$place = $doc['place'] ? $doc['place'] : $doc['title'];
+			$url   = preg_quote( $doc['url'], '/' );
+			// A link labelled with the full article title reads badly in chat: label it with the place name.
+			$markdown = preg_replace( '/\[([^\]]{40,})\]\(' . $url . '\)/u', '[' . $place . '](' . $doc['url'] . ')', $markdown );
+			// "**Name** [Name](url)" or "**Name** ([Name](url))" → "**[Name](url)**".
+			$markdown = preg_replace( '/\*\*([^*\n]+)\*\*\s*\(?\[([^\]]+)\]\(' . $url . '\)\)?/u', '**[$1](' . $doc['url'] . ')**', $markdown );
 			continue;
 		}
 		$names = array_filter( array_unique( array( tkh_chat_words( $doc['place'] ), tkh_chat_words( preg_replace( '/[:|–—].*$/u', '', $doc['title'] ) ) ) ) );
